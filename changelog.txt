@@ -1,0 +1,663 @@
+= 2.4.4, October 12, 2016 =
+* Fix: Undefined 'name' array key on submission form when using taxonomy field
+* Fix: Possible fatal error on log in / registration submission
+* Fix: Possible fatal error on form submission
+* Fix: Possible fatal error in taxonomy field
+* Fix: Possible fatal error in emails class
+
+= 2.4.3, October 3, 2016 =
+* New: Vendor avatar fields can now be changed from backend
+* New: "fes_submission_form_header" filter
+* Tweak: Terms and conditions field now includes an option for setting the checkbox label independently of the field label
+* Tweak: Terms and conditions field now no longer outputs empty label div
+* Tweak: Admin notice shown if no page is selected for Vendor Dashboard is now linked to the proper settings screen
+* Tweak: Improved description for frontend meta display options
+* Fix: Non-FES metaboxes will no longer be shown on edit form screens
+* Fix: Uninitialized string offer warnings with repeat fields
+* Fix: Repeat fields save incorrect in admin area in some cases
+* Fix: Vendor name not shown in page title of vendor shop pages
+* Fix: JavaScript and CSS files failing to load in the admin area when site is translated into certain languages
+* Fix: frontend.css file loading incorrectly on EDD purchase history page
+* Fix: Default WordPress Avatar settings showing current user's avatar
+* Fix: HTML not escaped properly in checkbox labels
+* Fix: HTML not properly stripped / escaped in field labels
+* Fix: Downloads with Private status shown as having Trash status
+* Fix: "vendor" hard-coded on frontend instead of using label settings
+* Fix: Email notifications sent to admin when publishing products from the backend
+* Fix: Script IDs reversed on CSS and js files
+
+= 2.4.2, May 6, 2016 =
+* Fix: Watermarks from Download Image Watermark not applying on new product submissions
+* Fix: Editing a live product converts the status to Pending even when Auto-Approve Edits is enabled
+* Fix: Editing a product creates a duplicate product on some sites
+
+= 2.4.1, March 18, 2016 =
+* Fix: Media files not loading on non-download post type edit screens
+
+= 2.4.0, March 14, 2016 =
+* New: Moved to EDD Settings from Redux
+* New: Added submenu for settings in FES that redirects to EDD settings tab for FES
+* New: Added filter to change content of login shortcode when user is logged in
+* New: PHP7 compatibility
+* New: Detect lack of imagick or gd and show notice
+* Tweak: Username field can no longer appear on the profile form
+* Tweak: FES will no longer set default commission rates, just turn it on
+* Tweak: Removed <br /> in password repeat label
+* Fix: Can't uncheck "Enable image upload in post area" setting
+* Fix: Custom registration fields don't show up in admin email notification
+* Fix: Empty class (attribute) output on vendor dashboard menu items
+* Fix: Submission fields don't get saved in admin unless all required fields are filled out
+* Fix: Taxonomy Field Error when no taxonomies are present
+* Fix: Undefined variable on the post transition filter
+* Fix: Deprecated notice for "like_escape()"
+* Fix: Submission form Categories & Tags fields did not output Text Input terms
+* Fix: Undefined variable: selected in Vendor Metabox
+* Fix: EDD CSS being Output with [fes_login_registration_form] even when CSS setting turned off
+* Fix: Bug in opt-in tracking class
+* Fix: Typo in name of formatted_data() filter
+* Fix: l10n un-translated "Order #" string
+
+= 2.3.11, January 21, 2016 =
+* New: Adds a filter in the multiple_prices field for better Amazon s3 compatibility.
+
+= 2.3.10, January 21, 2016 =
+* Fix: Avatar on vendor dashboard page shows avatar of current user, not vendor
+* Fix: Rich text option missing from textarea fields
+* Fix: Password field in the Profile form does not save
+* Fix: Checkboxes cannot be unchecked
+* Fix: Nickname field cannot be added
+
+
+= 2.3.9, January 4, 2016 =
+* Tweak: Corrected label in regards to one of the email settings
+* Tweak: Allow admins to access entire media library in frontend
+* Fix: Fixed issue with taxonomy email tags not working
+* Fix: Fixed issue with Download Image Watermark extension compatibility
+* Fix: Fixed issue that prevented custom vendor shop names from working
+* Fix: Fixed issue where single option multiple price fields couldn't be saved
+* Fix: Fixed issue where wp_login action called by FES ran with only 1 of 2 parameters (caused compatibility issue with Jetpack)
+* Fix: Added safety in vendor shop class for a vendor object not being returned
+* Fix: Fixed issue where repeat fields could not be saved in the formbuilder
+* Fix: Fixed issue where post excerpt fields would not be visible on the frontend
+* Fix: Corrected a race condition on the formbuilder when more than 1 field was attempted to be inserted at the same time
+* Fix: The select field now respects the required option
+* Fix: get_queried_vendor() triggers fatal error if $wp_query is not an object
+
+= 2.3.8, December 15, 2015 =
+* Fix: Fixes fatal error caused by non-object (legacy) fields.
+
+= 2.3.7, December 15, 2015 =
+* Fix: File upload fields do not save file URL when administrators select a file uploaded by a vendor
+* Fix: Undefined index notices on Vendor Dashboard in some themes
+* Fix: Meta keys can be saved with invalid characters
+* Fix: Restore fes_render_field_{field} action for pre 2.3 field types
+* Fix: Missing label on checkbox fields
+
+= 2.3.6, November 25, 2015 =
+* New: Radio and checkbox fields are now using list item hierarchy
+* Tweak: Revert removal of list item hierarchy on categories
+* Tweak: vendor_can_view_receipt_item no longer returns false on vendor's own purchases
+* Tweak: textarea field now use wp_kses instead of sanitize_textfield
+* Tweak: FES's field import/update schema corruption autodetection/autofix system now detects more types of issues and automatically fixes them
+* Fix: Sorting vendors by date now works
+* Fix: Vendor pages now have the correct title
+* Fix: Disabling columns on multiple price field and setting it to required no longer throws validation error for field vendor cannot edit
+
+= 2.3.5, November 17, 2015 =
+* Fix: Vendor contact form not working properly
+* Fix: Broken HTML with Nickname field in Profile editor
+* Fix: Products cannot be submitted when "Allow vendors to set names of options" is set to "no"
+* Fix: Incorrect text for "Show on Product Page" option
+* Fix: Invalid meta keys allowed in form editors
+
+= 2.3.4, November 11, 2015 =
+* Fix: Submissions get auto approved even when auto approval is disabled
+* Fix: Vendors get automatically approved even when vendor moderation is enabled
+* Fix: Registration form fields do not all save properly
+* Fix: Emails during vendor registration not sent properly
+* Fix: Vendors table not sorting properly
+* Fix: Incorrect table cell markup for checkbox fields
+* Fix: Some settings missing from the FES System Info
+* Fix: Improper grammar with Show Form Dropdowns option
+* Fix: Invalid vendor ID error shown on vendor contact form
+* Fix: Undefined variable is_backend when vendor registration is disabled
+* Fix: Logged in users cannot register as vendors
+* Fix: Show on Product Page should not show if disabled
+
+= 2.3.3, November 4, 2015 =
+* Fix: Vendor registration not creating vendor accounts
+* Fix: Form editor links under EDD FES can show broken URL
+* Fix: Undefined variable is_backend on vendor registration form when guest registration is disabled
+
+= 2.3.2, November 2, 2015 =
+* Fix: Issue where page titles get overriden by product constant name when Vendor page not assigned
+* Fix: Taxonomy field didn't display selected taxonomy when > 2 taxonomies existed
+* Fix: The Frontend Vendor role no longer explicitly denies any capabilities
+* Fix: "Show on Product Page" no longer appears on the formbuilder fields unless the setting is turned on
+* Fix: The excerpt field was missing a closing fieldset on output
+* Fix: The vendor contact form didn't work due to the JS not loading
+* Fix: Checkbox and select fields now correctly show the defaults on the admin new download page where auto-drafting is turned on
+* Fix: When using the vendor class count() you can get a SQL error if the default isn't set
+* Fix: The vendor table didn't paginate correctly
+
+= 2.3.1, October 26, 2015 =
+* Fix: Multi-select fields not showing saved value
+* Fix: Fatal error on some sites due to missing get_user_meta() function
+* Fix: Added min-height to vendor's product screens to fix display when a vendor has no products
+* Fix: Comment author's name floated improperly in vendor dashboard
+
+= 2.3, October 26, 2015 =
+* New: Introduced Fields API that all FES fields now run on
+* New: Introduced Forms API that all FES forms now run on
+* New: Introduced _fes_deprecated_function()
+* New: Introduced Honeypot field
+* New: ReCAPTCHA field now uses ReCAPTCHA 2.0
+* New: Introduce fes_is_key() function
+* New: Formbuilder now divides fields into extension, custom, and specific metaboxes
+* New: Introduced Vendors DB class
+* New: Introduced Vendor class
+* New: Introduced new vendors table in the admin
+* New: Introduced reports for vendors
+* New: Introduced notes for vendors
+* New: Introduced CSV export of customers for vendor product(s) in the admin
+* New: Increment/decrement vendor earnings/sales count based on payments and refunds
+* New: Raised minimum EDD requirement to 2.3
+* New: Raised minimum WP requirement to 4.2
+* New: Introduced optional opt-in tracking of data
+* New: Introduced Tools class
+* New: Introduced Welcome class
+* New: Introduced public radio toggle for submission form items
+* New: Introduced setting to let submission form items be automatically outputted on the product page
+* New: Introduce set_option (for redux settings)
+* New: Introduce redux global variable for use in set_option
+* New: Vendors can now be searched for by commission email, user_id, custom vendor meta and username
+* New: Introduced DOING_FES_FORM_SUBMISSION
+* New: Resetting a form now uses statically declared FES fields, not a psuedo imported json file
+* New: Introduced get_form_id_by_name function
+* New: Introduced get_form_class_by_name function
+* New: Introduced get_form_by_name function
+* New: Introduced get_form_by_id function
+* New: Introduced get_form_name_by_class function
+* New: FES Emails can now use any field in the emails
+* New: Added error if the vendor dashboard isn't set
+* New: Custom receipt view for vendors for the orders
+* New: If a user has an FES role, the FES role will always show in the role column on the user table
+* New: Adds FES actions to the user table
+* New: Added JS loading overlays to the submission of forms on the frontend
+* New: Added JS success/fail alerts to the submission of forms on the frontend
+* New: Added index.php in the language folder
+* New: reCAPTCHA now shows a warning on the formbuilder field to ensure users set the reCAPTCHA settings
+* New: Introduced a highly robust and filterable field sanitization and validation system
+* New: Introduced a highly robust and filterable success/error message and redirect system for submission of forms
+* New: Introduced fes_dash_to_lower function
+* New: Introduced fes_is_frontend() function
+* New: Introduced fes_is_admin function
+* New: Introduced fes_is_api_request function
+* New: Redux has been upgraded 40+ versions
+* New: All FES emails now have defaults
+* New: Completely rethought system for triggering the EDD file protection for uploaded files
+* New: Scripts and Styles are now minified triggered using an new, better system
+* New: Introduced is_fes_form function
+* New: All FES fields now contain more explicit titles, subtitles, descriptions and sample content
+* New: Introduced Name field
+* New: New FES logo
+* New: Add reset all forms and reset form meta options on tools
+* New: Introduced a Custom Taxonomy field
+* New: FES now integrates with social login in terms of using Social Login's grabbed social network profile picture as the vendor avatar
+* New: FES will now look for FES templates in the EDD folder
+* New: Introduced fes_get_theme_template_paths function and a more robust template loading system
+* New: Added a metabox to change the FES status of a vendor, and see the current status of a vendor on the edit user screen
+* New: Vendors can now be sorted by every column in the vendor table
+* New: Fatal errors in FES are now handled as a JS alert (no more spinning wheels of death, despair, and life contemplation)
+* New: And those fatal errors have a complete stacktrace dumped in the console for devs
+* New: Taxonomy fields now provide live suggestions for text fields
+* New: Added shortcodes to render the output of FES forms
+* New: Every single FES file has been formatted to standard
+* New: The vendor dropdown on the edit download page now uses Chosen to make finding a specific vendor easier
+* New: The FES Tools page now uses a combined metabox for import, export, and reset with a chosen dropdown to select the form to apply the action to
+* New: Introduced a Post Format field
+* New: There is now a prompt before any action can be taken to change the status of a vendor (safety measure)
+* New: There is now a link to the vendor's store page from admin edit vendor page
+* New: A password field is no longer required on the FES registration form (if not present, FES will automatically issue the user a password)
+* New: Completely redesigned About/Welcome to FES page
+* New: Composer.json to help those who manage their WordPress sites using Composer
+* Field and Form names are now completely translateable
+* Fix: Bug in Multiple Pricing and Files field that caused the wrong columns to sometimes get unset
+* Fix: Hover on post date in the vendor dashboard was off
+* Fix: Menu fix for r34177 in WordPress core, scheduled for release with WordPress 4.4.
+* Fix: Don't show announcements section if annoucncement isn't set
+* Fix: FES now correctly attempts to use vendor contact email in profile before vendor user email
+* Fix: ReCAPTCHA field now echos the insert settings before using this field warning on the formbuilder field
+* Fix: Correct isues with the file (and file type) fields saving
+* Fix: FES settings global variable was on the wrong variable in certain situations
+* Fix: Resetting a form now ensures the form is correctly saved to the FES settings panel
+* Fix: Pagination links now work when using default permalink structure on the dashboard
+* Fix: Use FES specific css for the menu icon
+* Fix: ReCAPTCHA now works on ssl sites
+* Fix: JShint errors for comma on last item in an array have been remediated
+* Fix: Import/Export fields now redirects with the correct tab open
+* Fix: FES will now save image files with a dimension post-fix on the filename
+* Fix: Remediated PHP notices on plugin activation caused by the install routine attempting to find forms that didn't exist yet
+* Fix: Logout no longer fails if Vendor Dashboard page is incorrect
+* Fix: FES now automatically saves new name indexes on new fields added on the formbuilder (like it was supposed to do)
+* Fix: Solves issues when EDD is deactivated and FES is left active
+* Fix: Profile information now displays in backend dashboard
+* Fix: Email auto-populates now for the vendor contact form
+* Fix: upload_dir is now properly (not) filtered in admin on non-download post types
+* Fix: Corrected usage of wp_new_user_notification() post WordPress 4.3
+* Tweak: Removed all FES shortcodes deprecated in FES 2.2
+* Tweak: Suspended vendors products are now set to draft instead of trash
+* Tweak: Better warnings about what revoking a vendor entails
+* Tweak: is_meta is now a characteristic of the field instead of being stored in the database
+* Tweak: When visiting a vendor page that doesn't exist, a more generic title is presented
+* Tweak: Removing the only line from a file upload now clears that line instead of the JS error
+* Tweak: Removed deprecated & unused vendor_not_enough_permissions function
+* Tweak: Removed Formbuilder Template functions used solely by FES internal fields
+* Tweak: All functions referencing P/product(s) and/or D/download(s) and/or V/vendor(s) now use the vendor and product constants
+* Tweak: Upload buttons on file fields are now buttons instead of links
+* Tweak: X buttons on file fields are now the x symbol
+* Tweak: Removed get_input_fields function
+* Tweak: Removed prepare_meta_fields function
+* Tweak: Removed get_buffered function
+* Tweak: Removed remove_button function
+* Tweak: Removed all field functions from the Forms class
+* Tweak: Removed deprecated EDD_FES()->vendors->use_author_archives()
+* Tweak: Better admin and frontend script and style loading
+* Tweak: Removed signal_error function
+* Tweak: User Website URL field is now User URL field
+* Tweak: Rewrote the install class
+* Tweak: Rewrote the upgrade class
+* Tweak: FES now loads post types from it's own file (prevents alot of the install bugs we were seeing)
+* Tweak: FES now loads the default fields and meta from a schema.php file (greatly reduces code redundancy)
+* Tweak: Prevent cloning of global FES object
+* Tweak: Prevent wakeup of global FES object
+* Tweak: Greatly improved the legend field used on fields output
+* Tweak: Corrected some string textdomains to edd_fes from edd
+* Tweak: Completely rewrote the FES_Menu class
+* Tweak: All menu item titles are now translatable
+* Tweak: All mentions of "application" are changed to the new "registration" if possible (context wise)
+* Tweak: Formbuilder fields now use css classes unique to the formbuilder
+* Tweak: FES system info is now included in the EDD system info, reducing chance of confusion
+* Tweak: Removed commented out console.logs in javascript
+* Tweak: Better action hook field description
+* Tweak: Completely rewrote readme.markdown
+* Tweak: Removed backup json files
+* Tweak: Removed login as vendor/customer option
+* Tweak: Use FES specific css for the menu icon
+* Tweak: Assume we want to refresh the page if vendor dashboard page isn't set on an FES ajax call
+* Tweak: Copyright dates fixed
+* Tweak: Check to see if settings for reCAPTCHA are set before rendering the field
+* Tweak: Removed reCAPTCHA 1.0 JS, PHP and CSS
+* Tweak: Completely removed JS based field validation
+* Tweak: Access Denied error messages now give a reason in each instance
+* Tweak: All fields are now translatable
+* Tweak: Localization options for js files are now filterable
+* Tweak: Hide Redux garbage (newsletters, tracking option, submenu pages, admin notices, etc)
+* Tweak: Product and Vendor constants are now 1 setting each not 4 settings each
+* Tweak: Main tab FES settings now show in the order of usage
+* Tweak: Profile form no longer redirects on submission
+* Tweak: First Name and Last Name field on the Vendor Contact form has been replaced with a Name field
+* Tweak: Removed the subject field on the Vendor Contact form
+* Tweak: Vendor Contact now includes more sane titles and message on the email sent to vendors
+* Tweak: The registration form will no longer try to login users on submission
+* Tweak: Added a check before trying to find fields if the form doesn't have the meta we added in the 2.3 upgrade on the reset form
+* Tweak: If FES forms are missing, then during upgrade FES will add them
+* Tweak: The FES walkers for taxonomys got reworked
+* Tweak: The install and tools classes uses get_posts to help alleviate issues with other plugins hooking into query
+* Tweak: Added more strict hiding of the Add New button on FES Forms on multisite installs
+* Tweak: Removed the ability to set a user to an FES role on the edit user screen (since that no longer makes that user a vendor)
+* Tweak: Vendors can now be sorted by every column in the vendor table
+* Tweak: Vendor and Download Status columns have been increased in size to make them easier to read/spot
+* Tweak: The name columns of the vendor and download tables have been combined with the action columns
+* Tweak: Removed all old FES js validation spans
+* Tweak: Removed old WordPress checks for versions FES no longer supports
+* Tweak: Removed fallback for emails if EDD_Emails doesn't exist (because FES only supports EDD versions now with it)
+* Tweak: A better JS and CSS minify was employed to result in better than previous filesize minification
+* Tweak: More specific CSS for the status columns on the download and vendor tables
+* Tweak: The Post Title can no longer be removed from the submission form
+* Tweak: The forms settings are now hidden in the FES settings panel by default
+* Tweak: The settings panel has seen settings shuffled around to be more intuitive
+* Tweak: Replaced global $edd_options with edd_get_option() calls
+* Tweak: Links to "FES Profile" have been renamed to a more correct "View Vendor Profile"
+* Tweak: The default minimum length on the password field has been bumped up to 12 characters
+
+= 2.2.17, March 6, 2015 =
+* Fix: Issue with an undefined key possibly causing profile, registration, login and vendor contact forms to not redirect in certian cases.
+
+= 2.2.16, February 27, 2015 =
+* Fix: Fatal error on wrong registration form rendering function being called in the dashboard class for the view "register"
+
+= 2.2.15, February 23, 2015 =
+* Fix: Multi-column repeatable fields do not save properly
+* Fix: From Name / Address not set properly on vendor contact form
+* Fix: Fields should not be required in the admin area
+
+= 2.2.14, February 12, 2015 =
+* Fix: Added missing translation functions. Login and contact forms can now be translated via translation plugins
+
+= 2.2.13, February 7, 2015 =
+* Fix: fatal error with wp_get_current_user() function caused by Redux framework
+
+= 2.2.12, February 5, 2015 =
+* Fix: Updated Redux libraries to the latest version to resolve conflicts with other plugins using the latest version
+* Fix: Image files are now detached from the Download product when deleting them from the File Upload field
+
+= 2.2.11, January 30, 2015 =
+* Fix: Allow all valid mimetypes to be uploaded with a file path
+* Fix: Default text for Vendor Announcement area cannot be translated
+
+= 2.2.10, December 16, 2014 =
+* Fix: Vendor page not properly set in settings during install
+* Fix: Repeatable field type shows error if no meta_key is sey
+* Fix: Avatar removed after updating profile
+* Fix: From name / email not set properly for vendor contact form submissions
+* Fix: Undefined index of $input_type
+* Fix: Commissions tab on vendor edit screen unreliable. Now links to filtered Commissions table
+* Fix: Improver reliability of custom vendor shop URLs
+
+= 2.2.9.12, Octover 10, 2014 =
+* New: Adds context to the edit vendor page in regards to number of products a vendor has pending, published, etc.
+* New: Vendors are now shown in the author dropdown for downloads in the backend
+* Fix: Unsuspending vendor does not restore comments
+* Fix: Admins can now update vendor avatars from the backend
+* Fix: Emails from FES are now sent after meta is saved, meaning you can now use tags for things like category (and other taxonomy) as well as custom meta in the submission form emails
+* Fix: Commission tab on edit vendor in backend does not show sales/commissions
+* Fix: TOC field now displays on the vendor profile form
+* Fix: TOC field now saves results (and doesn't show again once agreed to).
+* Tweak: Swapped out all remaining links to eddfes.com for ones to EDD's site
+* Tweak: Admins can now edit vendor's passwords on the edit vendor screen in the backend
+* Tweak: FES no longer automatically deactivates if EDD isn't present. It now simply doesn't load.
+* Tweak: All FES emails now use EDD_Email class and templates
+* Tweak: Vendors no longer have to resubmit captchas on posts that they already did a successful captcha for
+
+= 2.2.9.11, October 27, 2014 =
+* Tweak: Set a session variable flag when on the vendor dashboard so extensions, such as Download Image Watermark, can more easily detect actions that take place from the vendor dashboard
+
+= 2.2.9.10, October 22, 2014 =
+* Fix: Improper vendor ID passed to contact form
+* Fix: Improper rewrite rules when using custom vendor store slugs
+* Fix: Improved vendor suspension processing to ensure items can't accidentally be permanently deleted
+* Fix: Updated language files
+
+= 2.2.9.9.1, September 21, 2014 =
+* Fix: Featured Images can't be saved on Download products
+
+= 2.2.9.9, September 17, 2014 =
+* Fix: On removing a featured image, the image box still thought it had an image in it
+* Fix: Can't remove featured image in certain cases
+* Fix: Welcome screen CSS loaded on all admin pages
+* Fix: Meta_value doesn't save in admin for hidden fields.
+* Fix: Customers can't see reciepts
+
+= 2.2.9.8, September 14, 2014 =
+* Fix: Recaptcha when used over SSL
+* Fix: Incorrect post meta key that caused the profile form import to fail
+* Fix: Incorrect called to edd_get_option() that caused the profile form short code to fail
+* Tweak: Added the "style" tag to the whitelist for HTML attributes
+* New: Introduced the fes_application_pending_message filter
+
+= 2.2.9.7, August 28, 2014 =
+* Fix: Media upload error for vendors
+
+= 2.2.9.6, August 27, 2014 =
+* Fix: Email tags for categories and tags
+* Fix: Pagination on vendor stores
+* Fix: Some headers that could not be translated
+* Fix: Prevent errors from being displayed if attempting to view the store for a non-existent vendor
+* Fix: Prevent vendors from viewing items on receipts that don't belong to them (EDD 2.1+ only)
+* Fix: Incorrect vendor slug during install
+
+= 2.2.9.5, July 28, 2014 =
+* Tweak: Allow plain image names in the file upload fields instead of just full URLs
+* Fix: Missing icon on the Earnings tab
+
+= 2.2.9.4, July 28, 2014 =
+* Fix: Avatar fields weren't saving properly when the image was removed
+* New: Added new action hooks to the registration and contact form processing
+* Tweak: Added support for H6 tags in the HTML tag whitelist
+
+= 2.2.9.3, July 15, 2014 =
+* Fix: Accept Terms field didn't render on the profile form
+* Fix: The Captcha field didn't render on the vendor contact form
+
+= 2.2.9.2, July 10, 2014 =
+* Fix: Images not getting attached when uploading via the submission form
+
+= 2.2.9.1, July 2, 2014 =
+* Fix: Emails not getting sent from the vendor contact form
+
+= 2.2.9, July 2, 2014 =
+* Fix: Submitting the vendor contact form leads to a 404 error
+* Fix: Vendor emails when an application is automatically approved don't get sent
+* Fix: File URLs don't save when prices and names are disabled
+* Fix: Manually modified commission rates get wiped out when a product is updated
+* Fix: File upload field repeats numerous times when a meta_key is not supplied
+* Fix: Short codes improperly echoing content instead of returning it
+
+= 2.2.8, June 26, 2014 =
+* Fix: Infinite loop during post save that resulted in thousands of duplicate products on a small number of sites
+
+= 2.2.7, June 25, 2014 =
+* Fix: Application and Profile forms cannot be updated from the admin
+* Fix: Pagination in the Vendors admin table doesn't function
+* Fix: Scheduled products are not visible in the Vendor Dashboard
+* Fix: Bug with last price option being able to be removed
+* Fix: Poor I18N of the Registration submit button text
+* Fix: Application form in the admin showed incorrect user's information
+* Fix: Missing rewrite rule that caused the Vendor page to 404 with the Marketify theme
+* Fix: Disabling the toolbar for Vendors didn't function properly
+
+= 2.2.6, June 20, 2014 =
+* Fix: Preset price option names / amounts don't save when changing the descriptions or amounts is disabled
+* Fix: Application Received emails are not sent
+* Fix: Biography field does not save during registration
+* Fix: Vendor store URL on dashboard does not respect custom vendor permalinks
+
+= 2.2.5, June 16, 2014 =
+* Fix: Number of products wrong on the Vendor Edit screen
+* Fix: Headers already sent error when clicking on "Approve" for a pending vendor
+* Fix: Application status emails not sent
+* Fix: The Add File button shouldn't show when files are limited to one
+* Fix: Vendor personal details not saved on registration
+* Fix: is_pending() method doesn't properly detect vendors that have multiple roles
+* Fix: Product sorting links in Vendor Dashboard don't work
+* Fix: Number of products in Vendors list incorrect
+* Fix: Editing a pending product publishes it
+* Fix: Allow file URLs that start with "file:" to pass validation
+* Fix: Undefined index for placeholder attribute on vendor profile form
+* Fix: Tags not properly stripped from post excerpt
+* Fix: Vendor contact form sometimes pre-populated site admin details
+* Fix: Vendor permalinks don't respect custom slugs for pretty permalinks
+* Tweak: Added a CSS classname option to the Section Break and Accept Terms field types
+* Tweak: Improved the loading indicator when adding a new field to a form editor
+
+= 2.2.4, June 7, 2014 =
+* Fix: Emails have no formatting and lose all line breaks
+* Fix: Vendor name / email lost when replying to comments from the dashboard
+* Fix: Non-required profile fields cannot be left empty after a value has been saved
+* Fix: "Name of Store" profile field doesn't save updates
+* Fix: Pagination on Vendor store pages fails
+* Fix: Non-required checkbox fields with a single value cannot be unset
+
+= 2.2.3, June 5, 2014 =
+* New: Faster loading time with 58 less database calls in in the backend and 22 less calls on the frontend by stopping FES_Setup from being called twice and moving instantiation of roles from FES_Setup to FES_Install
+* New: FES Tools on the form import/export page offers a 1 click solution to remove any extraneous fes-forms
+* New: FES import/export forms page has been redesigned
+* New: FES forms can now be reset to defaults on the import/export forms page
+* New: Don't show "add file" if disabled
+* Tweak: Combo registration & login view on vendor dashboard has been given a rework to allow it to show one form at full width if the other form isn't applicable. Now more intelligently detects if a person is already a vendor.
+* Fix: Form import/export process fixed
+* Fix: Contact form first and last name fields sometimes disabled
+* Fix: Username field sometimes disabled on the registration form
+* Fix: Admin bar doesn't show for admins if hide admin bar feature turned off
+* Fix: Vendor URL for dashboard sometimes off when author archive pages enabled
+* Fix: Email tags for post-categories and post-tags re-added (accidentily removed in 2.2)
+* Fix: Removed jQuery Validate (no longer being used)
+
+= 2.2.2.1, May 22, 2014 =
+* Fix: bug with retrieving the vendor store URL from the dashboard
+* Fix: bug with registration form showing incorrect fields for logged-in users
+
+= 2.2.2, May 22, 2014 =
+* New: added a Country field to the Profile form editor
+* Tweak: use the manage_shop_settings capability instead of manage_options
+* Tweak: vendor contact details are now pre-filled
+* Fix: bug with vendor URLs not resolving properly
+* Fix: paragraph text losts formatting after submission
+* Fix: error message about not being able to create a user with an empty user name
+* Fix: access denied error when viewing a vendor
+* Fix: profile password error message
+* Fix: vendor Announcement area doesn't allow short codes
+* Fix: form importer / exports broken
+
+= 2.2, May 9, 2014 =
+* New: Introduces the much requested vendor contact form
+* New: Full integration with EDD Audio Player
+* New: Converted to using the WordPress Media Uploader for all uploaders
+* New: Introduced a new featured image/avatar uploader
+* New: Over 200 new filters and actions to make it more developer friendly
+* New: Redesigned form editor makes creating forms even easier than before
+* New: Added validation for the multiple price field
+* New: Allows vendors to change the name of their store
+* New: Allows vendors to change the email the vendor contact form sends emails for them to
+* New: Added a simple UI to let store owners set prices and the names of price options on the  multiple pricing field
+* New: Added more ways to customize the multiple pricing field to meet your exact store needs
+* New: Allows for a consistent email experience with FES
+* New: Added the ability to use fields from the profile, registration and submission forms in emails
+* New: Added the ability for people to create their own email tags
+* New: New settings panel with the ablity to import/export settings
+* New: New vendor management list table to let store owners easily manage vendors
+* New: Added the ability for store owners to instantly see the data entered into the profile and registration forms of vendors
+* New: Added the ability to import and export FES Forms
+* New: Added the ability to revoke previously approved submissions and vendors
+* New: Added a new System Info allowing quick access to essential inform for suport purposes
+* New: Moved from 5 uploaders to 2 really nice new ones that use the WP Media Manager
+* New: Merged the vendor application and registration forms into a single 1 step form submission process, making it easier for vendors to sign up
+* New: Added the ability to show a CAPTCHA field on the vendor contact and login forms
+* New: Added the ability to let customers sign into the vendor dashboard\'s login form and be brought to the My Account page
+* New: Added new shortcodes to let you show information from the submission form on the frontend of products
+* New: Added new shortcodes to render all of the forms
+* New: Changed the vendor store URLS to use pretty permalinks
+* New: Created the ability for vendors to be able to see orders involving their products
+* New: Integrated with Simple Shipping to allow vendors to mark orders as "completed"
+* New: Added a "forgot password" link to the login form
+* New: FES now loads templates for FES found in the edd_templates folder of themes
+* New: Multiple price field is now validated
+* New: Checkbox fields are now validated
+* New: Added direct complete integration with EDD Audio Player (update of that plugin required)
+* New: Added the ability to suspend and unsuspend vendor accounts
+* New: Added a link from vendor products in the backend to their respective edit vendor page
+* New: FES now uses minified versions of our JS and CSS by default (toggle off via a filter) on the frontend
+* New: Added the ability to predefine prices and names of price options on the multiple pricing field
+* New: Added a helper function to get FES settings
+* Changed: All vendors now use the frontend_vendor role (even if it's not their primary role). Use of fes_is_vendor cap is no longer supported (for performance reasons)
+* Changed: All settings now use the global $fes_settings variable. Names have changed on a few settings
+* Changed: From functions to filters to actions to settings, "edd_fes" has been replaced to the less redundant "fes" so all of them are consistently named. Also, whenever possible, underscores have been changed to "-"s
+* Bug: A littany of small bugs were fixed. Too many to name.
+* Bug: Now no more fatal errors if FES Forms aren't created in admin area.
+* Bug: Removed password strength meter
+* Bug: Fixed all the strict errors
+* Bug: reCAPTCHA now uses the clean theme
+* Bug: Fixed a bug where on some setups, files were not protected
+
+= 2.1.9.1, April 2, 2014 =
+* Bug: Removed system info output
+
+= 2.1.9, March 24, 2014 =
+* Bug: Fixed an issue with the vendor avatar not saving on application submission
+
+= 2.1.8, March 18, 2014 =
+* Bug: updated licensing / updater to use the version included in EDD core.
+
+= 2.1.7, March 11, 2014 =
+* Bug: Fixed an issue with discount code validation
+
+= 2.1.6, March 9, 2014 =
+* Bug: Fixed an issue with the featured image not saving
+* Bug: Fixed an issue that caused products to be duplicated many, many times
+* Bug: Fixed an issue with the profile avatar field not saving
+* Bug: Removed ability for vendors to upload unfiltered HTML
+* Bug: Fixed issue with avatar field not being able to be added to the form editor properly
+* Bug: Fixed some improper colloquial language
+* Bug: Fixed outdated language files
+
+= 2.1.5, February 25, 2014 =
+* Bug: Fixed an issue with editing / saving multiple files with the File Upload field
+
+= 2.1.4, January 30, 2014 =
+* Bug: Fixed an undefined index error when editing a product
+
+= 2.1.3, January 23, 2014 =
+* Bug: clicking "Add Price Option" added two rows
+* Bug: Price options couldn't be deleted
+* Bug: Price name isn't saved when submitting just one price
+
+= 2.1.2, January 18, 2014 =
+* Bug: avatars could not be deleted from the profile editor
+* Bug: fields container goes off screen on small screens, making it impossible to add some fields
+* Bug: commissions not automatically enabled on product submission
+
+= 2.1.1, January 14, 2014 =
+* Bug: vendors could see media files that were not their own
+* Bug: minor layout issues on the Vendor Dashboard page
+* Bug: Disabling vendor registration didn't work
+
+= 2.1, January 11, 2014 =
+* New: Added the ability for vendors to delete products
+* New: Added the ability for vendors to edit products
+* New: The application process is now an FES form
+* New: Removed a ton of CSS and JS
+* New: FES Formbuilder has been improved with better labels, more responsive css, and a new design
+* Bug: Removed Add New button from FES forms page
+* Bug: CSS classes are now consistent
+* Bug: Fixed an issue with Author URLs getting hijacked for non-vendors
+* Bug: Fixed an issue with vendor pages showing all downloads, not just those of the current vendor
+* Bug: Fixed an issue with 404's on author pages
+* Bug: Improved the install/update script
+* Bug: Fixed an issue with approving / denying vendor applications in bulk
+* Bug: Fixed numerous undefined index errors
+* Bug: Fixed improper and missing text domains
+
+= 2.0.5, Decebmer 20, 2013 =
+* Bug: Fixes CSS setting issue
+
+= 2.0.4, Decebmer 10, 2013 =
+* New: Adds options to prices and files field
+* Bug: Field values of login/register forms not lost on error now
+* Bug: Vendors not allowed to upload product files
+
+= 2.0.3, November 24, 2013 =
+* Bug: change "changes" to uppercase on settings panel
+* Bug: Flash of intro message on FES_forms on saved forms fixed
+* Bug: Shortcode redirects no longer cause fatal errors
+* Bug: Vendors were accidentily always getting approved
+
+= 2.0.2, November 23, 2013 =
+* New: Replaced CList with direct links to FES-forms
+* New: MP6 compatibility
+* New: Author page now redirects to vendor page
+* Bug: Vendors if allowed to go to backend, can no longer edit products
+* Bug: Fatal error caused by typo of email function name
+* Bug: Comments form hidden on submission form view
+* Bug: CSS caused publish button to look odd on edit download
+
+= 2.0.1, November 15, 2013 =
+* Bug: Fixed issue in setup class causing fatal error
+* Bug: Corrected spelling mistake in plugin
+
+= 2.0, November 13, 2013 =
+* New: FES Forms added
+* New: Vendor dashboard reorganized
+* New: Admin download list reorganized
+* Bug: Hundreds of bugs fixed.
+
+= 1.1.5, July 12, 2013 =
+* fix email bug
+* add start of S3 support
+
+= 1.1, June 7, 2013 =
+* Fix: Fixed email bug
+* Fix: Fixed styling bug
+
+= 1.0, May 5, 2013 =
+ * Initial release

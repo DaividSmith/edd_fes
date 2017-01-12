@@ -1,0 +1,4408 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Easy Digital Downloads - Frontend Submissions\n"
+"POT-Creation-Date: 2015-10-29 20:58-0400\n"
+"PO-Revision-Date: 2016-01-16 13:22+0330\n"
+"Last-Translator: Chris Christoff <support@easydigitaldownloads.com>\n"
+"Language-Team: Chris Christoff <support@easydigitaldownloads.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: edd-fes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: classes/redux\n"
+
+#: classes/abstracts/class-field.php:571 classes/fields/country.php:195
+#: classes/fields/date.php:165 classes/fields/display_name.php:170
+#: classes/fields/download_category.php:353
+#: classes/fields/download_category.php:395
+#: classes/fields/download_notes.php:125 classes/fields/download_tag.php:353
+#: classes/fields/download_tag.php:395 classes/fields/email.php:135
+#: classes/fields/featured_image.php:138 classes/fields/file_upload.php:322
+#: classes/fields/file_upload.php:325 classes/fields/first_name.php:130
+#: classes/fields/last_name.php:129 classes/fields/multiple_pricing.php:381
+#: classes/fields/multiple_pricing.php:384 classes/fields/name.php:104
+#: classes/fields/nickname.php:129 classes/fields/password.php:181
+#: classes/fields/post_content.php:183 classes/fields/post_excerpt.php:156
+#: classes/fields/post_format.php:184 classes/fields/post_title.php:119
+#: classes/fields/radio.php:218 classes/fields/recaptcha.php:224
+#: classes/fields/repeat.php:398 classes/fields/repeat.php:403
+#: classes/fields/repeat.php:408 classes/fields/repeat.php:415
+#: classes/fields/repeat.php:420 classes/fields/repeat.php:427
+#: classes/fields/select.php:188 classes/fields/taxonomy.php:457
+#: classes/fields/taxonomy.php:499 classes/fields/text.php:130
+#: classes/fields/textarea.php:177 classes/fields/url.php:134
+#: classes/fields/user_avatar.php:132 classes/fields/user_bio.php:160
+#: classes/fields/user_email.php:144 classes/fields/user_login.php:130
+#: classes/fields/user_url.php:134
+msgid "Please fill out this field."
+msgstr "لطفا این زمینه را کامل کنید."
+
+#: classes/abstracts/class-field.php:657 classes/fields/text.php:44
+msgctxt "FES Field title translation"
+msgid "Text"
+msgstr "متن"
+
+#: classes/abstracts/class-field.php:714
+#: classes/admin/formbuilder/class-formbuilder-templates.php:48
+msgid "Click and Drag to rearrange"
+msgstr "برای مرتب سازی بکشید و رها کنید"
+
+#: classes/abstracts/class-field.php:718
+#: classes/admin/formbuilder/class-formbuilder-templates.php:52
+msgid "Remove"
+msgstr "حذف"
+
+#: classes/abstracts/class-field.php:720
+#: classes/admin/formbuilder/class-formbuilder-templates.php:54
+msgid "Toggle"
+msgstr "تغییر وضعیت"
+
+#: classes/abstracts/class-form.php:184
+msgid "The form has no custom fields!"
+msgstr "فرم هیچ زمینه دلخواهی ندارد!"
+
+#: classes/abstracts/class-form.php:257 classes/abstracts/class-form.php:290
+#: classes/forms/registration.php:235
+msgid "The form has no fields!"
+msgstr "فرم هیچ زمینه ای ندارد"
+
+#: classes/abstracts/class-form.php:341 classes/abstracts/class-form.php:396
+#: classes/abstracts/class-form.php:399 classes/abstracts/class-form.php:444
+#: classes/abstracts/class-form.php:499 classes/abstracts/class-form.php:502
+#: classes/admin/vendors/graphing.php:331
+#: classes/admin/vendors/pdf-reports.php:29
+#: classes/admin/vendors/pdf-reports.php:33
+msgid "Error"
+msgstr "خطا"
+
+#: classes/abstracts/class-form.php:378 classes/abstracts/class-form.php:481
+#: classes/forms/login.php:101 classes/forms/profile.php:88
+#: classes/forms/profile.php:99 classes/forms/registration.php:319
+#: classes/forms/submission.php:139 classes/forms/submission.php:142
+msgid "Success"
+msgstr "موفقیت"
+
+#: classes/abstracts/class-form.php:394 classes/abstracts/class-form.php:497
+#: classes/class-setup.php:58 classes/class-setup.php:69
+#: classes/class-setup.php:171 classes/class-setup.php:182
+msgid "Please fix the errors to proceed"
+msgstr "برای پیشروی لطفا خطاها را رفع کنید"
+
+#: classes/abstracts/class-form.php:400 classes/abstracts/class-form.php:503
+msgid "There are no fields"
+msgstr "زمینه ای در دسترس نیست"
+
+#: classes/abstracts/class-form.php:851 classes/forms/submission.php:62
+msgctxt "FES Form title translation"
+msgid "Submission"
+msgstr "ارسال"
+
+#: classes/abstracts/class-form.php:858
+#, php-format
+msgctxt "%s = FES Form Name (translated)"
+msgid "%s Form"
+msgstr "فرم %s"
+
+#: classes/abstracts/class-form.php:870
+msgid "Submit"
+msgstr "ارسال"
+
+#: classes/abstracts/class-form.php:915 classes/abstracts/class-form.php:923
+#: classes/abstracts/class-form.php:950 classes/abstracts/class-form.php:958
+#, php-format
+msgid "Access Denied: You are not an admin or a %s"
+msgstr "عدم دسترسی : فقط گروه خاصی این اجازه را دارند مدیران و %s"
+
+#: classes/admin/class-install.php:294 classes/admin/class-install.php:507
+#: classes/admin/class-settings.php:106 classes/admin/class-tools.php:276
+#: classes/admin/class-tools.php:395 classes/admin/class-tools.php:592
+#: classes/admin/class-tools.php:657 classes/admin/class-tools.php:680
+#: classes/admin/class-tools.php:702 classes/admin/class-welcome.php:278
+msgid "Submission Form"
+msgstr "فرم ارسال"
+
+#: classes/admin/class-install.php:305 classes/admin/class-install.php:533
+#: classes/admin/class-settings.php:114 classes/admin/class-tools.php:317
+#: classes/admin/class-tools.php:413 classes/admin/class-tools.php:602
+#: classes/admin/class-tools.php:658 classes/admin/class-tools.php:681
+#: classes/admin/class-tools.php:703
+msgid "Profile Form"
+msgstr "فرم پروفایل"
+
+#: classes/admin/class-install.php:452
+msgid "Vendor Dashboard"
+msgstr "داشبورد فروشندگان"
+
+#: classes/admin/class-install.php:479 classes/class-helpers.php:198
+msgid "Vendor"
+msgstr "فروشنده"
+
+#: classes/admin/class-install.php:560 classes/admin/class-settings.php:130
+#: classes/admin/class-tools.php:235 classes/admin/class-tools.php:377
+#: classes/admin/class-tools.php:581 classes/admin/class-tools.php:659
+#: classes/admin/class-tools.php:682 classes/admin/class-tools.php:704
+msgid "Registration Form"
+msgstr "فرم ثبت نام"
+
+#: classes/admin/class-install.php:587 classes/admin/class-settings.php:122
+#: classes/admin/class-tools.php:359 classes/admin/class-tools.php:569
+#: classes/admin/class-tools.php:706
+msgid "Login Form"
+msgstr "فرم ورود"
+
+#: classes/admin/class-install.php:614 classes/admin/class-settings.php:138
+#: classes/admin/class-tools.php:705
+msgid "Vendor Contact Form"
+msgstr "فرم تماس با فروشنده"
+
+#: classes/admin/class-list-table.php:143
+#, php-format
+msgctxt "posts"
+msgid "Mine <span class=\"count\">(%s)</span>"
+msgid_plural "Mine <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> من"
+
+#: classes/admin/class-list-table.php:154
+#, php-format
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> همه"
+
+#: classes/admin/class-list-table.php:176
+#, php-format
+msgctxt "posts"
+msgid "Sticky <span class=\"count\">(%s)</span>"
+msgid_plural "Sticky <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> چسبان"
+
+#: classes/admin/class-list-table.php:190
+#: classes/admin/class-list-table.php:597
+msgid "Restore"
+msgstr "بازگردانی"
+
+#: classes/admin/class-list-table.php:192
+#: classes/admin/class-list-table.php:592
+#: classes/admin/downloads/class-download-table.php:206
+#: classes/class-post-types.php:48 classes/frontend/class-dashboard.php:304
+#: classes/frontend/class-forms.php:200
+msgid "Edit"
+msgstr "ویرایش"
+
+#: classes/admin/class-list-table.php:195
+#: classes/admin/class-list-table.php:601
+msgid "Delete Permanently"
+msgstr "پاک کردن برای همیشه"
+
+#: classes/admin/class-list-table.php:197
+msgid "Move to Trash"
+msgstr "انتقال به زباله دان"
+
+#: classes/admin/class-list-table.php:213
+msgid "View all categories"
+msgstr "مشاهده تمام دسته بندی ها"
+
+#: classes/admin/class-list-table.php:223
+#: classes/admin/vendors/graphing.php:603
+msgid "Filter"
+msgstr "فیلتر"
+
+#: classes/admin/class-list-table.php:227
+msgid "Empty Trash"
+msgstr "خالی کردن زباله دان"
+
+#: classes/admin/class-list-table.php:262
+msgctxt "column name"
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/admin/class-list-table.php:265
+#: classes/admin/class-list-table.php:829 templates/frontend-dashboard.php:18
+msgid "Author"
+msgstr "نویسنده"
+
+#: classes/admin/class-list-table.php:288
+#: classes/admin/class-list-table.php:962
+msgid "Comments"
+msgstr "دیدگاه ها"
+
+#: classes/admin/class-list-table.php:290
+#: classes/admin/class-list-table.php:805
+#: classes/admin/downloads/class-download-table.php:165
+#: classes/admin/vendors/vendors.php:395 templates/frontend-edit-order.php:49
+#: templates/frontend-orders.php:13 templates/frontend-products.php:14
+msgid "Date"
+msgstr "تاریخ"
+
+#: classes/admin/class-list-table.php:522
+#, php-format
+msgid "Select %s"
+msgstr "انتخاب %s"
+
+#: classes/admin/class-list-table.php:565
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "ویرایش &#8220;%s&#8221;"
+
+#: classes/admin/class-list-table.php:579
+#, php-format
+msgid "%s is currently editing"
+msgstr "%s در حال ویرایش است"
+
+#: classes/admin/class-list-table.php:592
+msgid "Edit this item"
+msgstr "ویرایش این آیتم"
+
+#: classes/admin/class-list-table.php:593
+msgid "Edit this item inline"
+msgstr "ویرایش برخط این ایتم"
+
+#: classes/admin/class-list-table.php:593
+msgid "Quick&nbsp;Edit"
+msgstr "ویرایش &nbsp;سریع"
+
+#: classes/admin/class-list-table.php:597
+msgid "Restore this item from the Trash"
+msgstr "بازیافت از زباله دان"
+
+#: classes/admin/class-list-table.php:599
+msgid "Move this item to the Trash"
+msgstr "انتقال به زباله دان"
+
+#: classes/admin/class-list-table.php:599
+#: classes/admin/downloads/class-download-table.php:280
+#: classes/frontend/class-dashboard.php:421
+#: classes/frontend/class-dashboard.php:488
+#: classes/frontend/class-dashboard.php:504
+msgid "Trash"
+msgstr "زباله دان"
+
+#: classes/admin/class-list-table.php:601
+msgid "Delete this item permanently"
+msgstr "پاک کردن برای همیشه"
+
+#: classes/admin/class-list-table.php:606
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr "پیش نمایش &amp;#8220;%s&amp;#8221;"
+
+#: classes/admin/class-list-table.php:606
+msgid "Preview"
+msgstr "مشاهده"
+
+#: classes/admin/class-list-table.php:608
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr "مشاهده &#8220;%s&#8221;"
+
+#: classes/admin/class-list-table.php:608
+#: classes/admin/downloads/class-download-table.php:201
+#: classes/admin/downloads/class-edit-download.php:132
+#: classes/admin/vendors/class-vendor-table.php:72
+#: classes/admin/vendors/class-vendor-table.php:88
+#: classes/admin/vendors/class-vendor-table.php:104
+#: classes/frontend/class-dashboard.php:300
+#: classes/frontend/class-dashboard.php:529
+msgid "View"
+msgstr "نمایش"
+
+#: classes/admin/class-list-table.php:621
+#: classes/frontend/class-dashboard.php:316
+msgid "Unpublished"
+msgstr "منتشر نشده"
+
+#: classes/admin/class-list-table.php:624
+#: classes/frontend/class-dashboard.php:319
+#: classes/frontend/class-dashboard.php:544
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: classes/admin/class-list-table.php:631
+#: classes/frontend/class-dashboard.php:326
+#: classes/frontend/class-dashboard.php:551
+#, php-format
+msgid "%s ago"
+msgstr "%s قبل"
+
+#: classes/admin/class-list-table.php:633
+#: classes/frontend/class-dashboard.php:328
+#: classes/frontend/class-dashboard.php:553
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: classes/admin/class-list-table.php:643
+#: classes/admin/class-list-table.php:1008
+#: classes/frontend/class-dashboard.php:334
+msgid "Published"
+msgstr "منتشر شده"
+
+#: classes/admin/class-list-table.php:646
+msgid "Missed schedule"
+msgstr "زمان‌بندی از دست‌ رفته"
+
+#: classes/admin/class-list-table.php:648
+#: classes/admin/class-list-table.php:1009
+#: classes/admin/downloads/class-download-table.php:278
+#: classes/frontend/class-dashboard.php:336
+#: classes/frontend/class-dashboard.php:418
+msgid "Scheduled"
+msgstr "زمان بندی شده"
+
+#: classes/admin/class-list-table.php:650
+#: classes/frontend/class-dashboard.php:338
+msgid "Last Modified"
+msgstr "آخرین ویرایش"
+
+#: classes/admin/class-list-table.php:710
+msgid ", "
+msgstr ", "
+
+#: classes/admin/class-list-table.php:780
+msgid "Bulk Edit"
+msgstr "ویرایش عمده"
+
+#: classes/admin/class-list-table.php:780
+msgid "Quick Edit"
+msgstr "ویرایش سریع"
+
+#: classes/admin/class-list-table.php:792
+#: classes/admin/vendors/vendors.php:621 classes/fields/html.php:139
+#: classes/fields/section_break.php:143
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/admin/class-list-table.php:797
+#: classes/fields/download_category.php:309
+#: classes/fields/download_tag.php:309 classes/fields/taxonomy.php:413
+msgid "Slug"
+msgstr "نشان"
+
+#: classes/admin/class-list-table.php:825
+#: classes/admin/class-list-table.php:905
+#: classes/admin/class-list-table.php:930
+#: classes/admin/class-list-table.php:964
+#: classes/admin/class-list-table.php:973
+#: classes/admin/class-list-table.php:1005
+#: classes/admin/class-list-table.php:1026
+#: classes/admin/class-list-table.php:1054
+msgid "&mdash; No Change &mdash;"
+msgstr "&mdash; بدون تغییر &mdash;"
+
+#: classes/admin/class-list-table.php:844 classes/schema.php:119
+#: classes/schema.php:218
+msgid "Password"
+msgstr "رمز عبور"
+
+#: classes/admin/class-list-table.php:851
+msgid "&ndash;OR&ndash;"
+msgstr "&ndash;یا&ndash;"
+
+#: classes/admin/class-list-table.php:856
+#: classes/admin/class-list-table.php:1011
+msgid "Private"
+msgstr "خصوصی"
+
+#: classes/admin/class-list-table.php:893
+msgid "Parent"
+msgstr "مادر"
+
+#: classes/admin/class-list-table.php:899
+msgid "Main Page (no parent)"
+msgstr "صفحه اصلی (بدون مادر)"
+
+#: classes/admin/class-list-table.php:917
+#: classes/fields/download_category.php:316
+#: classes/fields/download_tag.php:316 classes/fields/taxonomy.php:420
+#: templates/frontend-orders.php:7
+msgid "Order"
+msgstr "ترتیب"
+
+#: classes/admin/class-list-table.php:927
+msgid "Template"
+msgstr "قالب"
+
+#: classes/admin/class-list-table.php:932
+msgid "Default Template"
+msgstr "قالب پیش فرض"
+
+#: classes/admin/class-list-table.php:965
+#: classes/admin/class-list-table.php:974
+msgid "Allow"
+msgstr "پذیرش"
+
+#: classes/admin/class-list-table.php:966
+#: classes/admin/class-list-table.php:975 classes/admin/class-tracking.php:253
+msgid "Do not allow"
+msgstr "عدم پذیرش"
+
+#: classes/admin/class-list-table.php:971
+msgid "Pings"
+msgstr "پینگ"
+
+#: classes/admin/class-list-table.php:987
+msgid "Allow Comments"
+msgstr "پذیرش دیدگاه ها"
+
+#: classes/admin/class-list-table.php:992
+msgid "Allow Pings"
+msgstr "پذیرش پینگ"
+
+#: classes/admin/class-list-table.php:1002
+#: classes/admin/downloads/class-download-table.php:160
+#: classes/admin/vendors/class-vendor-table.php:172
+#: classes/admin/vendors/vendors.php:327 classes/admin/vendors/vendors.php:622
+#: templates/frontend-orders.php:8 templates/frontend-products.php:10
+msgid "Status"
+msgstr "وضعیت"
+
+#: classes/admin/class-list-table.php:1014
+#: classes/admin/downloads/class-download-table.php:276
+#: classes/frontend/class-dashboard.php:415
+#: classes/frontend/class-dashboard.php:482
+msgid "Pending Review"
+msgstr "منتظر بررسی"
+
+#: classes/admin/class-list-table.php:1015
+#: classes/admin/downloads/class-download-table.php:274
+#: classes/frontend/class-dashboard.php:412
+#: classes/frontend/class-dashboard.php:479
+#: classes/frontend/class-dashboard.php:498
+msgid "Draft"
+msgstr "پیش نویس"
+
+#: classes/admin/class-list-table.php:1024
+#: classes/admin/class-list-table.php:1027
+msgid "Sticky"
+msgstr "چسبان"
+
+#: classes/admin/class-list-table.php:1028
+msgid "Not Sticky"
+msgstr "چسبان نیست"
+
+#: classes/admin/class-list-table.php:1036
+msgid "Make this post sticky"
+msgstr "این نوشته را چسبان کن"
+
+#: classes/admin/class-list-table.php:1052
+msgctxt "post format"
+msgid "Format"
+msgstr "فرمت"
+
+#: classes/admin/class-list-table.php:1083
+#: classes/admin/vendors/vendors.php:352
+msgid "Cancel"
+msgstr "لغو"
+
+#: classes/admin/class-list-table.php:1087
+#: classes/admin/class-list-table.php:1090
+msgid "Update"
+msgstr "بروزرسانی"
+
+#: classes/admin/class-menu.php:17
+msgid "EDD FES"
+msgstr "رابط ظاهری"
+
+#: classes/admin/class-menu.php:18
+msgid "About"
+msgstr "درباره"
+
+#: classes/admin/class-menu.php:26
+msgid "Tools"
+msgstr "ابزارها"
+
+#: classes/admin/class-settings.php:35
+msgid "Main Settings"
+msgstr "تنظیمات اصلی"
+
+#: classes/admin/class-settings.php:36
+msgid ""
+"Easy Digital Downloads Frontend Submissions is a constantly improving piece "
+"of complex software. For support and feature requests contact us <a href="
+"\"https://easydigitaldownloads.com/support/\">using this form</a>. For FES's "
+"official roadmap visit <a href=\"https://trello.com/b/vT8aivfj/fes-"
+"development\">our Trello board</a>."
+msgstr ""
+"رابط ظاهری ایزی دیجیتال دانلود ، شکلی ساده از نرم افزاری پیچیده را برایتان "
+"فراهم می کند. جهت دریافت خدمات پشتیبانی و دیگری ویژگی ها از <a href="
+"\"https://easydigitaldownloads.com/support/\">این فرم</a> استفاده نمایید. "
+"نقشه ای کامل از توسعه رابط ظاهری در دسترس شماست <a href=\"https://trello.com/"
+"b/vT8aivfj/fes-development\">our Trello board</a>"
+
+#: classes/admin/class-settings.php:42
+msgid "Rename \"vendor\""
+msgstr "تغییر نام \"vendor\""
+
+#: classes/admin/class-settings.php:43
+msgid "This will change all mentions of \"vendor\" within FES"
+msgstr "هرکجا از \"vendor\" استفاده شده است به واژه جدید تغییر می کند"
+
+#: classes/admin/class-settings.php:50
+msgid "Rename \"product\""
+msgstr "تغییر نام \"product\""
+
+#: classes/admin/class-settings.php:51
+msgid "This will change all mentions of \"product\" within FES"
+msgstr "هرکجا از \"product\" استفاده شده است به واژه جدید تغییر می کند"
+
+#: classes/admin/class-settings.php:58
+msgid "Vendor Announcement"
+msgstr "اطلاعیه داشبورد"
+
+#: classes/admin/class-settings.php:59
+msgid ""
+"Use this to announce things to your vendors. Appears on the Vendor Dashboard "
+"Page once logged in."
+msgstr "این اطلاعیه هنگام ورود فروشندگان در داشبورد به آنها نمایش داده می شود"
+
+#: classes/admin/class-settings.php:61
+msgid ""
+"This is the vendor dashboard. Add welcome text or any other information that "
+"is applicable to your vendors."
+msgstr ""
+"به داشبورد ویژه فروشندگان خوش آمدید. این متن تنها جهت خوش آمد گویی به شما "
+"تهیه شده و هیچ ارزش دیگری ندارد."
+
+#: classes/admin/class-settings.php:66
+msgid "Use FES's CSS"
+msgstr "استفاده از استایل های رابط ظاهری"
+
+#: classes/admin/class-settings.php:67
+msgid ""
+"You can use this to turn off FES's CSS if you want. We highly don't "
+"recommend doing that"
+msgstr ""
+"استایل های پیش فرض افزونه را می توانید غیر فعال کنید. اگر اطلاعات کاملی "
+"ندارید این کار توصیه نمی شود"
+
+#: classes/admin/class-settings.php:75
+msgid "Forms/Pages"
+msgstr "فرم ها/صفحات"
+
+#: classes/admin/class-settings.php:76
+msgid "<p class=\"description\">Settings for Pages and Forms</p>"
+msgstr "<p class=\"description\">تنظیمات صفحات و فرم ها</p>"
+
+#: classes/admin/class-settings.php:82
+msgid "Vendor Dashboard Page"
+msgstr "داشبورد فروشندگان"
+
+#: classes/admin/class-settings.php:83
+msgid ""
+"This setting is used by FES to determine which page is the vendor dashboard. "
+"Only change if you are using a custom dashboard page."
+msgstr ""
+"این گزینه صفحه داشبورد فروشندگان را به افزونه معرفی می کند. چنانچه از صفحه "
+"خاصی استفاده نمی کنید این گزینه را ویرایش نکنید"
+
+#: classes/admin/class-settings.php:84
+msgid "Contains the [fes_vendor_dashboard] shortcode"
+msgstr "باید حاوی این کد کوتاه باشد [fes_vendor_dashboard]"
+
+#: classes/admin/class-settings.php:90
+msgid "Vendor Page"
+msgstr "صفحه فروشندگان"
+
+#: classes/admin/class-settings.php:91
+msgid ""
+"This setting is used by FES to determine which page is the vendor store "
+"page. Only change if you are using a custom vendor store page."
+msgstr ""
+"این گزینه صفحه فروشنده را به افزونه معرفی می کند. چنانچه از صفحه خاصی "
+"استفاده نمی کنید این گزینه را ویرایش نکنید"
+
+#: classes/admin/class-settings.php:92
+msgid "Contains the [downloads] shortcode"
+msgstr "باید حاوی این کد کوتاه باشد [downloads]"
+
+#: classes/admin/class-settings.php:97
+msgid "Show forms dropdowns"
+msgstr "نمایش فرم های کشویی"
+
+#: classes/admin/class-settings.php:98
+msgid ""
+"Toggles on the behind the scenes settings for form page id's. Only needed "
+"for FES support purposes."
+msgstr ""
+"تغییر پشت صحنه؛ نمایش فرم های اختصاص داده شده به صفحات در پنل تنظیمات. فقط "
+"برای مقاصد پشتیبانی رابط ظاهری."
+
+#: classes/admin/class-settings.php:144
+msgid "Enable Multiple Purchase Mode for all vendor products"
+msgstr "فعالسازی خرید چند گانه برای محصولات همه فروشندگان"
+
+#: classes/admin/class-settings.php:145
+msgid ""
+"If on, allows customers to purchase multiple variations of a vendor product "
+"at a time"
+msgstr ""
+"در صورت فعالسازی مشتریان می توانند همزمان بیش از یک محصول فروشندگان را خرید "
+"کنند"
+
+#: classes/admin/class-settings.php:151
+msgid "Show custom fields on the download?"
+msgstr "نمایش زمینه های سفارسی در دانلودها؟"
+
+#: classes/admin/class-settings.php:152
+msgid ""
+"You can select which fields to show on the download page using the radio "
+"buttons on the top of each field on the submission formbuilder."
+msgstr ""
+"می توانید مشخص کنید کدام فیلدها یا زمینه ها در صفحه دانلود یا محصولات نمایش "
+"داده شود ، در بخش فرم ساز ارسال محصولات ، در بالای هر فیلد یا زمینه قابل "
+"تعیین است."
+
+#: classes/admin/class-settings.php:160 classes/admin/class-welcome.php:265
+msgid "Permissions"
+msgstr "دسترسی ها"
+
+#: classes/admin/class-settings.php:161
+msgid "<p class=\"description\">Settings for FES Permissions</p>"
+msgstr "<p class=\"description\">تنظیمات سطح دسترسی ها</p>"
+
+#: classes/admin/class-settings.php:166
+msgid "Registration"
+msgstr "عضویت"
+
+#: classes/admin/class-settings.php:167
+msgid "Allow guests to apply to become a vendor"
+msgstr "کاربران مهمان اجازه ثبت نام به عنوان فروشنده را دارند"
+
+#: classes/admin/class-settings.php:173
+msgid "Applications"
+msgstr "درخواست ها"
+
+#: classes/admin/class-settings.php:174
+msgid "Allow existing WordPress users to apply to become a vendor"
+msgstr "کاربران فعلی اجازه درخواست فعالیت به عنوان فروشنده را داشته باشند"
+
+#: classes/admin/class-settings.php:180
+msgid "Allow WP Backend Access to Vendors?"
+msgstr "دسترسی فروشندگان به بخش مدیریت؟"
+
+#: classes/admin/class-settings.php:181
+msgid ""
+"Does not remove the admin bar. Simply prevents vendors from accessing the "
+"backend."
+msgstr ""
+"تاثیری در ادمین بار ندارد. فقط باعث جلوگیری از دسترسی فروشندگان به بخش "
+"مدیریت می شود"
+
+#: classes/admin/class-settings.php:187
+msgid "Allow Vendors to See the Admin Bar?"
+msgstr "نمایش ادمین بار به فروشندگان؟"
+
+#: classes/admin/class-settings.php:188
+msgid ""
+"This only removes the bar for users with the frontend_vendor cap but not the "
+"fes_is_admin cap"
+msgstr ""
+"ادمین بار فقط برای فروشندگان غیر فعال خواهد شد و همچنان برای مدیران قابل "
+"نمایش است"
+
+#: classes/admin/class-settings.php:194
+msgid "Automatically Approve Vendors?"
+msgstr "تایید خودکار فروشندگان"
+
+#: classes/admin/class-settings.php:195
+msgid ""
+"If off, vendors will not be able to submit products until you manually "
+"approve them"
+msgstr ""
+"اگر غیر فعال باشد فروشندگان تا زمانی که به صورت دستی تایید نشوند اجازه ارسال "
+"محصول نخواهند داشت"
+
+#: classes/admin/class-settings.php:201
+msgid "Automatically Approve Submissions?"
+msgstr "تایید خودکار محصولات؟"
+
+#: classes/admin/class-settings.php:202
+msgid ""
+"If off, vendor products will be saved as a pending download until you "
+"manually approve them"
+msgstr ""
+"اگر غیر فعال باشد محصولات ارسالی فروشندگان تا زمانی که به صورت دستی تایید "
+"نشود منتشر نمی گردد"
+
+#: classes/admin/class-settings.php:208
+msgid "Automatically Approve Vendor Edits?"
+msgstr "تایید خودکار ویرایش ها"
+
+#: classes/admin/class-settings.php:209
+msgid ""
+"If off, vendor products will be changed to pending status (removed from "
+"store) until manually approved"
+msgstr ""
+"اگر غیر فعال باشد هنگام ویرایش محصول توسط فروشنده محصول باید دوباره به صورت "
+"دستی تایید شود"
+
+#: classes/admin/class-settings.php:215
+msgid "Allow Vendors to Create Products?"
+msgstr "امکان ارسال محصول"
+
+#: classes/admin/class-settings.php:216
+msgid "If on, vendors will be able to create products"
+msgstr "اگر فعال باشد فروشندگان مجاز به ارسال محصول جدید خواهند بود"
+
+#: classes/admin/class-settings.php:222
+msgid "Allow Vendors to Edit Products?"
+msgstr "مجوز ویرایش"
+
+#: classes/admin/class-settings.php:223
+msgid ""
+"If on, vendors will be able to edit their products. If vendors cannot edit "
+"products, after submitting a new product they will be redirected to the new "
+"product form, instead of being default redirected to edit the product they "
+"just submitted."
+msgstr ""
+"اگر فعال باشد فروشندگان قادر به ویرایش محصولات خودشان هستند. چنانچه "
+"فروشندگان مجاز به ویرایش محصول نباشند پس از ارسال محصول به صفحه ارسال محصول "
+"جدید هدایت خواهند شد"
+
+#: classes/admin/class-settings.php:229
+msgid "Allow Vendors to Delete Products?"
+msgstr "اجازه حذف محصولات"
+
+#: classes/admin/class-settings.php:230
+msgid "If on, vendors will be able to delete their products"
+msgstr "اگر فعال باشد فروشندگان قادر به حذف محصولات خود هستند"
+
+#: classes/admin/class-settings.php:236
+msgid "Allow Vendors to View Orders?"
+msgstr "مشاهده سفارشات"
+
+#: classes/admin/class-settings.php:237
+msgid "If on, vendors will be able to view orders"
+msgstr "اگر فعال باشد فروشندگان می توانند سفارشات را مشاهده کنند"
+
+#: classes/admin/class-settings.php:244 classes/admin/vendors/vendors.php:778
+msgid "Emails"
+msgstr "ایمیل ها"
+
+#: classes/admin/class-settings.php:245
+msgid "<p class=\"description\">Settings for FES Emails</p>"
+msgstr "<p class=\"description\">تنظیمات ایمیل های ارسالی</p>"
+
+#: classes/admin/class-settings.php:249
+msgid "Emails to Admin"
+msgstr "ایمیل به مدیر"
+
+#: classes/admin/class-settings.php:256
+msgid "Vendor Application"
+msgstr "درخواست فروشندگی"
+
+#: classes/admin/class-settings.php:257
+msgid ""
+"If the \"auto approve vendors\" setting is off, this email is sent when a "
+"person applies to become a vendor. If the \"auto approve vendors\" setting "
+"is on, this email is sent when a new vendor joins the site."
+msgstr ""
+"اگر \"تایید خودکار فروشندگان\" غیر فعال باشد یک ایمیل هنگام درخواست "
+"فروشندگان برای مدیر ارسال می شود. اگر \"تایید خودکار فروشندگان\" فعال باشد "
+"هنگام فعالسازی حساب به عنوان فروشنده این ایمیل ارسال خواهد شد."
+
+#: classes/admin/class-settings.php:263
+msgid "Vendor Application Email Contents"
+msgstr "محتوای ایمیل درخواست فروشندگی"
+
+#: classes/admin/class-settings.php:264
+msgid ""
+"This setting sets what is in the email body for the vendor application email."
+msgstr "محتوای ایمیل ارسالی برای درخواست های فروشندگان در این بخش مشخص می شود"
+
+#: classes/admin/class-settings.php:265 classes/admin/class-settings.php:282
+#: classes/admin/class-settings.php:305 classes/admin/class-settings.php:333
+#: classes/admin/class-settings.php:354 classes/admin/class-settings.php:373
+#: classes/admin/class-settings.php:393 classes/admin/class-settings.php:411
+#: classes/admin/class-settings.php:429 classes/admin/class-settings.php:447
+#: classes/admin/class-settings.php:466 classes/admin/class-settings.php:487
+#: classes/admin/class-settings.php:506 classes/admin/class-settings.php:524
+msgid "A list of shortcodes you can use is "
+msgstr "لیستی از کدهای کوتاه قابل استفاده"
+
+#: classes/admin/class-settings.php:265 classes/admin/class-settings.php:282
+#: classes/admin/class-settings.php:305 classes/admin/class-settings.php:333
+#: classes/admin/class-settings.php:354 classes/admin/class-settings.php:373
+#: classes/admin/class-settings.php:393 classes/admin/class-settings.php:411
+#: classes/admin/class-settings.php:429 classes/admin/class-settings.php:447
+#: classes/admin/class-settings.php:466 classes/admin/class-settings.php:487
+#: classes/admin/class-settings.php:506 classes/admin/class-settings.php:524
+msgid " in our documentation"
+msgstr "در مستندات ما"
+
+#: classes/admin/class-settings.php:273
+msgid "New Product"
+msgstr "محصول جدید"
+
+#: classes/admin/class-settings.php:274
+msgid ""
+"This email is sent when a vendor submits a new product to be reviewed (and "
+"the auto approve submissions setting is off)"
+msgstr ""
+"هنگامی که تایید خودکار محصولات غیر فعال باشد و فروشنده محصول جدیدی برای "
+"تایید ارسال نماید این ایمیل ارسال خواهد شد"
+
+#: classes/admin/class-settings.php:280
+msgid "New Product Email Contents"
+msgstr "محتوای ایمیل محصول جدید"
+
+#: classes/admin/class-settings.php:281
+msgid "This setting sets what is in the email body for the new product email."
+msgstr ""
+"محتوای ایمیل ارسالی برای بازبینی محصولات جدید و در انتظار تایید از اینجا "
+"مشخص می شود"
+
+#: classes/admin/class-settings.php:295
+msgid "Edited Product"
+msgstr "ویرایش محصول"
+
+#: classes/admin/class-settings.php:296
+msgid ""
+"This email is sent when a vendor submits an edit to an existing product to "
+"be reviewed (and the auto approve edits setting is off)"
+msgstr ""
+"هنگامی که تایید خودکار ویرایش ها غیر فعال باشد و فروشنده اقدام به ویرایش "
+"محصول نماید این ایمیل ارسال خواهد شد"
+
+#: classes/admin/class-settings.php:303
+msgid "Edited Product Email Contents"
+msgstr "محتوای ایمیل ویرایش محصول"
+
+#: classes/admin/class-settings.php:304
+msgid ""
+"This setting sets what is in the email body for the edited product email."
+msgstr ""
+"محتوای ایمیل ارسالی برای بازبینی محصولات ویرایش شده از اینجا مشخص می شود"
+
+#: classes/admin/class-settings.php:316
+msgid "Emails to Vendors"
+msgstr "ایمیل به فروشندگان"
+
+#: classes/admin/class-settings.php:323 classes/forms/registration.php:451
+msgid "Application Received"
+msgstr "ثبت درخواست"
+
+#: classes/admin/class-settings.php:324
+msgid ""
+"This email is sent when a person applies to become a vendor and the \"auto "
+"approve vendors\" setting is off."
+msgstr ""
+"این ایمیل زمانی ارسال می شود که کاربری درخواست فروشندگی ثبت نماید و \"تایید "
+"خودکار فروشندگان\" غیر فعال باشد"
+
+#: classes/admin/class-settings.php:331
+msgid "Application Received Email Contents"
+msgstr "محتوای ایمیل ثبت درخواست"
+
+#: classes/admin/class-settings.php:332
+msgid ""
+"This setting sets what is in the email body for the application received "
+"email."
+msgstr ""
+"محتوای ایمیل ارسالی هنگام ثبت شدن درخواست فروشندگان از اینجا مشخص می شود"
+
+#: classes/admin/class-settings.php:344 classes/class-vendor.php:702
+#: classes/forms/registration.php:425
+msgid "Application Approved"
+msgstr "تایید درخواست"
+
+#: classes/admin/class-settings.php:345
+msgid ""
+"This email is sent when a person's application to become a vendor is "
+"approved and the \"auto approve vendors\" setting is off."
+msgstr ""
+"این ایمیل زمانی ارسال می شود که درخواست کاربر به عنوان فروشنده پذیرفته شود و "
+"\"تایید خودکار فروشندگان\" غیر فعال باشد"
+
+#: classes/admin/class-settings.php:352
+msgid "Application Approved Email Contents"
+msgstr "محتوای ایمیل تایید درخواست"
+
+#: classes/admin/class-settings.php:353
+msgid ""
+"This setting sets what is in the email body for the application approved "
+"email."
+msgstr ""
+"محتوای ایمیل ارسالی هنگام تایید شدن درخواست فروشندگان از اینجا مشخص می شود"
+
+#: classes/admin/class-settings.php:363 classes/class-vendor.php:658
+msgid "Application Declined"
+msgstr "عدم تایید درخواست"
+
+#: classes/admin/class-settings.php:364
+msgid ""
+"This email is sent when a person's application to become a vendor is "
+"declined and the \"auto approve vendors\" setting is off"
+msgstr ""
+"این ایمیل زمانی ارسال می شود که درخواست کاربر به عنوان فروشنده پذیرفته نمی "
+"شود و \"تایید خودکار فروشندگان\" غیر فعال باشد"
+
+#: classes/admin/class-settings.php:371
+msgid "Application Declined Email Contents"
+msgstr "محتوای عدم تایید درخواست"
+
+#: classes/admin/class-settings.php:372
+msgid ""
+"This setting sets what is in the email body for the application declined "
+"email."
+msgstr ""
+"محتوای ایمیل ارسالی هنگام عدم تایید شدن درخواست فروشندگان از اینجا مشخص می "
+"شود"
+
+#: classes/admin/class-settings.php:382
+msgid "Application Auto-Approved"
+msgstr "تایید خودکار درخواست ها"
+
+#: classes/admin/class-settings.php:383
+msgid ""
+"This email is sent when a person becomes a vendor because the \"auto approve "
+"vendors\" setting is on"
+msgstr ""
+"این ایمیل زمانی که کاربر درخواست فروشندگی ارسال نماید و  \"تایید خودکار "
+"فروشندگان\" فعال باشد"
+
+#: classes/admin/class-settings.php:384
+msgid "Send Vendor Email Upon Being Auto-Approved?"
+msgstr "ارسال ایمیل به فروشندگان هنگام تایید خودکار؟"
+
+#: classes/admin/class-settings.php:391
+msgid "Application Auto-Approved Email Contents"
+msgstr "محتوای ایمیل تایید خودکار فروشندگان"
+
+#: classes/admin/class-settings.php:392
+msgid ""
+"This setting sets what is in the email body for the application auto-"
+"approved email."
+msgstr ""
+"محتوای ایمیل ارسالی هنگام تایید شدن خودکار درخواست فروشندگان از اینجا مشخص "
+"می شود"
+
+#: classes/admin/class-settings.php:402
+msgid "Vendor Revoked"
+msgstr "لغو فروشندگی"
+
+#: classes/admin/class-settings.php:403
+msgid "This email is sent when vendor is revoked"
+msgstr "این ایمیل هنگام لغو فروشندگی ارسال خواهد شد"
+
+#: classes/admin/class-settings.php:409
+msgid "Vendor Revoked Email Contents"
+msgstr "محتوای ایمیل لغو فروشندگی"
+
+#: classes/admin/class-settings.php:410
+msgid ""
+"This setting sets what is in the email body for the vendor revoked email."
+msgstr "محتوای ایمیل ارسالی هنگام لغو کردن حساب فروشندگی از اینجا مشخص می شود"
+
+#: classes/admin/class-settings.php:420
+msgid "Vendor Suspended"
+msgstr "تعلیق فروشنده"
+
+#: classes/admin/class-settings.php:421
+msgid "This email is sent when vendor is suspended"
+msgstr "این ایمیل هنگام تعلیق یا توقیف حساب فروشنده ارسال می شود"
+
+#: classes/admin/class-settings.php:427
+msgid "Vendor Suspended Email Contents"
+msgstr "محتوای ایمیل تعلیق فروشنده"
+
+#: classes/admin/class-settings.php:428
+msgid ""
+"This setting sets what is in the email body for the vendor suspended email."
+msgstr ""
+"محتوای ایمیل ارسالی هنگام تعلیق یا توقیف حساب فروشندگان از اینجا مشخص می شود"
+
+#: classes/admin/class-settings.php:438
+msgid "Vendor Unsuspended"
+msgstr "رفع تعلیق"
+
+#: classes/admin/class-settings.php:439
+msgid "This email is sent when vendor is unsuspended"
+msgstr "این ایمیل هنگام رفع تعلیق یا توقیف حساب فروشنده ارسال می شود"
+
+#: classes/admin/class-settings.php:445
+msgid "Vendor Unsuspended Email Contents"
+msgstr "محتوای ایمیل رفع تعلیق یا توقیف"
+
+#: classes/admin/class-settings.php:446
+msgid ""
+"This setting sets what is in the email body for the vendor unsuspended email."
+msgstr ""
+"محتوای ایمیل ارسالی هنگام رفع تعلیق یا توقیف حساب فروشندگان از اینجا مشخص می "
+"شود"
+
+#: classes/admin/class-settings.php:456
+msgid "New Submission"
+msgstr "محصول جدید"
+
+#: classes/admin/class-settings.php:457
+msgid ""
+"This email is sent when vendor submits a new product and the \"auto approve "
+"submissions\" setting is off"
+msgstr ""
+"هنگامی که تایید خودکار محصولات غیر فعال باشد و فروشنده محصول جدیدی برای "
+"تایید ارسال نماید این ایمیل ارسال خواهد شد"
+
+#: classes/admin/class-settings.php:464
+msgid "New Submission Email Contents"
+msgstr "محتوای ایمیل محصول جدید"
+
+#: classes/admin/class-settings.php:465
+msgid ""
+"This setting sets what is in the email body for the new submission email."
+msgstr ""
+"محتوای ایمیل ارسالی برای بازبینی محصولات جدید و در انتظار تایید از اینجا "
+"مشخص می شود"
+
+#: classes/admin/class-settings.php:477
+msgid "Submission Approved"
+msgstr "تایید محصول"
+
+#: classes/admin/class-settings.php:478
+msgid ""
+"This email is sent when a new submitted product is approved and the \"auto "
+"approve submissions\" setting is off "
+msgstr ""
+"هنگامی که \"تایید خودکار محصولات\" غیر فعال باشد و محصول ارسالی فروشنده "
+"تایید شود این ایمیل ارسال میگردد"
+
+#: classes/admin/class-settings.php:485
+msgid "Submission Approved Email Contents"
+msgstr "محتوای ایمیل تایید محصول"
+
+#: classes/admin/class-settings.php:486
+msgid ""
+"This setting sets what is in the email body for the submission approved "
+"email."
+msgstr ""
+"محتوای ایمیل ارسالی هنگام تایید شدن محصول ارسالی از این قسمت مشخص می شود"
+
+#: classes/admin/class-settings.php:496 classes/class-emails.php:210
+msgid "Submission Declined"
+msgstr "عدم تایید محصول"
+
+#: classes/admin/class-settings.php:497
+msgid ""
+"This email is sent when a new submitted product is declined and the \"auto "
+"approve submissions\" setting is off "
+msgstr ""
+"هنگامی که \"تایید خودکار محصولات\" غیر فعال باشد و محصول ارسالی تایید نشود "
+"این ایمیل ارسال میگردد"
+
+#: classes/admin/class-settings.php:504
+msgid "Submission Declined Email Contents"
+msgstr "محتوای ایمیل عدم تایید محصول"
+
+#: classes/admin/class-settings.php:505
+msgid ""
+"This setting sets what is in the email body for the submission declined "
+"email."
+msgstr "محتوای ایمیل ارسالی مربوط به عدم تایید محصول از اینجا مشخص می شود"
+
+#: classes/admin/class-settings.php:515 classes/class-emails.php:223
+msgid "Submission Revoked"
+msgstr "لغو محصول جدید"
+
+#: classes/admin/class-settings.php:516
+msgid "This email is sent when a product is revoked"
+msgstr "ایمیل ارسالی هنگام لغو محصول جدید"
+
+#: classes/admin/class-settings.php:522
+msgid "Submission Revoked Email Contents"
+msgstr "محتوای ایمیل لغو محصول"
+
+#: classes/admin/class-settings.php:523
+msgid ""
+"This setting sets what is in the email body for the submission revoked email."
+msgstr "محتوای ایمیل ارسالی هنگام لغو محصول ارسالی جدید در این بخش مشخص می شود"
+
+#: classes/admin/class-settings.php:534
+msgid "Integrations"
+msgstr "یکپارچه سازی"
+
+#: classes/admin/class-settings.php:535
+msgid "<p class=\"description\">Settings for FES Integrations</p>"
+msgstr "<p class=\"description\">تنظیمات یکپارچه سازی رابط ظاهری</p>"
+
+#: classes/admin/class-settings.php:540
+msgid "reCAPTCHA Site key"
+msgstr "کلید reCAPTCHA"
+
+#: classes/admin/class-settings.php:541 classes/admin/class-settings.php:547
+msgid "You can create your reCAPTCHA keys "
+msgstr "اگر کلید reCAPTCHA ندارد "
+
+#: classes/admin/class-settings.php:541 classes/admin/class-settings.php:547
+msgid "here"
+msgstr "ساخت کلید"
+
+#: classes/admin/class-settings.php:546
+msgid "reCAPTCHA Secret key"
+msgstr "کلید خصوصی reCAPTCHA "
+
+#: classes/admin/class-settings.php:552
+msgid "reCAPTCHA on the login form"
+msgstr "reCAPTCHA در فرم ورود"
+
+#: classes/admin/class-settings.php:553
+msgid ""
+"If on, creates a reCAPTCHA field on the login form on the vendor dashboard"
+msgstr ""
+"اگر فعال باشد هنگام ورود فروشندگان از فرم ورود مربوطه reCAPTCHA  نمایش داده "
+"می شود"
+
+#: classes/admin/class-settings.php:563
+msgid "reCAPTCHA on the vendor contact form"
+msgstr "reCAPTCHA در فرم تماس با فروشنده"
+
+#: classes/admin/class-settings.php:564
+msgid "If on, creates a reCAPTCHA field on the vendor contact form"
+msgstr "اگر فعال باشد در فرم تماس با ما فروشندگان reCAPTCHA  نمایش داده می شود"
+
+#: classes/admin/class-settings.php:588
+#: classes/admin/vendors/pdf-reports.php:44
+#: classes/admin/vendors/pdf-reports.php:45
+msgid "Easy Digital Downloads"
+msgstr "ایزی دیجیتال دانلود"
+
+#: classes/admin/class-settings.php:592
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: classes/admin/class-settings.php:593
+msgid "FES Settings"
+msgstr "تنظیمات رابط ظاهری"
+
+#: classes/admin/class-settings.php:618 classes/admin/class-settings.php:663
+msgid "Thanks for using EDD FES"
+msgstr "برای استفاده از رابط ظاهری EDD متشکریم"
+
+#: classes/admin/class-tools.php:58
+msgid "Form Tools"
+msgstr "ابزارهای فرم"
+
+#: classes/admin/class-tools.php:71
+msgid "Successfully imported the "
+msgstr "موفقیت در رون ریزی"
+
+#: classes/admin/class-tools.php:71 classes/admin/class-tools.php:73
+msgid " form!"
+msgstr "فرم!"
+
+#: classes/admin/class-tools.php:73
+msgid "Successfully reset the "
+msgstr "موفقیت در بازنشانی"
+
+#: classes/admin/class-tools.php:77
+msgid "Successfully removed "
+msgstr "موفقیت در حذف"
+
+#: classes/admin/class-tools.php:77
+msgid " extra form(s)!"
+msgstr "فرم های مازاد"
+
+#: classes/admin/class-tools.php:80 classes/admin/class-tools.php:84
+msgid "No extra forms to remove!"
+msgstr "فرم مازادی برای حذف موجود نیست"
+
+#: classes/admin/class-tools.php:88
+msgid "Reset meta for all forms!"
+msgstr "بازنشانی متا در تمام فرم ها"
+
+#: classes/admin/class-tools.php:92
+msgid "Resetting meta failed!"
+msgstr "بازنشانی متا ناموفق بود!"
+
+#: classes/admin/class-tools.php:96
+msgid "Reset all forms!"
+msgstr "بازنشانی تمامی فرم ها!"
+
+#: classes/admin/class-tools.php:100
+msgid "Resetting forms failed!"
+msgstr "بازنشانی فرم ها ناموفق بود"
+
+#: classes/admin/class-tools.php:106
+msgid "Import Form"
+msgstr "درون ریزی فرم"
+
+#: classes/admin/class-tools.php:108
+msgid "Import form settings from a .json file."
+msgstr "درون ریزی تنظیمات فرم با استفاده از فایل .json"
+
+#: classes/admin/class-tools.php:116
+msgid "Export Form"
+msgstr "برون ریزی فرم"
+
+#: classes/admin/class-tools.php:118
+msgid "Export form settings as a .json file"
+msgstr "برون ریزی فرم در قالب فایل  .json"
+
+#: classes/admin/class-tools.php:126
+msgid "Reset Form"
+msgstr "بازنشانی فرم"
+
+#: classes/admin/class-tools.php:128
+msgid "Restores form settings back to new install defaults"
+msgstr "بازنشانی تنظیمات فرم ها به حالت پیش فرض نصب"
+
+#: classes/admin/class-tools.php:136
+msgid "Reset All Forms"
+msgstr "بازنشانی همه فرم ها"
+
+#: classes/admin/class-tools.php:138
+msgid "This action resets all FES Forms"
+msgstr "این اقدام باعث بازنشانی تمامی فرم های رابط ظاهری می شود"
+
+#: classes/admin/class-tools.php:143
+msgid "Reset Forms"
+msgstr "بازنشانی فرم ها"
+
+#: classes/admin/class-tools.php:152
+msgid "Reset Meta for All Forms"
+msgstr "بازنشانی متا برای تمامی فرم ها"
+
+#: classes/admin/class-tools.php:154
+msgid "This action resets the meta added in FES 2.3 for all FES Forms"
+msgstr ""
+"این اقدام باعث بازنشانی تمامی متاهای افزوده شده، برای همه فرم ها می شود"
+
+#: classes/admin/class-tools.php:159
+msgid "Reset Meta For All Forms"
+msgstr "بازنشانی متا برای تمامی فرم ها"
+
+#: classes/admin/class-tools.php:168
+msgid "Delete Extraneous Forms"
+msgstr "حذف تمامی فرم های غیر اصلی"
+
+#: classes/admin/class-tools.php:170
+msgid ""
+"This action deletes all FES Forms which are not assigned to a form in the "
+"FES Settings Panel"
+msgstr ""
+"این اقدام باعث حذف تمامی فرم هایی خواهد شد که در پنل تنظیمات رابط ظاهری به "
+"فرم خاصی اختصاص داده نشده اند"
+
+#: classes/admin/class-tools.php:175
+msgid "Delete Unassigned Forms"
+msgstr "حذف فرم های اختصاص داده نشده"
+
+#: classes/admin/class-tools.php:211 classes/admin/class-tools.php:252
+#: classes/admin/class-tools.php:293
+msgid "Please upload a valid .json file"
+msgstr "لطفا فایل .json معتبر آپلود کنید"
+
+#: classes/admin/class-tools.php:217 classes/admin/class-tools.php:258
+#: classes/admin/class-tools.php:299
+msgid "Please upload a file to import"
+msgstr "برای درون ریزی فایلی آپلود کنید"
+
+#: classes/admin/class-tools.php:431 classes/admin/class-tools.php:612
+msgid "Contact Form"
+msgstr "فرم تماس"
+
+#: classes/admin/class-tools.php:671
+msgid "Import"
+msgstr "درون ریزی"
+
+#: classes/admin/class-tools.php:693
+msgid "Export"
+msgstr "برون ریزی"
+
+#: classes/admin/class-tools.php:717
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: classes/admin/class-tracking.php:249
+msgid ""
+"Allow EDD FES to tell Chris, the developer of FES, how you're using FES so "
+"he can work on making it better for everyone. No sensitive data is tracked."
+msgstr ""
+"به رابط ظاهری اجازه دهید تا نحوه استفاده را به کریس، توسعه دهنده این افزونه "
+"ارسال کند در نتیجه او می تواند جهت عملکرد بهتر افزونه برای همه تلاش کند. "
+"اطلاعات حساس پیگیری و ارسال نمی شود."
+
+#: classes/admin/class-tracking.php:252
+msgid "Absolutely, I'll help the cause"
+msgstr "حتما، من در این مورد کمک می کنم"
+
+#: classes/admin/class-tracking.php:256
+#, php-format
+msgctxt "tracking link is the %s"
+msgid ""
+"You can read a full list of the data collected (and why I need it) %s here %s"
+msgstr ""
+"لیستی از تمام اطلاعات و دلیل جمع آوری آنها را می توانید از %s اینجا %s "
+"مطالعه کنید"
+
+#: classes/admin/class-update.php:3
+msgid "FES Upgrades"
+msgstr "ارتقاء رابط ظاهری"
+
+#: classes/admin/class-update.php:14
+msgid "Frontend Submissions - Upgrades"
+msgstr "ارسال از رابط ظاهری - ارتقا"
+
+#: classes/admin/class-update.php:16
+msgid ""
+"The upgrade process is running, please be patient. This could take several "
+"minutes to complete."
+msgstr ""
+"روند ارتقاء در حال انجام است، لطفا شکیبا باشید، این عملیات ممکن است دقایقی "
+"به طول بیانجامد."
+
+#: classes/admin/class-update.php:17
+#, php-format
+msgid "Step %d of approximately %d running"
+msgstr "مرحله %d از %d در حال اجرا"
+
+#: classes/admin/class-update.php:37
+#, php-format
+msgid ""
+"Vendor permissions need to be updated, click <a href=\"%s\">here</a> to "
+"start the upgrade."
+msgstr ""
+"دسترسی فروشندگان نیازمند بروزرسانی است، <a href=\"%s\">اینجا</a> کلیک کنید "
+"برای بروزرسانی."
+
+#: classes/admin/class-update.php:44
+#, php-format
+msgid ""
+"The vendor table needs to be updated, click <a href=\"%s\">here</a> to start "
+"the upgrade."
+msgstr ""
+"جداول فروشندگان نیازمند بروزرسانی است، <a href=\"%s\">اینجا</a> کلیک کنید "
+"برای بروزرسانی."
+
+#: classes/admin/class-welcome.php:77
+msgid "What's New"
+msgstr "موارد تازه"
+
+#: classes/admin/class-welcome.php:80
+msgid "Getting Started"
+msgstr "دست به کار شوید"
+
+#: classes/admin/class-welcome.php:83
+msgid "Support & Documentation"
+msgstr "پشتیبانی و مستندات"
+
+#: classes/admin/class-welcome.php:86
+msgid "Changelog"
+msgstr "تغییرات"
+
+#: classes/admin/class-welcome.php:132
+#, php-format
+msgid "Welcome to FES %s"
+msgstr "به رابط ظاهری خوش آمدید %s"
+
+#: classes/admin/class-welcome.php:133
+#, php-format
+msgctxt "FES version number"
+msgid ""
+"Thank you for updating to the latest version! Easy Digital Downloads "
+"Frontend Submissions %s is ready to make your online store faster, safer and "
+"better!"
+msgstr ""
+"برای بروزرسانی به آخرین نسخه منتشر شده از شما متشکریم! رابط ظاهری ایزی "
+"دیجیتال دانلود %s در دسترس شماست تا فروشگاهی با امنیت و سرعت بیشتر را تجربه "
+"کنید."
+
+#: classes/admin/class-welcome.php:156
+#, php-format
+msgctxt "FES version number"
+msgid "FES %s release highlights:"
+msgstr "رابط ظاهری %s و نکات برجسته:"
+
+#: classes/admin/class-welcome.php:160 classes/admin/class-welcome.php:297
+msgid "Vendor Management"
+msgstr "مدیریت فروشندگان"
+
+#: classes/admin/class-welcome.php:166
+msgid "Vendor Table"
+msgstr "جداول فروشندگان"
+
+#: classes/admin/class-welcome.php:167
+msgid ""
+"The vendors interface has been updated to make finding vendors easier than "
+"ever! You can now search for vendors using the new search box by user ID, "
+"username, user email, or any custom meta key. Every column in the vendor "
+"table can also be sorted."
+msgstr ""
+"تغییر در نحوه نمایش فروشندگان یافتن آنها را از هر زمان دیگری ساده تر کرده "
+"است! کافی است فرشنده مورد نظرتان را در جستجوگر جدید بر اساس شماره کاربری ، "
+"نام کاربری ، ایمیل یا حتی متاهای سفارشی خودتان جستجو کنید. هر ستون از جداول "
+"فروشندگان قابل دسترسی و مرتب سازی است."
+
+#: classes/admin/class-welcome.php:168
+msgid "Vendor Details"
+msgstr "جزئیات فروشندگان"
+
+#: classes/admin/class-welcome.php:169
+msgid ""
+"The edit vendor page has been completely rewritten from scratch using the "
+"familiar interface of Easy Digital Downloads's Edit Customer screen. "
+"Additionally, new vendor reports have been added for those who are also "
+"using EDD Commissions."
+msgstr ""
+"صفحه ویرایش کاربران، با طراحی مجدد از پایه، ظاهری آشنا و مشابه بخش ویرایش "
+"مشتریان در ایزی دیجیتال دانلود را برای شما فراهم می سازد. همچنین؛ بخش جدید "
+"گزارشات فروشندگان برای افرادی که از افزونه کمیسیون ها استفاده می کنند افزوده "
+"شده است."
+
+#: classes/admin/class-welcome.php:170
+msgid "Quickly Convert Users to Vendors"
+msgstr "تبدیل سریع کاربران به فروشنده"
+
+#: classes/admin/class-welcome.php:171
+msgid ""
+"Changing a user to a vendor is now as simple as a single click on the user "
+"edit screen. With FES 2.3, converting a user to a vendor has never been "
+"easier!"
+msgstr ""
+"تبدیل کاربران معمولی به فروشنده، به سادگی یک کلیک ساده در صفحه ویرایش "
+"کاربران امکان پذیر است. با رابط ظاهری 2.3 تبدیل کاربران به فروشنده هرگز از "
+"این ساده تر نبوده است."
+
+#: classes/admin/class-welcome.php:177
+msgid "Formbuilder Improvements"
+msgstr "بهبود در فرم ساز"
+
+#: classes/admin/class-welcome.php:183
+msgid "New & Improved Fields"
+msgstr "فیلدهای جدید و بهبود یافته"
+
+#: classes/admin/class-welcome.php:184
+msgid ""
+"With FES 2.3, you can now add a honeypot field. In addition the reCAPTCHA "
+"field has been upgraded to use reCAPTCHA 2.0 and now with just a single "
+"click your vendors can confirm they are not a robot."
+msgstr ""
+"با رابط ظاهری 2.3 به راحتی آب خوردن فیلد اضافه کنید. همچنین فیلد مربوط به "
+"reCAPTCHA به نسخه 2.0 ارتقا یافته است و کاربران به راحتی یک کلیک هویت غیر "
+"رباتیک خود را تایید می کنند."
+
+#: classes/admin/class-welcome.php:185
+msgid "Improved Sidebar"
+msgstr "بهبود سایدبار"
+
+#: classes/admin/class-welcome.php:186
+msgid ""
+"In FES 2.3, finding fields is easier than ever. Extension added fields and "
+"form-specific fields are now seperated from custom fields."
+msgstr ""
+"در رابط ظاهری 2.3 یافتن فیلدها از همیشه آسان تر است. فیلدهای اضافی و فیلدهای "
+"مشخص مربوط به فرم ها، هم اکنون از زمینه های دلخواه تفکیک شده است."
+
+#: classes/admin/class-welcome.php:187
+msgid "Show Fields from the Submission on Product Pages"
+msgstr "نمایش فیلدهای موجود از فرم ارسال محصول، در صفحه محصولات"
+
+#: classes/admin/class-welcome.php:188
+msgid ""
+"With FES 2.3, you can now show the values of all of your custom fields on "
+"the product pages for customers to see. Each custom field on the submission "
+"form now has a checkbox so you can pick and choose which ones to show."
+msgstr ""
+"توسط رابط ظاهری 2.3 می توانید محتوای تمامی زمینه های دلخواه را به مشتریان در "
+"صفحه محصولات نشان دهید. هر زمینه دلخواه هم اکنون به شما این امکان را میدهد "
+"تا انتخاب کنید آیا در صفحه محصولات نمایش داده شود یا خیر"
+
+#: classes/admin/class-welcome.php:194
+msgid "Settings Panel Upgrades"
+msgstr "ارتقاء پنل تنظیمات"
+
+#: classes/admin/class-welcome.php:200
+msgid "The Latest & Greatest from Redux Framework"
+msgstr "آخرین و بهترین از Redux Framework"
+
+#: classes/admin/class-welcome.php:201
+msgid ""
+"FES 2.3 upgrades the bundled version of the Redux Framework over 40 "
+"versions. The new bundled version of Redux Framework has been crafted with "
+"care to minimize distrations, and contains significant performance "
+"improvements over previous versions."
+msgstr ""
+"رابط ظاهری 2.3 همراه با ارتقاء بیش از 40 نسخه از Redux Framework هم اکنون می "
+"تواند کوتاه ترین فواصل را برای کارایی و مقصد دسترسی به محتوا نسبت به نسخه "
+"های قبلی فراهم نماید."
+
+#: classes/admin/class-welcome.php:202
+msgid "Settings Panel Reorganization"
+msgstr "ساماندهی مجدد پنل تنظیمات"
+
+#: classes/admin/class-welcome.php:203
+msgid ""
+"The settings panel in FES has been reorganized to make setting up FES faster "
+"and easier than ever. Fields now conditionally hide depending on the values "
+"of other fields on-the-fly to minimize the number of fields you have to fill "
+"out."
+msgstr ""
+"پنل تنظیمات رابط ظاهری برای تجربه تنظیم به شکلی ساده تر و سریعتر از همیشه، "
+"فیلدهای مورد نیاز جهت ویرایش یا تنظیم را به شما نمایش میدهد، در مقابل "
+"فیلدهایی که فعلا نیازی به ویرایش آن ندارید مخفی خواهند بود تا در کمال راحتی "
+"فیلدهای مورد نیاز را تکمیل کنید."
+
+#: classes/admin/class-welcome.php:214
+msgid "Forms & Fields APIs"
+msgstr "API فرم ها و فیلدها"
+
+#: classes/admin/class-welcome.php:215
+msgid "Fields API"
+msgstr "API فیلدها"
+
+#: classes/admin/class-welcome.php:216
+msgid ""
+"The new Fields API in FES 2.3 marks a bold move to an era of extensibility "
+"for Frontend Submissions. Creating a field in Frontend Submissions has never "
+"been easier and more straightforward for developers."
+msgstr ""
+"API جدید فیلدها در رابط ظاهری 2.3 جهشی بزرگ در جهت توسعه پذیری ارسال از رابط "
+"کاربری است. ایجاد فیلد جدید در ارسال از رابط ظاهری برای توسعه دهندگان هرگز "
+"سر راست تر و ساده تر از این نبوده."
+
+#: classes/admin/class-welcome.php:217
+msgid "Forms API"
+msgstr "API فرم ها"
+
+#: classes/admin/class-welcome.php:218
+msgid ""
+"With the new Forms API, developers can easily hook in to any part of the "
+"form rendering and submission process, allowing new levels of flexibility "
+"unseen before with FES."
+msgstr ""
+"با  API جدید فرم ها، توسعه دهندگان به راحتی می توانند، سطح جدیدی از انعطاف "
+"پذیری در هماهنگی با فرم های ارسال را، که تا کنون در رابط ظاهری ندیده اند را "
+"تجربه کنند."
+
+#: classes/admin/class-welcome.php:224
+msgid "Tools Improvements"
+msgstr "ارتقاء ابزارها"
+
+#: classes/admin/class-welcome.php:225
+msgid "New Tools"
+msgstr "ابزارهای جدید"
+
+#: classes/admin/class-welcome.php:226
+msgid ""
+"A new tool to reset all forms of an FES site has been added to make "
+"resetting even easier."
+msgstr ""
+"ابزار جدیدی برای بازنشانی (ریست) تمامی فرم های سایت در رابط ظاهری افزوده شده "
+"است تا بازنشانی از همیشه ساده تر باشد"
+
+#: classes/admin/class-welcome.php:227
+msgid "Improved Tools"
+msgstr "ابزارهای ارتقاء یافته"
+
+#: classes/admin/class-welcome.php:228
+msgid ""
+"The import, export and reset tools now have been condensed, and offer a "
+"simple Chosen dropdown, greatly simplifying the amount of tools on the "
+"screen."
+msgstr ""
+"درون ریزی، برون ریزی و ابزارهای بازنشانی در لیستی کشویی متراکم شده است، لذا "
+"مقادیری از ابزارها ضمن سادگی فوق العلاده، در کنار هم فراهم شده اند."
+
+#: classes/admin/class-welcome.php:251
+msgid ""
+"Use the tips below to get started using Frontend Submissions. You will be up "
+"and running in no time!"
+msgstr ""
+"از نکات زیر برای شروع کار با؛ ارسال از رابط ظاهری، استفاده کنید. در سریعترین "
+"زمان ممکن دست به کار خواهید شد."
+
+#: classes/admin/class-welcome.php:255
+msgid "Configure Your Marketplace Settings"
+msgstr "پیکربندی تنظیمات بازار شما"
+
+#: classes/admin/class-welcome.php:261
+#, php-format
+msgctxt "FES settings pagel ink"
+msgid "<a href=\"%s\">EDD FES &rarr; Settings</a>"
+msgstr "<a href=\"%s\">رابط ظاهری &rarr; تنظیمات</a>"
+
+#: classes/admin/class-welcome.php:262
+msgid ""
+"FES makes it easy for vendors to submit products to your store without your "
+"assistance. However, you still need to control how the vendor interacts with "
+"your system."
+msgstr ""
+"رابط ظاهری ارسال محصولات برای فروشندگان، بدون کمک شما را ممکن می سازد، گرچه "
+"در صورت تمایل می توانید نحوه فعالیت فروشندگان در سیستم را تحت کنترل داشته "
+"باشید."
+
+#: classes/admin/class-welcome.php:263
+msgid "Settings & Emails"
+msgstr "تنظیمات و ایمیل ها"
+
+#: classes/admin/class-welcome.php:264
+msgid ""
+"Set your marketplace up to function exactly how you'd like. Easily change "
+"the terms \"vendor\" and \"product\" to something that meets your needs or "
+"even customize the emails sent to you or your vendors every time a specific "
+"action is completed on your store."
+msgstr ""
+"عملکرد بازار خود را هرطور که دوست دارید تعریف کنید. به راحتی \"فروشندگان\" و "
+"\"محصولات\" را به هر اصطلاحی که مورد نیازتان است تغییر دهید. حتی می توانید "
+"ایمیل های ارسالی بعد از تکمیل شدن یا رخداد هر اتفاق در سایت کنترل یا سفارشی "
+"سازی کنید."
+
+#: classes/admin/class-welcome.php:266
+msgid ""
+"You can control permissions like whether or not vendors have access to your "
+"WordPress dashboard, if they will be able to edit their own products after "
+"submission, or if vendor registration is even allowed."
+msgstr ""
+"سطح دسترسی فروشندگان را به راحتی مشخص کنید؛ می توانند به داشبورد مدیریتی "
+"وردپرس دسترسی داشته باشند یا خیر، می توانند بعد از ارسال محصولات دوباره همان "
+"محصول را ویرایش کنند یا خیر، و حتی آیا فروشندگان برای ثبت نام مجاز هستند یا "
+"خیر."
+
+#: classes/admin/class-welcome.php:272
+msgid "Build Your Forms With Precision"
+msgstr "فرم هایتان را با دقت بسازید"
+
+#: classes/admin/class-welcome.php:279
+msgid ""
+"Your FES Submission Form is what vendors will use to submit products to your "
+"site. Much like <em>you</em> would when creating a new download from your "
+"WordPress dashboard, vendors will use the Submission Form to create products "
+"from the front-end of your site."
+msgstr ""
+"فرم ارسال رابط ظاهری، همان چیزی است که فروشندگان از آن برای ارسال محصولات در "
+"سایت شما استفاده می کنند. همچون شما که از پنل اصلی مدیریت وردپرس محصولات را "
+"در سایت منتشر می کنید، کاربران قادر هستند تا در بخش جلویی سایت (رابط ظاهری) "
+"اقدام به ارسال محصول کنند."
+
+#: classes/admin/class-welcome.php:280
+msgid ""
+"Using the powerful FES form builder interface, choose the exact form fields "
+"you'd like your vendors to have access to when submitting products. You can "
+"provide everything from a list of available categories to repeatable file "
+"upload fields."
+msgstr ""
+"با استفاده از فرم ساز قدرتمند رابط ظاهری تعیین کنید فروشندگان دقیقا می "
+"توانند به کدام فیلدها یا زمینه ها هنگام ارسال محصول دسترسی داشته باشند. همه "
+"چیز را می توانید برای آنها فراهم کنید از لیست دسته بندی های موجود تا امکان "
+"آپلود فایل های متعدد."
+
+#: classes/admin/class-welcome.php:281
+msgid "Registration & Profile Form"
+msgstr "فرم ثبت نام و پروفایل"
+
+#: classes/admin/class-welcome.php:282
+msgid ""
+"In order to become a vendor, a user must register using the FES registration "
+"form. You can customize the fields on the form to require certain "
+"information from your applicants. If approved, vendors can edit their own "
+"profiles based on the fields you've built into the Profile Form."
+msgstr ""
+"برای درخواست فروشندگی، کاربران باید با استفاده از فرم ثبت نام رابط ظاهری ثبت "
+"نام کنند. شما می توانید فیلدها یا زمینه های اطلاعاتی مورد نیازتان را در فرم "
+"برای پردازش درخواست ها جای گذاری کنید، اگر درخواست فروشندگی آنها تایید شوند "
+"می توانند پروفایل را بر اساس فیلدهای مشخص شده شما ویرایش کنند."
+
+#: classes/admin/class-welcome.php:288
+msgid "Manage Your Marketplace Vendors"
+msgstr "مدیریت فروشندگان بازار شما"
+
+#: classes/admin/class-welcome.php:294
+#, php-format
+msgid "<a href=\"%s\">EDD FES &rarr; Vendors</a>"
+msgstr "<a href=\"%s\">رابط ظاهری &rarr; فروشندگان</a>"
+
+#: classes/admin/class-welcome.php:295
+msgid ""
+"Easily see information about all of your marketplace vendors in one "
+"convenient location. Quickly see information about a vendor like number of "
+"products sold or even total sales value."
+msgstr ""
+"در محلی مناسب به سادگی تمامی اطلاعات مربوط به فروشندگان بازارتان را مشاهده "
+"کنید. اطلاعات مربوط به فروشندگان مانند تعداد محصولات فروش رفته یا حتی جمع کل "
+"مبلغ فروش را به سرعت مشاهده کنید."
+
+#: classes/admin/class-welcome.php:296
+msgid ""
+"You can also use quick links to view, revoke, or suspend vendor accounts "
+"with ease."
+msgstr ""
+"به سادگی و سریع می توانید؛ مشاهده کنید، لغو کنید و یا حتی حساب کاربری "
+"فروشنده را توقیف نمایید."
+
+#: classes/admin/class-welcome.php:298
+msgid ""
+"Without a doubt, vendors are the heartbeat of a marketplace system. That "
+"means vendor management and extremely important."
+msgstr ""
+"بدون شک قلب تپنده سیستم یک بازار، فروشندگان آن هستند. بدین معنی که مدیریت "
+"فروشندگان به شدت مورد توجه و اهمیت است."
+
+#: classes/admin/class-welcome.php:299
+msgid ""
+"Use FES's simple but powerful individual vendor screen to view or edit "
+"important information or even leave notes and view reports about a vendor's "
+"performance."
+msgstr ""
+"استفاده از صفحه نمایش ساده اما قدرتمند فروشندگان رابط ظاهری امکان مشاهده، "
+"ویرایش اطلاعات مهم، یا حتی یادداشت ها و مشاهده گزارشات در مورد عملکرد یک "
+"فروشنده را برای شما فراهم ساخته است."
+
+#: classes/admin/class-welcome.php:306
+msgid "Activate your license key."
+msgstr "فعالسازی کلید یا مجوز استفاده"
+
+#: classes/admin/class-welcome.php:307
+#, php-format
+msgid ""
+"When you purchased FES, you were given a license key for activation in your "
+"WordPress dashboard. License keys are your connection to automatic updates "
+"and support. To activate your license key, visit the <a href=\"%s\">EDD "
+"settings</a>."
+msgstr ""
+"هنگام خرید رابط ظاهری، یک کلید به عنوان مجوز برای استفاده در داشبورد وردپرس "
+"در اختیار شما قرار گرفته است. کلید استفاده اتصال برای بروزرسانی خودکار و "
+"دریافت پشتیبانی را ممکن میسازد. برای فعالسازی کلید مجوز خود به <a href=\"%s"
+"\">EDD تنظیمات</a> مراجعه کنید."
+
+#: classes/admin/class-welcome.php:310
+msgid "Need more detailed instructions?"
+msgstr "نیاز به دستورالعمل های کامل تری دارید؟"
+
+#: classes/admin/class-welcome.php:311
+#, php-format
+msgid ""
+"Don't worry, we've only scratched the surface. FES is highly customizable in "
+"both functionality and presentation. For more details on how to use FES or "
+"get help from support, visit the <a href=\"%s\">Support & Documentation</a> "
+"page."
+msgstr ""
+"نگران نباشید، این تازه اول ماجراست. رابط ظاهری به شدت از نظر عملکرد و ارائه "
+"منعطف است. برای جزئیات بیشتر در مورد نحوه استفاده از رابط ظاهری یا دریافت "
+"کمک از پشتیبانی صفحه <a href=\"%s\">پشتیبانی و مستندات</a> را مشاهده کنید."
+
+#: classes/admin/class-welcome.php:337
+msgid ""
+"We're here to help. Use FES's thorough documentation and amazing support as "
+"needed."
+msgstr ""
+"ما اینجاییم تا به شما کمک کنیم. از مستندات کامل و پشتیبانی فوق العلاده ما "
+"مطابق نیازتان بهره ببرید."
+
+#: classes/admin/class-welcome.php:342
+msgid "Highly Detailed Documentation"
+msgstr "مستندات و جزئیات بسیار دقیق"
+
+#: classes/admin/class-welcome.php:343
+#, php-format
+msgid ""
+"With the number of features, integrations, and possibilities present within "
+"the FES ecosystem, it's expected that you will want to learn more about its "
+"capabilities. To do so, please visit the <a href=\"%s\">FES documentation</"
+"a>."
+msgstr ""
+"با تعدادی از ویژگی ها، یکپارچه سازی و امکانات ارائه شده در سیستم رابط ظاهری "
+"طبیعی است که بخواهید در مورد قابلیت ها بیشتر بدانید. بدین منظور، لطفا <a "
+"href=\"%s\">مستندات رابط ظاهری</a> را مطالعه نمایید."
+
+#: classes/admin/class-welcome.php:346
+msgid "Frontend Submissions Support"
+msgstr "پشتیبانی ارسال از رابط ظاهری"
+
+#: classes/admin/class-welcome.php:347
+#, php-format
+msgid ""
+"FES is an extension for the Easy Digital Downloads plugin. Therefore, you "
+"can request support by submitting a ticket to the <a href=\"%s\">Easy "
+"Digital Downloads support form</a>. You will need to have your license key "
+"handy."
+msgstr ""
+"رابط ظاهری توسعه ای است برای افزونه ایزی دیجیتال دانلود. بنابراین می توانید "
+"درخواست پشتیبانی خود را از طریق ارسال تیکت در <a href=\"%s\">فرم پشتیبانی "
+"ایزی دیجیتال دانلود</a> ثبت کنید. حتما کلید مجوز استفاده (لایسنس) را در "
+"دسترس داشته باشید."
+
+#: classes/admin/class-welcome.php:350
+msgid "Need Custom Work?"
+msgstr "نیاز به سفارشی سازی دارید؟"
+
+#: classes/admin/class-welcome.php:351
+#, php-format
+msgid ""
+"While FES is capable of powering a complete marketplace system, you may need "
+"to tailor its functionality to your business with custom development. Easy "
+"Digital Downloads maintains a list of <a href=\"%s\">recommended "
+"consultants</a> that may be able to assist you."
+msgstr ""
+"از آنجایی که رابط ظاهری قادر است تا از پس کامل ترین سیستم های بازار و "
+"فروشگاهی برآید، ممکن است بخواهید عملکرد و قابلیت ها را بر اساس تجارت خود "
+"سفارشی سازی و گسترش دهید. ایزی دیجیتال دانلود لیستی از <a href=\"%s"
+"\">مشاوران پیشنهادی</a> برای کمک به شما فراهم آورده است."
+
+#: classes/admin/class-welcome.php:354
+msgid "Official FES Roadmap"
+msgstr "نقشه رسمی رابط ظاهری"
+
+#: classes/admin/class-welcome.php:355
+#, php-format
+msgid ""
+"FES is a very actively developed plugin. FES's official roadmap on <a href="
+"\"%s\">Trello</a> provides a glimpse at what we're working on for future "
+"versions."
+msgstr ""
+"رابط ظاهری افزونه ای است به طور مداوم در حال توسعه. نقشه ای از توسعه رابط "
+"ظاهری در <a href=\"%s\">ترلو</a> نگاهی اجمالی به ویژگی های تازه در نسخه های "
+"آتی خواهد داشت."
+
+#: classes/admin/class-welcome.php:393
+msgid "No valid changelog was found."
+msgstr "لیست تغییرات معتبری یافت نشد"
+
+#: classes/admin/downloads/class-download-table.php:32
+#: classes/admin/downloads/class-download-table.php:33
+msgid "Approve Downloads"
+msgstr "تایید محصولات"
+
+#: classes/admin/downloads/class-download-table.php:77
+#: classes/admin/downloads/class-download-table.php:122
+msgid "Submission Accepted"
+msgstr "ارسال تایید شد"
+
+#: classes/admin/downloads/class-download-table.php:149
+#, php-format
+msgctxt "Titles of downloads approved"
+msgid "%s approved"
+msgstr "%s تایید شد"
+
+#: classes/admin/downloads/class-download-table.php:151
+#, php-format
+msgctxt "Title of download apporved"
+msgid "%s approved"
+msgstr "%s تایید شد"
+
+#: classes/admin/downloads/class-download-table.php:162
+#: classes/admin/vendors/pdf-reports.php:68
+#: templates/frontend-edit-order.php:124 templates/frontend-products.php:11
+msgid "Price"
+msgstr "قیمت"
+
+#: classes/admin/downloads/class-download-table.php:163
+#: classes/admin/vendors/graphing.php:217
+#: classes/admin/vendors/graphing.php:222
+#: classes/admin/vendors/pdf-reports.php:275
+#: classes/admin/vendors/vendors.php:430 classes/admin/vendors/vendors.php:623
+msgid "Sales"
+msgstr "فروش"
+
+#: classes/admin/downloads/class-download-table.php:164
+#: classes/admin/vendors/graphing.php:216
+#: classes/admin/vendors/graphing.php:221
+#: classes/admin/vendors/pdf-reports.php:72
+#: classes/admin/vendors/pdf-reports.php:217
+#: classes/frontend/class-dashboard.php:215
+msgid "Earnings"
+msgstr "درآمد"
+
+#: classes/admin/downloads/class-download-table.php:212
+#: classes/frontend/class-dashboard.php:308
+#: templates/frontend-delete-product.php:12
+msgid "Delete"
+msgstr "حذف"
+
+#: classes/admin/downloads/class-download-table.php:218
+#: classes/admin/vendors/vendors.php:170 classes/admin/vendors/vendors.php:196
+msgid "Revoke"
+msgstr "لغو"
+
+#: classes/admin/downloads/class-download-table.php:226
+#: classes/admin/vendors/class-vendor-table.php:93
+#: classes/admin/vendors/vendors.php:183 classes/admin/vendors/vendors.php:184
+msgid "Approve"
+msgstr "تایید"
+
+#: classes/admin/downloads/class-download-table.php:272
+#: classes/frontend/class-dashboard.php:409
+#: classes/frontend/class-dashboard.php:476
+msgid "Live"
+msgstr "تایید شده"
+
+#: classes/admin/downloads/class-edit-download.php:113 edd-fes.php:157
+msgid "Frontend Submissions"
+msgstr "ارسال از رابط ظاهری"
+
+#: classes/admin/downloads/class-edit-download.php:120
+msgid "Submission form not set in FES settings"
+msgstr "فرم ارسال در تنظیمات رابط ظاهری مشخص نشده"
+
+#: classes/admin/downloads/class-edit-download.php:132
+msgid "edit page"
+msgstr "ویرایش صفحه"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:106
+#: classes/admin/formbuilder/class-formbuilder-templates.php:204
+#: classes/fields/taxonomy.php:354
+msgid "Required"
+msgstr "الزامی"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:108
+#: classes/admin/formbuilder/class-formbuilder-templates.php:206
+#: classes/class-setup.php:151 classes/class-setup.php:153
+#: classes/fields/multiple_pricing.php:263
+#: classes/fields/multiple_pricing.php:271
+#: classes/fields/multiple_pricing.php:279
+#: classes/fields/multiple_pricing.php:287 classes/fields/taxonomy.php:356
+msgid "Yes"
+msgstr "بله"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:109
+#: classes/admin/formbuilder/class-formbuilder-templates.php:207
+#: classes/class-setup.php:154 classes/fields/multiple_pricing.php:264
+#: classes/fields/multiple_pricing.php:272
+#: classes/fields/multiple_pricing.php:280
+#: classes/fields/multiple_pricing.php:288 classes/fields/taxonomy.php:357
+msgid "No"
+msgstr "خیر"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:117
+#: classes/admin/formbuilder/class-formbuilder-templates.php:215
+#: classes/fields/taxonomy.php:362
+msgid "Field Label"
+msgstr "نام فیلد"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:118
+#: classes/admin/formbuilder/class-formbuilder-templates.php:216
+#: classes/fields/taxonomy.php:363
+msgid "Enter a title of this field"
+msgstr "عنوان فیلد را وارد کنید"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:123
+#: classes/admin/formbuilder/class-formbuilder-templates.php:222
+#: classes/fields/hidden.php:122
+msgid "Meta Key"
+msgstr "کلید متا"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:124
+#: classes/admin/formbuilder/class-formbuilder-templates.php:223
+#: classes/fields/hidden.php:123
+msgid "Name of the meta key this field will save to"
+msgstr "نام کلید متایی که این فیلد در آن ذخیره خواهد شد"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:131
+#: classes/admin/formbuilder/class-formbuilder-templates.php:230
+#: classes/fields/taxonomy.php:389
+msgid "Help text"
+msgstr "متن راهنما"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:132
+#: classes/admin/formbuilder/class-formbuilder-templates.php:231
+#: classes/fields/taxonomy.php:390
+msgid "Give the user some information about this field"
+msgstr "اطلاعاتی از این فیلد برای کاربران بنویسید"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:136
+#: classes/admin/formbuilder/class-formbuilder-templates.php:235
+#: classes/fields/section_break.php:153 classes/fields/taxonomy.php:394
+#: classes/fields/toc.php:119
+msgid "CSS Class Name"
+msgstr "CSS Class"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:137
+#: classes/admin/formbuilder/class-formbuilder-templates.php:236
+#: classes/fields/section_break.php:154 classes/fields/taxonomy.php:395
+#: classes/fields/toc.php:120
+msgid "Add a CSS class name for this field"
+msgstr "CSS Class برای این فیلد را وارد کنید"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:263
+#: classes/admin/formbuilder/class-formbuilder-templates.php:310
+#: classes/fields/repeat.php:304
+msgid "Placeholder text"
+msgstr "متن پیش فرض"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:264
+msgid "Text for HTML5 placeholder attribute"
+msgstr "متن پیش فرض از ویژگی های HTML5"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:269
+#: classes/admin/formbuilder/class-formbuilder-templates.php:315
+#: classes/fields/repeat.php:309
+msgid "Default value"
+msgstr "مقدار پیش فرض"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:270
+msgid "The default value this field will have"
+msgstr "مقدار پیش فرض این فیلد را مشخص کنید"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:274
+#: classes/fields/repeat.php:314
+msgid "Size"
+msgstr "سایز"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:275
+msgid "Size of this input field"
+msgstr "سایز ورودی این فیلد را مشخص کنید"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:300
+msgid "Rows"
+msgstr "ردیف"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:305
+#: classes/fields/repeat.php:319
+msgid "Columns"
+msgstr "ستون"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:320
+msgid "Textarea"
+msgstr "ناحیه متنی"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:323
+msgid "Normal"
+msgstr "معمولی"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:324
+msgid "Rich textarea"
+msgstr "پیشرفته"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:325
+msgid "Teeny Rich textarea"
+msgstr "پیشرفته مختصر"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:453
+msgid "Show On Product Page?"
+msgstr "نمایش در صفحه محصولات؟"
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:457
+msgid "Show this field on the product listing page."
+msgstr "نمایش این فیلد در صفحه، لیست محصولات"
+
+#: classes/admin/formbuilder/class-formbuilder.php:14
+#: classes/admin/formbuilder/class-formbuilder.php:15
+#: classes/admin/formbuilder/class-formbuilder.php:16
+#: classes/admin/formbuilder/class-formbuilder.php:17
+#: classes/admin/formbuilder/class-formbuilder.php:19
+#: classes/admin/formbuilder/class-formbuilder.php:20
+#: classes/admin/formbuilder/class-formbuilder.php:21
+#: classes/admin/formbuilder/class-formbuilder.php:22
+#: classes/admin/formbuilder/class-formbuilder.php:23
+msgid "Form updated."
+msgstr "فرم بروزرسانی شد"
+
+#: classes/admin/formbuilder/class-formbuilder.php:18
+#, php-format
+msgid "Form restored to revision from %s"
+msgstr "فرم به پیش نویس %s بازگردانی شد"
+
+#: classes/admin/formbuilder/class-formbuilder.php:38
+msgid "Form Editor"
+msgstr "ویرایشگر فرم"
+
+#: classes/admin/formbuilder/class-formbuilder.php:39
+#: classes/admin/formbuilder/class-formbuilder.php:56
+#: classes/admin/formbuilder/class-formbuilder.php:59
+#: classes/admin/formbuilder/class-formbuilder.php:252
+#: classes/admin/formbuilder/class-formbuilder.php:253
+msgid "Save"
+msgstr "ذخیره"
+
+#: classes/admin/formbuilder/class-formbuilder.php:48
+msgid "Add "
+msgstr "افزودن"
+
+#: classes/admin/formbuilder/class-formbuilder.php:49
+msgid "Add Custom Fields"
+msgstr "افزودن فیلد دلخواه"
+
+#: classes/admin/formbuilder/class-formbuilder.php:50
+msgid "Add Extension Created Fields"
+msgstr "افزودن توسعه دهنده فیلد"
+
+#: classes/admin/formbuilder/class-formbuilder.php:55
+msgid "Form Settings"
+msgstr "تنظیمات فرم"
+
+#: classes/admin/formbuilder/class-formbuilder.php:58
+msgid "Form Notifications"
+msgstr "اطلاع رسانی فرم"
+
+#: classes/admin/formbuilder/class-formbuilder.php:81
+#: classes/admin/formbuilder/class-formbuilder.php:145
+#: classes/admin/formbuilder/class-formbuilder.php:172
+msgid "FES "
+msgstr "رابط ظاهری"
+
+#: classes/admin/formbuilder/class-formbuilder.php:88
+msgid "Your "
+msgstr "مربوط به شما"
+
+#: classes/admin/formbuilder/class-formbuilder.php:95
+msgid "Toggle All Fields Open/Close"
+msgstr "تغییر تمام فیلدها به باز/بسته"
+
+#: classes/admin/formbuilder/class-formbuilder.php:295
+#: classes/admin/formbuilder/class-formbuilder.php:346
+#: classes/admin/formbuilder/class-formbuilder.php:396
+msgid "Click to add to the editor"
+msgstr "برای افزودن به ویرایشگر کلیک کنید"
+
+#: classes/admin/formbuilder/class-formbuilder.php:304
+msgid "There are no form specific fields for this form"
+msgstr "هیچ قالب خاصی برای این فیلد در فرم موجود نیست"
+
+#: classes/admin/formbuilder/class-formbuilder.php:355
+msgid "There are no custom fields for this form"
+msgstr "هیچ زمینه دلخواهی در این فرم موجود نیست"
+
+#: classes/admin/formbuilder/class-formbuilder.php:406
+#: classes/admin/formbuilder/class-formbuilder.php:408
+#: classes/admin/formbuilder/class-formbuilder.php:410
+msgid "There are no extension fields for this form"
+msgstr "هیچ توسعه دهنده فیلدی برای این فرم موجود نیست"
+
+#: classes/admin/vendors/class-export-customers.php:66
+#: classes/admin/vendors/class-export-customers.php:78
+#, php-format
+msgctxt "FES singular uppercase setting for download"
+msgid "%s ID"
+msgstr "شماره %s"
+
+#: classes/admin/vendors/class-export-customers.php:67
+#: classes/admin/vendors/class-export-customers.php:79
+#, php-format
+msgctxt "FES singular uppercase setting for download"
+msgid "%s Title"
+msgstr "عنوان %s"
+
+#: classes/admin/vendors/class-export-customers.php:68
+#: classes/admin/vendors/class-export-customers.php:80
+#, php-format
+msgctxt "FES singular uppercase setting for download"
+msgid "%s Option ID"
+msgstr "آیدی گزینه %s"
+
+#: classes/admin/vendors/class-export-customers.php:69
+#: classes/admin/vendors/class-export-customers.php:81
+#, php-format
+msgctxt "FES singular uppercase setting for download"
+msgid "%s Option Title"
+msgstr "عنوان گزینه %s"
+
+#: classes/admin/vendors/class-export-customers.php:70 classes/schema.php:71
+msgid "First Name"
+msgstr "نام"
+
+#: classes/admin/vendors/class-export-customers.php:71 classes/schema.php:83
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: classes/admin/vendors/class-export-customers.php:72
+#: classes/admin/vendors/class-export-customers.php:88 classes/schema.php:163
+#: templates/frontend-edit-order.php:57
+msgid "Email"
+msgstr "ایمیل"
+
+#: classes/admin/vendors/class-export-customers.php:73
+msgid "Date Purchased"
+msgstr "تاریخ خرید"
+
+#: classes/admin/vendors/class-export-customers.php:85
+#: classes/fields/download_category.php:307
+#: classes/fields/download_tag.php:307 classes/fields/taxonomy.php:411
+#: classes/schema.php:151 templates/frontend-edit-order.php:53
+#: templates/frontend-edit-order.php:117 templates/frontend-products.php:9
+msgid "Name"
+msgstr "نام"
+
+#: classes/admin/vendors/class-export-customers.php:91
+msgid "Total Purchases"
+msgstr "مجموع خرید"
+
+#: classes/admin/vendors/class-export-customers.php:92
+msgid "Total Purchased"
+msgstr "جمع کل خریداری شده"
+
+#: classes/admin/vendors/class-export-customers.php:145
+#: classes/admin/vendors/class-export-customers.php:146
+#: classes/admin/vendors/class-export-customers.php:202
+#: classes/admin/vendors/class-export-customers.php:203
+msgid "N/A"
+msgstr "نامشخص"
+
+#: classes/admin/vendors/class-vendor-table.php:77
+#: classes/admin/vendors/class-vendor-table.php:109
+#: classes/admin/vendors/vendors.php:171 classes/admin/vendors/vendors.php:197
+#, php-format
+msgid "Revoke (and delete all %s of)"
+msgstr "لغو (و حذف همه %s)"
+
+#: classes/admin/vendors/class-vendor-table.php:82
+#: classes/admin/vendors/vendors.php:176 classes/admin/vendors/vendors.php:177
+msgid "Suspend"
+msgstr "معلق کردن"
+
+#: classes/admin/vendors/class-vendor-table.php:98
+#: classes/admin/vendors/vendors.php:189 classes/admin/vendors/vendors.php:190
+msgid "Decline"
+msgstr "عدم تایید"
+
+#: classes/admin/vendors/class-vendor-table.php:114
+#: classes/admin/vendors/vendors.php:202 classes/admin/vendors/vendors.php:203
+msgid "Unsuspend"
+msgstr "رفع تعلیق"
+
+#: classes/admin/vendors/class-vendor-table.php:134
+#: classes/admin/vendors/class-vendor-table.php:186
+#: classes/admin/vendors/vendors.php:331 classes/admin/vendors/vendors.php:916
+#: classes/admin/vendors/vendors.php:945
+#: classes/frontend/class-dashboard.php:501
+msgid "Pending"
+msgstr "منتظر بررسی"
+
+#: classes/admin/vendors/class-vendor-table.php:136
+#: classes/admin/vendors/class-vendor-table.php:187
+#: classes/admin/vendors/vendors.php:333 classes/admin/vendors/vendors.php:920
+#: classes/admin/vendors/vendors.php:947
+msgid "Approved"
+msgstr "تایید شده"
+
+#: classes/admin/vendors/class-vendor-table.php:138
+#: classes/admin/vendors/class-vendor-table.php:188
+#: classes/admin/vendors/vendors.php:335 classes/admin/vendors/vendors.php:912
+#: classes/admin/vendors/vendors.php:949 classes/class-vendor.php:758
+msgid "Suspended"
+msgstr "تعلیق شده"
+
+#: classes/admin/vendors/class-vendor-table.php:140
+#: classes/admin/vendors/vendors.php:337
+msgid "Unknown Column"
+msgstr "ستون غیر متعارف"
+
+#: classes/admin/vendors/class-vendor-table.php:171
+msgid "Name (username)"
+msgstr "نام (نام کاربری)"
+
+#: classes/admin/vendors/class-vendor-table.php:173
+#, php-format
+msgctxt "FES plural uppercase setting for download"
+msgid "Number of %s"
+msgstr "تعداد %s"
+
+#: classes/admin/vendors/class-vendor-table.php:174
+msgid "Sales Count"
+msgstr "تعداد فروش"
+
+#: classes/admin/vendors/class-vendor-table.php:175
+msgid "Sales Value"
+msgstr "مبلغ فروش"
+
+#: classes/admin/vendors/class-vendor-table.php:176
+#, php-format
+msgctxt "FES plural uppercase setting for download"
+msgid "%s Since"
+msgstr "%s از"
+
+#: classes/admin/vendors/class-vendor-table.php:185
+#: classes/frontend/class-dashboard.php:352
+msgid "All"
+msgstr "همه"
+
+#: classes/admin/vendors/class-vendor-table.php:196
+#, php-format
+msgid "Approve %s"
+msgstr "تایید %s"
+
+#: classes/admin/vendors/class-vendor-table.php:197
+#, php-format
+msgid "Decline %s"
+msgstr "عدم تایید %s"
+
+#: classes/admin/vendors/class-vendor-table.php:198
+#, php-format
+msgid "Revoke %s"
+msgstr "لغو %s"
+
+#: classes/admin/vendors/class-vendor-table.php:199
+#, php-format
+msgid "Suspend %s"
+msgstr "تعلیق %s"
+
+#: classes/admin/vendors/class-vendor-table.php:200
+#, php-format
+msgid "Unsuspend %s"
+msgstr "رفع تعلیق %s"
+
+#: classes/admin/vendors/graphing.php:58
+#, php-format
+msgid "This user has no %s!"
+msgstr "این کاربر فاقد %s است!"
+
+#: classes/admin/vendors/graphing.php:223
+#: classes/admin/vendors/pdf-reports.php:246
+msgid "Commissions"
+msgstr "کمیسیون ها"
+
+#: classes/admin/vendors/graphing.php:233
+msgid "Earnings Over Time"
+msgstr "درآمدهای مازاد"
+
+#: classes/admin/vendors/graphing.php:248
+msgid "Total earnings for period shown: "
+msgstr "مجموع درآمد دوره بدین شرح است:"
+
+#: classes/admin/vendors/graphing.php:249
+msgid "Total sales for period shown: "
+msgstr "مجموع فروش دوره بدین شرح است:"
+
+#: classes/admin/vendors/graphing.php:251
+msgid "Total commissions for period shown: "
+msgstr "مجموع کمیسیون دوره بدین شرح است:"
+
+#: classes/admin/vendors/graphing.php:255
+msgid "Estimated monthly earnings: "
+msgstr "درآمد تخمین زده شده ماهیانه:"
+
+#: classes/admin/vendors/graphing.php:256
+msgid "Estimated monthly sales: "
+msgstr "فروش تخمین زده شده ماهانه:"
+
+#: classes/admin/vendors/graphing.php:258
+msgid "Estimated monthly commissions: "
+msgstr "کمیسیون تخمین زده شده ماهانه:"
+
+#: classes/admin/vendors/graphing.php:331
+msgid "You do not have permission to access this report"
+msgstr "شما مجوز لازم برای مشاهده این گزارش را ندارید"
+
+#: classes/admin/vendors/graphing.php:527
+msgid "Today"
+msgstr "امروز"
+
+#: classes/admin/vendors/graphing.php:528
+msgid "Yesterday"
+msgstr "دیروز"
+
+#: classes/admin/vendors/graphing.php:529
+msgid "This Week"
+msgstr "این هفته"
+
+#: classes/admin/vendors/graphing.php:530
+msgid "Last Week"
+msgstr "هفته پیش"
+
+#: classes/admin/vendors/graphing.php:531
+msgid "This Month"
+msgstr "این ماه"
+
+#: classes/admin/vendors/graphing.php:532
+msgid "Last Month"
+msgstr "ماه پیش"
+
+#: classes/admin/vendors/graphing.php:533
+msgid "This Quarter"
+msgstr "سه ماه اخیر"
+
+#: classes/admin/vendors/graphing.php:534
+msgid "Last Quarter"
+msgstr "سه ماه گذشته"
+
+#: classes/admin/vendors/graphing.php:535
+msgid "This Year"
+msgstr "امسال"
+
+#: classes/admin/vendors/graphing.php:536
+msgid "Last Year"
+msgstr "سال قبل"
+
+#: classes/admin/vendors/graphing.php:537
+msgid "Custom"
+msgstr "دلخواه"
+
+#: classes/admin/vendors/graphing.php:567
+msgid "From"
+msgstr "از"
+
+#: classes/admin/vendors/graphing.php:583
+msgid "To"
+msgstr "تا"
+
+#: classes/admin/vendors/pdf-reports.php:29
+msgid "You do not have permission to generate PDF sales reports"
+msgstr "شما مجوز لازم برای ایجاد گزارشات PDF را ندارید"
+
+#: classes/admin/vendors/pdf-reports.php:33
+msgid "Nonce verification failed"
+msgstr "اهراز ناموفق بود"
+
+#: classes/admin/vendors/pdf-reports.php:38
+msgid "to"
+msgstr "تا"
+
+#: classes/admin/vendors/pdf-reports.php:43
+msgid "Sales and earnings reports for "
+msgstr "گزارشات درآمد و فروش برای"
+
+#: classes/admin/vendors/pdf-reports.php:54
+msgid "Sales and Earnings Report for the current year for "
+msgstr "گزارشات درآمد و فروش امسال برای"
+
+#: classes/admin/vendors/pdf-reports.php:59
+msgid "Date Range: "
+msgstr "محدوده زمانی:"
+
+#: classes/admin/vendors/pdf-reports.php:63
+msgid "Table View"
+msgstr "نمایش جدولی"
+
+#: classes/admin/vendors/pdf-reports.php:67
+msgid "Product Name"
+msgstr "نام محصول"
+
+#: classes/admin/vendors/pdf-reports.php:69
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: classes/admin/vendors/pdf-reports.php:70
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: classes/admin/vendors/pdf-reports.php:71
+msgid "Number of Sales"
+msgstr "تعداد فروش"
+
+#: classes/admin/vendors/pdf-reports.php:142
+#, php-format
+msgid "No %s found."
+msgstr "هیچ %s یافت نشد."
+
+#: classes/admin/vendors/pdf-reports.php:149
+msgid "Graph View"
+msgstr "مشاهده نموداری"
+
+#: classes/admin/vendors/pdf-reports.php:278
+#, php-format
+msgid "Sales, Earnings, and Commissions by Month For All %s"
+msgstr "فروش، درآمد، و کمیسیون ها بر اساس ماه برای تمامی %s"
+
+#: classes/admin/vendors/pdf-reports.php:286
+msgid "Jan"
+msgstr "ژانویه"
+
+#: classes/admin/vendors/pdf-reports.php:287
+msgid "Feb"
+msgstr "فوریه"
+
+#: classes/admin/vendors/pdf-reports.php:288
+msgid "Mar"
+msgstr "مارس"
+
+#: classes/admin/vendors/pdf-reports.php:289
+msgid "Apr"
+msgstr "اوریل"
+
+#: classes/admin/vendors/pdf-reports.php:290
+msgid "May"
+msgstr "می"
+
+#: classes/admin/vendors/pdf-reports.php:291
+msgid "June"
+msgstr "ژوئن"
+
+#: classes/admin/vendors/pdf-reports.php:292
+msgid "July"
+msgstr "جولای"
+
+#: classes/admin/vendors/pdf-reports.php:293
+msgid "Aug"
+msgstr "اوت"
+
+#: classes/admin/vendors/pdf-reports.php:294
+msgid "Sept"
+msgstr "سپتامبر"
+
+#: classes/admin/vendors/pdf-reports.php:295
+msgid "Oct"
+msgstr "اکتبر"
+
+#: classes/admin/vendors/pdf-reports.php:296
+msgid "Nov"
+msgstr "نوامبر"
+
+#: classes/admin/vendors/pdf-reports.php:297
+msgid "Dec"
+msgstr "دسامبر"
+
+#: classes/admin/vendors/vendor-actions.php:15
+#, php-format
+msgid "You do not have permission to edit this %s"
+msgstr "شما مجوز لازم برای ویرایش %s ندارید"
+
+#: classes/admin/vendors/vendor-actions.php:27
+#: classes/admin/vendors/vendor-actions.php:167
+msgid "Cheatin' eh?!"
+msgstr "میخوای تقلب کنی، هان؟"
+
+#: classes/admin/vendors/vendor-actions.php:45
+msgid "Please enter a valid email address."
+msgstr "لطفا ایمیل آدرس معتبر وارد کنید."
+
+#: classes/admin/vendors/vendor-actions.php:52
+#, php-format
+msgctxt "Vendor ID number"
+msgid "The User ID %d is already associated with a different %s."
+msgstr "شماره این کاربر %d قبلا با %s دیگری مرتبط شده است"
+
+#: classes/admin/vendors/vendor-actions.php:58
+#, php-format
+msgctxt "1: Vendor ID number, 2: FES setting for vendor lowercase singular"
+msgid "The User ID %d does not exist. Please assign an existing %s."
+msgstr "شماره این کاربر %d وجود ندارد. لطفا %s موجود را مشخص کنید."
+
+#: classes/admin/vendors/vendor-actions.php:155
+#, php-format
+msgctxt "FES singular lowercase setting for vendor"
+msgid "You do not have permission to edit this %s"
+msgstr "شما مجوز لازم برای ویرایش %s ندارید"
+
+#: classes/admin/vendors/vendor-actions.php:171
+msgid "A note is required"
+msgstr "یادداشت الزامی است"
+
+#: classes/admin/vendors/vendor-functions.php:45
+#, php-format
+msgid "%s Overview"
+msgstr "مرور %s"
+
+#: classes/admin/vendors/vendor-functions.php:46
+#, php-format
+msgid "%s Notes"
+msgstr "یادداشت های %s"
+
+#: classes/admin/vendors/vendor-functions.php:47
+#, php-format
+msgid "%s Registration"
+msgstr "عضویت %s"
+
+#: classes/admin/vendors/vendor-functions.php:48
+#, php-format
+msgid "%s Profile"
+msgstr "پروفایل %s"
+
+#: classes/admin/vendors/vendor-functions.php:49
+#, php-format
+msgctxt "FES vendor uppercase singular, FES product uppercase singular"
+msgid "%1s %2s"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:50
+#, php-format
+msgid "%s Commissions"
+msgstr "کمیسیون ها %s"
+
+#: classes/admin/vendors/vendor-functions.php:51
+#, php-format
+msgid "%s Reports"
+msgstr "گزارشات %s"
+
+#: classes/admin/vendors/vendor-functions.php:52
+#, php-format
+msgid "%s Exports"
+msgstr "برون ریزی های %s"
+
+#: classes/admin/vendors/vendors.php:61
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "FES %s"
+msgstr "رابط ظاهری %s"
+
+#: classes/admin/vendors/vendors.php:66
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "Search %s"
+msgstr "جستجوی %s"
+
+#: classes/admin/vendors/vendors.php:87 classes/admin/vendors/vendors.php:93
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Invalid %s ID Provided."
+msgstr "شماره %s نامعتبر است."
+
+#: classes/admin/vendors/vendors.php:100
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s Details"
+msgstr "جزئیات %s"
+
+#: classes/admin/vendors/vendors.php:163
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "Edit %s"
+msgstr "ویرایش %s"
+
+#: classes/admin/vendors/vendors.php:240
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s Address"
+msgstr "آدرس %s"
+
+#: classes/admin/vendors/vendors.php:251
+msgid "Address 1"
+msgstr "آدرس 1"
+
+#: classes/admin/vendors/vendors.php:252
+msgid "Address 2"
+msgstr "آدرس 2"
+
+#: classes/admin/vendors/vendors.php:253
+msgid "City"
+msgstr "شهر"
+
+#: classes/admin/vendors/vendors.php:279
+msgid "State / Province"
+msgstr "استان"
+
+#: classes/admin/vendors/vendors.php:281
+msgid "Postal"
+msgstr "کدپستی"
+
+#: classes/admin/vendors/vendors.php:288
+msgid "Vendor Name"
+msgstr "نام فروشنده"
+
+#: classes/admin/vendors/vendors.php:290
+msgid "Vendor Email"
+msgstr "ایمیل فروشنده"
+
+#: classes/admin/vendors/vendors.php:293
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s Since"
+msgstr "%s از"
+
+#: classes/admin/vendors/vendors.php:318
+msgid "User ID"
+msgstr "شماره کاربر"
+
+#: classes/admin/vendors/vendors.php:322
+msgid "none"
+msgstr "هیچکدام"
+
+#: classes/admin/vendors/vendors.php:329
+msgid "Unknown Status"
+msgstr "وضعیت نامشخص"
+
+#: classes/admin/vendors/vendors.php:342
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "View %s store"
+msgstr "نمایش فروشگاه %s"
+
+#: classes/admin/vendors/vendors.php:351
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "Update %s"
+msgstr "بروزرسانی %s"
+
+#: classes/admin/vendors/vendors.php:364
+msgid "View All Purchases"
+msgstr "نمایش تمام خریدها"
+
+#: classes/admin/vendors/vendors.php:367
+#, php-format
+msgid "%d Sale To Date"
+msgid_plural "%d Sales To Date"
+msgstr[0] "%d فروش تا کنون"
+
+#: classes/admin/vendors/vendors.php:374
+msgid " in Sales To Date"
+msgstr "فروش تا کنون"
+
+#: classes/admin/vendors/vendors.php:387
+msgid "Recently Earned Unpaid Commissions"
+msgstr "کمیسیون های کسب و پرداخت نشده اخیر"
+
+#: classes/admin/vendors/vendors.php:392
+msgid "Item"
+msgstr "آیتم"
+
+#: classes/admin/vendors/vendors.php:393
+msgid "Amount"
+msgstr "مبلغ"
+
+#: classes/admin/vendors/vendors.php:394
+msgid "Rate"
+msgstr "نرخ"
+
+#: classes/admin/vendors/vendors.php:415
+msgid "No unpaid commissions"
+msgstr "کمیسیون پرداخت نشده ای وجود ندارد"
+
+#: classes/admin/vendors/vendors.php:423
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: classes/admin/vendors/vendors.php:438
+#, php-format
+msgctxt "download title"
+msgid "View %s"
+msgstr "نمایش %s"
+
+#: classes/admin/vendors/vendors.php:447
+#, php-format
+msgctxt "FES uppercase plural setting for download"
+msgid "No Live %s"
+msgstr "بدون %s تایید شده"
+
+#: classes/admin/vendors/vendors.php:483
+msgid "Notes"
+msgstr "یادداشت ها"
+
+#: classes/admin/vendors/vendors.php:521
+msgid "No Vendor Notes"
+msgstr "فروشنده هیچ یادداشتی ندارد"
+
+#: classes/admin/vendors/vendors.php:546
+msgid "Registration Data"
+msgstr "تاریخ عضویت"
+
+#: classes/admin/vendors/vendors.php:577
+msgid "Profile Data"
+msgstr "اطلاعات پروفایل"
+
+#: classes/admin/vendors/vendors.php:620
+msgid "ID"
+msgstr "شماره"
+
+#: classes/admin/vendors/vendors.php:650
+msgid "Total Sales"
+msgstr "مجموع فروش"
+
+#: classes/admin/vendors/vendors.php:658
+#, php-format
+msgid "%s has no %s"
+msgstr "%s هیچ %s ندارد"
+
+#: classes/admin/vendors/vendors.php:708
+msgid "Reports"
+msgstr "گزارشات"
+
+#: classes/admin/vendors/vendors.php:730 classes/admin/vendors/vendors.php:747
+msgid "Exports"
+msgstr "برون ریزی"
+
+#: classes/admin/vendors/vendors.php:732
+msgid "Nothing to export!"
+msgstr "محتوایی برای برون ریزی وجود ندارد"
+
+#: classes/admin/vendors/vendors.php:754
+msgid "Export PDF of Sales and Earnings"
+msgstr "برون ریزی PDF فروش و درآمدها"
+
+#: classes/admin/vendors/vendors.php:755
+#, php-format
+msgctxt "FES uppercase plural setting for download"
+msgid ""
+"Download a PDF of Sales and Earnings reports for all %s for the current year."
+msgstr "دانلود گزارش PDF فروش و درآمدها برای همه %s در سال جاری."
+
+#: classes/admin/vendors/vendors.php:756
+msgid "Generate PDF"
+msgstr "ساخت فایل PDF"
+
+#: classes/admin/vendors/vendors.php:762
+msgid "Export Customers in CSV"
+msgstr "برون ریزی مشتریان در قالب CSV"
+
+#: classes/admin/vendors/vendors.php:763
+#, php-format
+msgctxt "FES lowercase singular setting for download"
+msgid ""
+"Download a CSV of all customer emails. Optionally export only customers that "
+"have purchased a particular %s. Note, if you have a large number of "
+"customers, exporting the purchase stats may fail."
+msgstr ""
+"دانلود فایل CSV ایمیل تمامی مشتریان. در صورت تمایل فقط مشتریانی که %s خاصی "
+"را خریداری کرده اند. توجه داشته باشید در صورتی که تعداد مشتریان زیاد باشد "
+"ممکن است عملیات برون ریزی ناموفق باشد."
+
+#: classes/admin/vendors/vendors.php:767
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "All %s"
+msgstr "همه %s"
+
+#: classes/admin/vendors/vendors.php:779
+msgid "Emails and Names"
+msgstr "نام و ایمیل ها"
+
+#: classes/admin/vendors/vendors.php:783
+msgid "Generate CSV"
+msgstr "ساخت فایل CSV"
+
+#: classes/admin/vendors/vendors.php:845 classes/admin/vendors/vendors.php:995
+#: classes/admin/vendors/vendors.php:1006
+#: classes/admin/vendors/vendors.php:1017 classes/class-setup.php:68
+#: classes/class-setup.php:181 classes/class-vendor.php:573
+#: classes/class-vendor.php:589 classes/class-vendor.php:611
+#: classes/class-vendor.php:636 classes/class-vendor.php:679
+#: classes/class-vendor.php:725 classes/class-vendor.php:780
+#: classes/class-vendor.php:838 classes/class-vendor.php:896
+msgid "Error!"
+msgstr "خطا!"
+
+#: classes/admin/vendors/vendors.php:846 classes/admin/vendors/vendors.php:996
+msgid "You don't have the permissions to do that!"
+msgstr "شما مجوز لازم برای چنین اقدامی را ندارید!"
+
+#: classes/admin/vendors/vendors.php:883 classes/admin/vendors/vendors.php:954
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "View %s Profile"
+msgstr "نمایش پروفایل %s"
+
+#: classes/admin/vendors/vendors.php:892
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s Status"
+msgstr "وضعیت %s"
+
+#: classes/admin/vendors/vendors.php:893
+msgid "Posts"
+msgstr "نوشته ها"
+
+#: classes/admin/vendors/vendors.php:922
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Not a %s"
+msgstr "%s نیست"
+
+#: classes/admin/vendors/vendors.php:932
+msgid "Easy Digital Downloads Frontend Submissions"
+msgstr "ارسال از رابط ظاهری ایزی دیجیتال دانلود"
+
+#: classes/admin/vendors/vendors.php:935
+msgid "Status:"
+msgstr "وضعیت:"
+
+#: classes/admin/vendors/vendors.php:941
+msgid "Not a vendor"
+msgstr "فروشنده نیست"
+
+#: classes/admin/vendors/vendors.php:951
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: classes/admin/vendors/vendors.php:964
+msgid "Actions:"
+msgstr "اقدامات:"
+
+#: classes/admin/vendors/vendors.php:968
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Make %s"
+msgstr "ایجاد %s"
+
+#: classes/admin/vendors/vendors.php:969
+msgid "Create"
+msgstr "ایجاد"
+
+#: classes/admin/vendors/vendors.php:1007
+msgid "Invalid user id!"
+msgstr "شماره کاربر نامعتر است!"
+
+#: classes/admin/vendors/vendors.php:1018
+msgid "Invalid action!"
+msgstr "اقدام نامعتبر است!"
+
+#: classes/class-helpers.php:163 templates/frontend-edit-order.php:113
+msgid "Products"
+msgstr "محصولات"
+
+#: classes/class-helpers.php:168
+msgid "products"
+msgstr "محصولات"
+
+#: classes/class-helpers.php:173
+msgid "Product"
+msgstr "محصول"
+
+#: classes/class-helpers.php:178
+msgid "product"
+msgstr "محصول"
+
+#: classes/class-helpers.php:188
+msgid "Vendors"
+msgstr "فروشندگان"
+
+#: classes/class-helpers.php:193
+msgid "vendors"
+msgstr "فروشندگان"
+
+#: classes/class-helpers.php:203
+msgid "vendor"
+msgstr "فروشنده"
+
+#: classes/class-post-types.php:16 classes/class-post-types.php:43
+msgid "EDD FES Forms"
+msgstr "فرم های رابط ظاهری"
+
+#: classes/class-post-types.php:44
+msgid "FES Form"
+msgstr "فرم رابط ظاهری EDD"
+
+#: classes/class-post-types.php:45
+msgid "FES Forms"
+msgstr "فرم های رابط ظاهری"
+
+#: classes/class-post-types.php:46
+msgid "Add FES Form"
+msgstr "افزودن فرم رابط ظاهری"
+
+#: classes/class-post-types.php:47
+msgid "Add New Form"
+msgstr "افزودن فرم جدید"
+
+#: classes/class-post-types.php:50
+msgid "New FES Form"
+msgstr "فرم رابط ظاهری جدید"
+
+#: classes/class-post-types.php:51 classes/class-post-types.php:52
+msgid "View FES Form"
+msgstr "نمایش فرم رابط ظاهری"
+
+#: classes/class-post-types.php:53
+msgid "Search FES Forms"
+msgstr "جستجو فرم رابط ظاهری"
+
+#: classes/class-post-types.php:54
+msgid "No FES Forms Found"
+msgstr "فرم رابط ظاهری یافت نشد"
+
+#: classes/class-post-types.php:55
+msgid "No FES Forms Found in Trash"
+msgstr "فرم رابط ظاهری در زباله دان یافت نشد"
+
+#: classes/class-post-types.php:56
+msgid "Parent FES Form"
+msgstr "فرم رابط ظاهری مادر"
+
+#: classes/class-setup.php:28
+msgid ""
+"Warning, the vendor dashboard page isn't set in the FES dashboard. This "
+"could lead to serious issues. Set it to the correct page as soon as possible"
+msgstr ""
+"هشدار، صفحه داشبورد فروشندگان در رابط ظاهری تعریف نشده است. این موضوع باعث "
+"مشکلات جدی خواهد شد. در اولین فرصت ممکن صفحه مناسب را مشخص کنید."
+
+#: classes/class-setup.php:60 classes/class-setup.php:173
+msgid "Choose an avatar"
+msgstr "انتخاب آواتار"
+
+#: classes/class-setup.php:61 classes/class-setup.php:174
+msgid "Select as avatar"
+msgstr "انتخاب به عنوان آواتار"
+
+#: classes/class-setup.php:62 classes/class-setup.php:175
+msgid "Choose a file"
+msgstr "انتخاب فایل"
+
+#: classes/class-setup.php:63 classes/class-setup.php:176
+#: classes/fields/file_upload.php:110 classes/fields/file_upload.php:202
+#: classes/fields/multiple_pricing.php:203
+msgid "Insert file URL"
+msgstr "URL یا آدرس فایل"
+
+#: classes/class-setup.php:64 classes/class-setup.php:177
+msgid "Choose a featured image"
+msgstr "تعیین تصویر شاخص"
+
+#: classes/class-setup.php:65 classes/class-setup.php:178
+msgid "Select as featured image"
+msgstr "انتخاب به عنوان تصویر شاخص"
+
+#: classes/class-setup.php:66 classes/class-setup.php:179
+msgid "You may not add more than "
+msgstr "شما قادر به افزودن بیش از"
+
+#: classes/class-setup.php:67 classes/class-setup.php:180
+msgid " files!"
+msgstr "فایل نیستید!"
+
+#: classes/class-setup.php:70 classes/class-setup.php:183
+msgid "PHP Fatal Error:"
+msgstr "خطای PHP:"
+
+#: classes/class-setup.php:71 classes/class-setup.php:184
+#: classes/class-vendor.php:666 classes/class-vendor.php:711
+#: classes/class-vendor.php:766 classes/class-vendor.php:824
+#: classes/class-vendor.php:884 classes/forms/registration.php:288
+#: classes/forms/registration.php:304
+msgid "Success!"
+msgstr "موفقیت آمیر!"
+
+#: classes/class-setup.php:72 classes/class-setup.php:185
+msgid "It works!"
+msgstr "انجام شد!"
+
+#: classes/class-setup.php:73 classes/class-setup.php:146
+#: classes/class-setup.php:186
+msgid "Loading"
+msgstr "بارگذاری"
+
+#: classes/class-setup.php:147
+msgid "Are you sure?"
+msgstr "مطمئن هستید؟"
+
+#: classes/class-setup.php:148
+msgid "You're about to "
+msgstr "شما قصد دارید"
+
+#: classes/class-setup.php:149
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "You're about to make this person a %s"
+msgstr "شما قصد تبدیل این فرد به %s را دارید"
+
+#: classes/class-setup.php:150
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "The user is now a %s"
+msgstr "این کاربر هم اکنون %s است"
+
+#: classes/class-setup.php:152
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid " this %s "
+msgstr "این %s"
+
+#: classes/class-setup.php:247
+msgid ""
+"Notice: FES is installed. Consider including FES's debug information from "
+"FES -> System Info if this is an FES bug ticket."
+msgstr ""
+"توجه: رابط ظاهری نصب شده است. اطلاعات دیباگ رابط ظاهری را از رابط ظاهری -> "
+"اطلاعات سیستم، اضافه نمایید اگر این یک تیکت باگ رابط ظاهری است."
+
+#: classes/class-vendor.php:202
+#, php-format
+msgid "Can't get property %s"
+msgstr "ناتوان در فراخوان %s"
+
+#: classes/class-vendor.php:537
+msgid "by"
+msgstr "توسط"
+
+#: classes/class-vendor.php:574
+msgid "No status passed in"
+msgstr "وضعیتی مشخص نشده است"
+
+#: classes/class-vendor.php:590
+msgid "New status can't be the same as the old status!"
+msgstr "وضعیت جدید نمی تواند با وضعیت قدیم یکسان باشد!"
+
+#: classes/class-vendor.php:612
+msgid "You don't have permission to do that!"
+msgstr "شما مجوز لازم برای چنین اقدامی را ندارید!"
+
+#: classes/class-vendor.php:637 classes/class-vendor.php:680
+#: classes/class-vendor.php:726 classes/class-vendor.php:781
+#: classes/class-vendor.php:839
+msgid "Invalid status change"
+msgstr "تغییر وضعیت نامعتبر"
+
+#: classes/class-vendor.php:667
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s application declined successfully"
+msgstr "رد درخواست %s با موفقیت انجام شد"
+
+#: classes/class-vendor.php:712
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s approved successfully"
+msgstr "تایید درخواست %s با موفقیت انجام شد"
+
+#: classes/class-vendor.php:767
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s suspended successfully"
+msgstr "%s تعلیق شد"
+
+#: classes/class-vendor.php:817
+msgid "Unsuspended"
+msgstr "رفع تعلیق شد"
+
+#: classes/class-vendor.php:825
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s unsuspended successfully"
+msgstr "%s با موفقیت رفع تعلیق شد"
+
+#: classes/class-vendor.php:874
+msgid "Application Revoked"
+msgstr "درخواست لغو شد"
+
+#: classes/class-vendor.php:885
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s revoked successfully"
+msgstr "لغو درخواست %s با موفقیت انجام شد"
+
+#: classes/class-vendor.php:897
+msgid "Invalid status!"
+msgstr "وضعیت نامعتبر!"
+
+#: classes/class-vendors.php:150
+#, php-format
+msgid " Your store url is: %s"
+msgstr "آدرس فروشگاه شما: %s"
+
+#: classes/fields/action_hook.php:38
+msgctxt "FES Field title translation"
+msgid "Action Hook"
+msgstr "Action Hook"
+
+#: classes/fields/action_hook.php:99
+msgid "Hook Name"
+msgstr "نام هوک"
+
+#: classes/fields/action_hook.php:101
+msgid "Name of the hook"
+msgstr "نام این هوک"
+
+#: classes/fields/action_hook.php:104
+msgid ""
+"This is for developers to add dynamic elements as they want. It provides the "
+"chance to add whatever input type you want to add in this form."
+msgstr ""
+"این مورد برای توسعه دهندگان است اگر بخواهند المان های پویا (داینامیک) را "
+"مطابق نیازشان تعریف کنند. این امکان را برایتان فراهم می کند تا هر نوعی از "
+"ورودی را در این فرم اضافه کنید."
+
+#: classes/fields/action_hook.php:105
+msgid ""
+"You can bind your own functions to render the form to this action hook. "
+"You'll be given 3 parameters to play with: $form_id, $post_id, "
+"$form_settings."
+msgstr ""
+"شما می توانید فانکشن ها را به اکشن هوک این فرم وابسته کنید. 3 پارامتر به این "
+"منظور در دسترس است: $form_id, $post_id, $form_settings."
+
+#: classes/fields/checkbox.php:46
+msgctxt "FES Field title translation"
+msgid "Checkbox"
+msgstr "چک باکس"
+
+#: classes/fields/checkbox.php:206 classes/fields/multiselect.php:234
+#: classes/fields/radio.php:197 classes/fields/select.php:167
+msgid "Options"
+msgstr "گزینه ها"
+
+#: classes/fields/checkbox.php:228 classes/fields/download_category.php:368
+#: classes/fields/download_category.php:381
+#: classes/fields/download_tag.php:368 classes/fields/download_tag.php:381
+#: classes/fields/multiselect.php:258 classes/fields/taxonomy.php:472
+#: classes/fields/taxonomy.php:485
+msgid "Please select at least 1 option"
+msgstr "حداقل یک گزینه انتخاب کنید"
+
+#: classes/fields/checkbox.php:230 classes/fields/download_category.php:383
+#: classes/fields/download_tag.php:383 classes/fields/taxonomy.php:487
+msgid "Please check the checkbox"
+msgstr "لطفا چک باکس را علامت گذاری کنید"
+
+#: classes/fields/country.php:47
+msgctxt "FES Field title translation"
+msgid "Country"
+msgstr "کشور"
+
+#: classes/fields/country.php:156
+msgid "Vendor Country"
+msgstr "کشور فروشنده"
+
+#: classes/fields/country.php:158 classes/fields/multiselect.php:218
+#: classes/fields/select.php:152
+msgid ""
+"First element of the select dropdown. Leave this empty if you don't want to "
+"show this field"
+msgstr ""
+"اولین عنصر انتخاب کشویی. اگر نمی خواهید این فیلد را نمایش دهید آن را خالی "
+"رها کنید"
+
+#: classes/fields/country.php:169 classes/fields/multiselect.php:229
+#: classes/fields/select.php:162
+msgid "Select Text"
+msgstr "متن انتخاب"
+
+#: classes/fields/country.php:174
+msgid "Countries"
+msgstr "کشورها"
+
+#: classes/fields/date.php:42
+msgctxt "FES Field title translation"
+msgid "Date"
+msgstr "تاریخ"
+
+#: classes/fields/date.php:124
+msgid "The date format"
+msgstr "فرمت تاریخ"
+
+#: classes/fields/date.php:134
+msgid "Date Format"
+msgstr "فرمت تاریخ"
+
+#: classes/fields/date.php:139
+msgid "Time"
+msgstr "زمان"
+
+#: classes/fields/date.php:145
+msgid "Enable time input"
+msgstr "فعال کردن ورودی زمان"
+
+#: classes/fields/display_name.php:43
+msgctxt "FES Field title translation"
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#: classes/fields/download_category.php:50
+msgctxt "FES Field title translation"
+msgid "Categories"
+msgstr "کشورها"
+
+#: classes/fields/download_category.php:114
+#: classes/fields/download_category.php:138
+#: classes/fields/download_tag.php:114 classes/fields/download_tag.php:138
+#: classes/fields/taxonomy.php:109 classes/fields/taxonomy.php:133
+msgid "-- Select --"
+msgstr "انتخاب کنید"
+
+#: classes/fields/download_category.php:295
+#: classes/fields/download_tag.php:295 classes/fields/taxonomy.php:399
+msgid "Type"
+msgstr "نوع"
+
+#: classes/fields/download_category.php:297
+#: classes/fields/download_tag.php:297 classes/fields/taxonomy.php:401
+msgid "Dropdown"
+msgstr "کشویی"
+
+#: classes/fields/download_category.php:298
+#: classes/fields/download_tag.php:298 classes/fields/taxonomy.php:402
+msgid "Multi Select"
+msgstr "انتخاب چندگانه"
+
+#: classes/fields/download_category.php:299
+#: classes/fields/download_tag.php:299 classes/fields/taxonomy.php:403
+msgid "Checkbox"
+msgstr "چک باکس"
+
+#: classes/fields/download_category.php:300
+#: classes/fields/download_tag.php:300 classes/fields/taxonomy.php:404
+msgid "Text Input"
+msgstr "ورودی متن"
+
+#: classes/fields/download_category.php:305
+#: classes/fields/download_tag.php:305 classes/fields/taxonomy.php:409
+msgid "Order By"
+msgstr "اساس چیدمان"
+
+#: classes/fields/download_category.php:308
+#: classes/fields/download_tag.php:308 classes/fields/taxonomy.php:412
+msgid "Term ID"
+msgstr "Term ID"
+
+#: classes/fields/download_category.php:310
+#: classes/fields/download_tag.php:310 classes/fields/taxonomy.php:414
+msgid "Count"
+msgstr "شمارش"
+
+#: classes/fields/download_category.php:311
+#: classes/fields/download_tag.php:311 classes/fields/taxonomy.php:415
+msgid "Term Group"
+msgstr "Term Group"
+
+#: classes/fields/download_category.php:318
+#: classes/fields/download_tag.php:318 classes/fields/taxonomy.php:422
+msgid "ASC"
+msgstr "صعودی"
+
+#: classes/fields/download_category.php:319
+#: classes/fields/download_tag.php:319 classes/fields/taxonomy.php:423
+msgid "DESC"
+msgstr "نزولی"
+
+#: classes/fields/download_category.php:324
+#: classes/fields/download_tag.php:324 classes/fields/taxonomy.php:428
+msgid "Selection Type"
+msgstr "نوع گزینش"
+
+#: classes/fields/download_category.php:326
+#: classes/fields/download_tag.php:326 classes/fields/taxonomy.php:430
+msgid "Exclude"
+msgstr "استثنا"
+
+#: classes/fields/download_category.php:327
+#: classes/fields/download_tag.php:327 classes/fields/taxonomy.php:431
+msgid "Include"
+msgstr "شامل"
+
+#: classes/fields/download_category.php:328
+#: classes/fields/download_tag.php:328 classes/fields/taxonomy.php:432
+msgid "Child of"
+msgstr "زیر مجموعه"
+
+#: classes/fields/download_category.php:333
+#: classes/fields/download_tag.php:333 classes/fields/taxonomy.php:437
+msgid "Selection terms"
+msgstr "term های انتخابی"
+
+#: classes/fields/download_category.php:334
+#: classes/fields/download_tag.php:334 classes/fields/taxonomy.php:438
+msgid ""
+"Enter the term IDs as comma separated (without space) to exclude/include in "
+"the form."
+msgstr ""
+"term ID  ها را برای استثنا/شامل شدن با کاما (بدون فاصله) از هم جدا کنید."
+
+#: classes/fields/download_notes.php:45
+msgctxt "FES Field title translation"
+msgid "Notes"
+msgstr "یادداشت ها"
+
+#: classes/fields/download_tag.php:50
+msgctxt "FES Field title translation"
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: classes/fields/email.php:45
+msgctxt "FES Field title translation"
+msgid "Email"
+msgstr "ایمیل"
+
+#: classes/fields/email.php:130 classes/fields/user_email.php:139
+msgid "Please enter a valid email address"
+msgstr "لطفا آدرس ایمیل را به شکل صحیح وارد کنید"
+
+#: classes/fields/featured_image.php:45
+msgctxt "FES Field title translation"
+msgid "Featured Image"
+msgstr "تصویر شاخص"
+
+#: classes/fields/featured_image.php:96
+msgid "Upload Featured Image"
+msgstr "آپلود تصویر شاخص"
+
+#: classes/fields/file_upload.php:47
+msgctxt "FES Field title translation"
+msgid "File Upload"
+msgstr "آپلود فایل"
+
+#: classes/fields/file_upload.php:89 classes/fields/file_upload.php:181
+#: classes/fields/multiple_pricing.php:154
+msgid "File URL"
+msgstr "لینک فایل"
+
+#: classes/fields/file_upload.php:92 classes/fields/file_upload.php:115
+#: classes/fields/file_upload.php:184
+msgid "Download File"
+msgstr "دانلود فایل"
+
+#: classes/fields/file_upload.php:107 classes/fields/file_upload.php:199
+#: classes/fields/multiple_pricing.php:200
+msgid "http://"
+msgstr "http://"
+
+#: classes/fields/file_upload.php:110 classes/fields/file_upload.php:111
+#: classes/fields/file_upload.php:202 classes/fields/file_upload.php:203
+#: classes/fields/multiple_pricing.php:203
+msgid "Choose file"
+msgstr "انتخاب فایل"
+
+#: classes/fields/file_upload.php:121 classes/fields/file_upload.php:208
+#: classes/fields/multiple_pricing.php:211
+msgid "&times;"
+msgstr "زمان"
+
+#: classes/fields/file_upload.php:132 classes/fields/file_upload.php:219
+#: classes/fields/multiple_pricing.php:222
+msgid "Add File"
+msgstr "افزودن فایل"
+
+#: classes/fields/file_upload.php:288
+msgid "Number of files which can be uploaded"
+msgstr "تعداد فایل های قابل آپلود"
+
+#: classes/fields/file_upload.php:299
+msgid "Max. files"
+msgstr "حداکثر فایل ها"
+
+#: classes/fields/file_upload.php:317 classes/fields/multiple_pricing.php:370
+#: classes/fields/multiple_pricing.php:376 classes/fields/url.php:129
+#: classes/fields/user_url.php:129
+msgid "Please enter a valid URL"
+msgstr "لطفا لینک را به شکل صحیح وارد کنید"
+
+#: classes/fields/first_name.php:43
+msgctxt "FES Field title translation"
+msgid "First Name"
+msgstr "نام"
+
+#: classes/fields/hidden.php:41
+msgctxt "FES Field title translation"
+msgid "Hidden"
+msgstr "مخفی"
+
+#: classes/fields/hidden.php:128
+msgid "Meta Value"
+msgstr "مقدار متا"
+
+#: classes/fields/hidden.php:129
+msgid "Enter the meta value"
+msgstr "مقدار متا را وارد کنید"
+
+#: classes/fields/honeypot.php:42
+msgctxt "FES Field title translation"
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: classes/fields/honeypot.php:103
+msgid "There are no settings required for this field"
+msgstr "تنظیمات برای این زمینه الزامی نیست"
+
+#: classes/fields/honeypot.php:114
+msgid "Nice try Mr. Spammer, don't touch our honey"
+msgstr "تلاش خوبی بود آقای اسپمر، برو دنبال کار خودت"
+
+#: classes/fields/html.php:41
+msgctxt "FES Field title translation"
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/fields/html.php:144
+msgid "HTML Codes"
+msgstr "کدهای HTML"
+
+#: classes/fields/last_name.php:43
+msgctxt "FES Field title translation"
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: classes/fields/multiple_pricing.php:51
+msgctxt "FES Field title translation"
+msgid "Prices and Files"
+msgstr "قیمت و فایل ها"
+
+#: classes/fields/multiple_pricing.php:148
+msgid "Name of Price Option"
+msgstr "نام گزینه قیمت"
+
+#: classes/fields/multiple_pricing.php:151
+#, php-format
+msgid "Amount (%s)"
+msgstr "مبلغ (%s)"
+
+#: classes/fields/multiple_pricing.php:182
+#: classes/fields/multiple_pricing.php:184
+msgid "Option Name"
+msgstr "نام گزینه"
+
+#: classes/fields/multiple_pricing.php:204
+msgid "Upload"
+msgstr "آپلود"
+
+#: classes/fields/multiple_pricing.php:261
+msgid "Single Price/Upload"
+msgstr "قیمت/آپلود یگانه"
+
+#: classes/fields/multiple_pricing.php:269
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "Allow %s to Set Names of Options"
+msgstr "%s مجاز به تنظیم نام برای گزینه ها"
+
+#: classes/fields/multiple_pricing.php:277
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "Allow %s to Set Prices of Options"
+msgstr "%s مجاز به تنظیم قیمت برای گزینه ها"
+
+#: classes/fields/multiple_pricing.php:285
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "Allow %s to Upload Files"
+msgstr "%s مجاز به آپلود فایل"
+
+#: classes/fields/multiple_pricing.php:293
+msgid "Set Options"
+msgstr "تعیین گزینه ها"
+
+#: classes/fields/multiple_pricing.php:300
+msgid "Predefined Names/Prices"
+msgstr "نام/قیمت از پیش تعیین شده"
+
+#: classes/fields/multiple_pricing.php:323
+#: classes/fields/multiple_pricing.php:332
+msgid "Name: "
+msgstr "نام:"
+
+#: classes/fields/multiple_pricing.php:324
+#: classes/fields/multiple_pricing.php:333
+msgid "Price: "
+msgstr "قیمت:"
+
+#: classes/fields/multiple_pricing.php:356
+#: classes/fields/multiple_pricing.php:363
+msgid "Please fill out all rows completely."
+msgstr "لطفا تمام ردیف ها را تکمیل کنید."
+
+#: classes/fields/multiselect.php:48
+msgctxt "FES Field title translation"
+msgid "Multiselect"
+msgstr "انتخاب چندگانه"
+
+#: classes/fields/name.php:42
+msgctxt "FES Field title translation"
+msgid "Name"
+msgstr "نام"
+
+#: classes/fields/nickname.php:41
+msgctxt "FES Field title translation"
+msgid "Nickname"
+msgstr "لقب"
+
+#: classes/fields/password.php:45
+msgctxt "FES Field title translation"
+msgid "Password"
+msgstr "رمز عبور"
+
+#: classes/fields/password.php:93
+msgid "Confirm Password"
+msgstr "تایید رمز عبور"
+
+#: classes/fields/password.php:129
+msgid "Minimum password length"
+msgstr "حداقل طول رمز عبور"
+
+#: classes/fields/password.php:134
+msgid "Password Re-type"
+msgstr "تایپ مجدد رمز عبور"
+
+#: classes/fields/password.php:140
+msgid "Require Password repeat"
+msgstr "تکرار رمز عبور الزامی است"
+
+#: classes/fields/password.php:146
+msgid "Re-type password label"
+msgstr "برچسب تکرار رمز عبور"
+
+#: classes/fields/password.php:164
+msgid "Please fill in the repeat password field"
+msgstr "لطفا فیلد تکرار رمز عبور را تکمیل کنید"
+
+#: classes/fields/password.php:168
+msgid "First password doesn't match the second one"
+msgstr "رمز عبور اصلی با تکرار آن یکسان نیست"
+
+#: classes/fields/password.php:173
+#, php-format
+msgid "Passwords must be at least %d characters long"
+msgstr "رمز عبور حداقل باید %d کاراکتر باشد"
+
+#: classes/fields/post_content.php:48
+msgctxt "FES Field title translation"
+msgid "Description"
+msgstr "توضیحات"
+
+#: classes/fields/post_content.php:159 classes/fields/post_excerpt.php:132
+msgid "Enable Image Insertion"
+msgstr "فعال کردن درج تصویر"
+
+#: classes/fields/post_content.php:165 classes/fields/post_excerpt.php:138
+msgid "Enable image upload in post area"
+msgstr "فعال کردن آپلود تصویر در ناحیه نوشته"
+
+#: classes/fields/post_excerpt.php:49
+msgctxt "FES Field title translation"
+msgid "Excerpt"
+msgstr "چکیده"
+
+#: classes/fields/post_format.php:41
+msgctxt "FES Field title translation"
+msgid "Post Format"
+msgstr "فرمت نوشته"
+
+#: classes/fields/post_title.php:44
+msgctxt "FES Field title translation"
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/fields/radio.php:46
+msgctxt "FES Field title translation"
+msgid "Radio"
+msgstr "Radio"
+
+#: classes/fields/recaptcha.php:41
+msgctxt "FES Field title translation"
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: classes/fields/recaptcha.php:179
+msgid "Important:"
+msgstr "مهم:"
+
+#: classes/fields/recaptcha.php:184
+msgid ""
+"In order for reCAPTCHA to work you must insert your site key and private key "
+"in the FES settings panel. <a href='https://www.google.com/recaptcha/"
+"admin#list' target='_blank'>Create a key</a> first if you don't have any "
+"keys."
+msgstr ""
+"برای عملکرد صحیح reCAPTCHA باید کلید سایت و کلید خصوصی را در پنل تنظیمات "
+"رابط ظاهری وارد نمایید. اگر کلیدها را ندارید از <a href='https://www.google."
+"com/recaptcha/admin#list' target='_blank'>اینجا</a> کلیدهای مورد نیاز را "
+"بسازید."
+
+#: classes/fields/recaptcha.php:215
+msgid "reCAPTCHA validation failed."
+msgstr "تایید reCAPTCHA نامعتبر است."
+
+#: classes/fields/recaptcha.php:219
+msgid "reCAPTCHA validation failed"
+msgstr "تایید reCAPTCHA نامعتبر است"
+
+#: classes/fields/repeat.php:47
+msgctxt "FES Field title translation"
+msgid "Repeat"
+msgstr "تکرار"
+
+#: classes/fields/repeat.php:85 classes/fields/repeat.php:194
+#: templates/frontend-products.php:13
+msgid "Actions"
+msgstr "اقدامات"
+
+#: classes/fields/repeat.php:102 classes/fields/repeat.php:116
+#: classes/fields/repeat.php:211 classes/fields/repeat.php:225
+msgid "Add another"
+msgstr "افزودن"
+
+#: classes/fields/repeat.php:103 classes/fields/repeat.php:117
+#: classes/fields/repeat.php:212 classes/fields/repeat.php:226
+msgid "Remove this choice"
+msgstr "حذف این انتخاب"
+
+#: classes/fields/repeat.php:147 classes/fields/repeat.php:256
+msgid "add another choice"
+msgstr "افزودن انتخاب"
+
+#: classes/fields/repeat.php:148 classes/fields/repeat.php:257
+msgid "remove this choice"
+msgstr "حذف این انتخاب"
+
+#: classes/fields/repeat.php:296
+msgid "Multiple Column"
+msgstr "چند ستونه"
+
+#: classes/fields/section_break.php:41
+msgctxt "FES Field title translation"
+msgid "Section Break"
+msgstr "جدا کننده"
+
+#: classes/fields/section_break.php:148
+msgid "Description"
+msgstr "توضیحات"
+
+#: classes/fields/select.php:47
+msgctxt "FES Field title translation"
+msgid "Select"
+msgstr "انتخاب"
+
+#: classes/fields/taxonomy.php:50
+msgctxt "FES Field title translation"
+msgid "Taxonomy"
+msgstr "طبقه بندی"
+
+#: classes/fields/taxonomy.php:342 classes/fields/taxonomy.php:347
+msgid "You have no custom taxonomies"
+msgstr "شما هیچ طبقه بندی سفارشی ندارید"
+
+#: classes/fields/taxonomy.php:367
+msgid "Which Taxonomy?"
+msgstr "کدام طبقه بندی؟"
+
+#: classes/fields/textarea.php:48
+msgctxt "FES Field title translation"
+msgid "Textarea"
+msgstr "ناحیه متنی"
+
+#: classes/fields/toc.php:41
+msgctxt "FES Field title translation"
+msgid "Terms & Cond."
+msgstr "شرایط و ضوابط"
+
+#: classes/fields/toc.php:109
+msgid "Label"
+msgstr "برچسب"
+
+#: classes/fields/toc.php:114
+msgid "Terms & Conditions"
+msgstr "شرایط و ضوابط"
+
+#: classes/fields/toc.php:115
+msgid "Insert terms and condtions here."
+msgstr "شرایط و ضوابط را وارد کنید."
+
+#: classes/fields/toc.php:139
+msgid "Please check this box"
+msgstr "لطفا این جعبه را علامت بزنید"
+
+#: classes/fields/url.php:44
+msgctxt "FES Field title translation"
+msgid "URL"
+msgstr "URL یا آدرس"
+
+#: classes/fields/user_avatar.php:40
+msgctxt "FES Field title translation"
+msgid "User Avatar"
+msgstr "آواتار کاربر"
+
+#: classes/fields/user_avatar.php:91
+msgid "Upload Avatar"
+msgstr "آپلود آواتار"
+
+#: classes/fields/user_bio.php:47
+msgctxt "FES Field title translation"
+msgid "User Bio"
+msgstr "بیوگرافی کاربر"
+
+#: classes/fields/user_email.php:44
+msgctxt "FES Field title translation"
+msgid "User Email"
+msgstr "ایمیل کاربر"
+
+#: classes/fields/user_login.php:41
+msgctxt "FES Field title translation"
+msgid "Username"
+msgstr "نام کاربری"
+
+#: classes/fields/user_url.php:44
+msgctxt "FES Field title translation"
+msgid "User URL"
+msgstr "سایت کاربر"
+
+#: classes/forms/login.php:44
+msgctxt "FES Form title translation"
+msgid "Login"
+msgstr "ورود"
+
+#: classes/forms/login.php:62 classes/forms/registration.php:99
+msgid "Please fill out the username field!"
+msgstr "لطفا فیلد نام کاربری را تکمیل کنید!"
+
+#: classes/forms/login.php:68
+msgid "Please fill out the password field!"
+msgstr "لطفا فیلد رمز عبور را تکمیل کنید!"
+
+#: classes/forms/login.php:77
+msgid "Password is wrong!"
+msgstr "رمز عبور اشتباه است!"
+
+#: classes/forms/login.php:80
+msgid "Invalid username!"
+msgstr "نام کاربری معتبر نیست!"
+
+#: classes/forms/login.php:102
+msgid "You've been logged in!"
+msgstr "شما وارد سیستم شدید!"
+
+#: classes/forms/login.php:122 classes/forms/login.php:133
+msgid "You're already logged in!"
+msgstr "شما قبلا وارد سیستم شده اید!"
+
+#: classes/forms/profile.php:62
+msgctxt "FES Form title translation"
+msgid "Profile"
+msgstr "پروفایل"
+
+#: classes/forms/profile.php:89 classes/forms/profile.php:100
+msgid "Profile Successfully Updated!"
+msgstr "پروفایل با موفقیت بروزرسانی شد!"
+
+#: classes/forms/profile.php:137 classes/forms/profile.php:174
+msgid "Access Denied: You are not an admin"
+msgstr "دسترسی ممنوع: شما مدیر نیستید"
+
+#: classes/forms/profile.php:146 classes/forms/profile.php:183
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid ""
+"Access Denied: You are not an admin or the %s associated with this profile."
+msgstr ""
+"دسترسی ممنوع: شما مدیر نیستید و یا هیچ %s به این پروفایل تخصیص نیافته است."
+
+#: classes/forms/registration.php:64
+msgctxt "FES Form title translation"
+msgid "Registration"
+msgstr "عضویت"
+
+#: classes/forms/registration.php:106
+msgid "Please fill out the email field!"
+msgstr "لطفا زمینه ایمیل را تکمیل کنید!"
+
+#: classes/forms/registration.php:115
+#, php-format
+msgctxt "login link is the %s"
+msgid ""
+"This username is already in use! Pick a different username or click %shere%s "
+"to login."
+msgstr ""
+"این نام کاربری قبلا ثبت شده است! نام دیگری انتخاب کنید و یا از %sاینجا%s "
+"وارد شوید."
+
+#: classes/forms/registration.php:120
+#, php-format
+msgctxt "login link is the %s"
+msgid ""
+"This email address is already in use! Pick a different username or click "
+"%shere%s to login."
+msgstr ""
+"این ایمیل قبلا ثبت شده است! قبلا ثبت نام کرده اید؟ از %sاینجا%s وارد شوید."
+
+#: classes/forms/registration.php:127
+msgid ""
+"Sorry! Applications to become a vendor are currently disabled at this time!"
+msgstr ""
+"متاستفیم! امکان ثبت درخواست فعاسازی حساب فروشندگان در حال حاضر غیر فعال است!"
+
+#: classes/forms/registration.php:131
+msgid "Sorry! Registration is currently disabled at this time!"
+msgstr "متاستفیم! امکان ثبت نام هم اکنون غیر فعال است!"
+
+#: classes/forms/registration.php:167 classes/frontend/class-forms.php:161
+#: classes/frontend/class-forms.php:168
+msgid "Your application is pending"
+msgstr "درخواست شما، در حال بررسی است"
+
+#: classes/forms/registration.php:172
+msgid "You are currently suspended"
+msgstr "حساب کاربری شما تعلیق شده است"
+
+#: classes/forms/registration.php:177
+msgid "Vendor applications are currently closed"
+msgstr "درخواست فروشندگان هم اکنون مسدود شده است"
+
+#: classes/forms/registration.php:182
+msgid ""
+"Vendor registration is currently closed. If you have an existing account, "
+"you may login and apply to become a vendor."
+msgstr ""
+"ثبت نام به عنوان فروشنده هم اکنون بسته شده است. اگر قبلا در سایت ثبت نام "
+"کرده اید وارد حساب کاربری شوید و درخواست فعالسازی حساب فروشندگان را ارسال "
+"کنید."
+
+#: classes/forms/registration.php:187
+msgid "Vendor registration is currently closed."
+msgstr "عضویت فروشندگان هم اکنون مسدود شده است."
+
+#: classes/forms/registration.php:289
+msgid "Your Application has been Approved!"
+msgstr "درخواست شما مورد تایید قرار گرفت!"
+
+#: classes/forms/registration.php:305
+msgid "Application has been submitted!"
+msgstr "درخواست ثبت و ارسال شد!"
+
+#: classes/forms/registration.php:320
+msgid "Application Successfully Updated!"
+msgstr "درخواست با موفقیت بروزرسانی شد!"
+
+#: classes/forms/registration.php:440
+msgid "New Vendor Application Received"
+msgstr "درخواست فروشندگی جدیدی دریافت شده است"
+
+#: classes/forms/registration.php:480 classes/forms/registration.php:553
+msgid "Access Denied: You are not an admin!"
+msgstr "دسترسی ممنوع: شما مدیر نیستید!"
+
+#: classes/forms/registration.php:490
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Sorry! Applications to become a %s are currently disabled at this time!"
+msgstr "متاستفیم! درخواست فعالسازی حساب به عنوان %s هم اکنون غیر فعال است!"
+
+#: classes/forms/registration.php:498
+msgctxt "FES lowercase singular setting for vendor"
+msgid "You're already approved!"
+msgstr "شما قبلا تایید شده اید!"
+
+#: classes/forms/registration.php:506
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Sorry! You're currently suspended!"
+msgstr "متاستفیم! شما در حالت تعلیق هستید!"
+
+#: classes/forms/registration.php:514
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Your application is still being processed!"
+msgstr "درخواست شما همچنان در حال پردازش است!"
+
+#: classes/forms/registration.php:525 classes/forms/registration.php:596
+#, php-format
+msgid "Sorry! Registration to become a %s is currently disabled at this time!"
+msgstr "متاستفیم! ثبت نام به عنوان %s هم اکنون غیر فعال است!"
+
+#: classes/forms/registration.php:563
+#, php-format
+msgid "Sorry! Applications to become a %s are currently disabled at this time!"
+msgstr "متاستفیم! درخواست فعالسازی حساب به عنوان %s هم اکنون غیر فعال است!"
+
+#: classes/forms/registration.php:571
+msgid "You're already approved!"
+msgstr "شما قبلا تایید شده اید!"
+
+#: classes/forms/registration.php:579
+msgid "Sorry! You're currently suspended!"
+msgstr "متاستفیم! شما در حالت تعلیق هستید!"
+
+#: classes/forms/registration.php:587
+msgid "Your application is still being processed!"
+msgstr "درخواست شما همچنان در حال پردازش است!"
+
+#: classes/forms/submission.php:140
+#, php-format
+msgctxt "FES lowercase singular setting for download"
+msgid "New %s submitted successfully!"
+msgstr "%s جدید با موفقیت ارسال شد!"
+
+#: classes/forms/submission.php:143
+#, php-format
+msgctxt "FES uppercase singular setting for download"
+msgid "%s edited successfully!"
+msgstr "%s با موفقیت ویرایش شد!"
+
+#: classes/forms/submission.php:204 classes/forms/submission.php:258
+msgid "New Submission Received"
+msgstr "ارسال جدیدی دریافت شده"
+
+#: classes/forms/submission.php:216 classes/forms/submission.php:270
+msgid "Submission Received"
+msgstr "ارسال دریافت شده"
+
+#: classes/forms/submission.php:234 classes/forms/submission.php:288
+msgid "New Submission Edit Received"
+msgstr "ویرایش جدیدی دریافت شده"
+
+#: classes/forms/submission.php:325
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Access Denied: You are not an admin or the %s assigned to this %s"
+msgstr "دسترسی ممنوع: شما مدیر نیستید و یا هیچ %s به این %s اختصاص نیافته است"
+
+#: classes/forms/submission.php:333 classes/forms/submission.php:341
+#: classes/forms/submission.php:399 classes/forms/submission.php:407
+#, php-format
+msgctxt "fes setting for lowercase singular vendor"
+msgid "Access Denied: You are not an admin or a %s"
+msgstr "دسترسی ممنوع: شما مدیر و یا %s نیستید"
+
+#: classes/forms/submission.php:350 classes/forms/submission.php:416
+#, php-format
+msgctxt "FES lowercase singular setting for download"
+msgid "Access Denied: You cannot edit this %s"
+msgstr "دسترسی ممنوع: شما امکان ویرایش %s را ندارید"
+
+#: classes/forms/submission.php:358 classes/forms/submission.php:424
+#, php-format
+msgctxt "FES lowercase plural setting for download"
+msgid "Access Denied: You cannot create %s"
+msgstr "دسترسی ممنوع: شما امکان ایجاد %s را ندارید"
+
+#: classes/forms/submission.php:391
+#, php-format
+msgid "Access Denied: You are not an admin or the %s assigned to this %s"
+msgstr "دسترسی ممنوع: شما مدیر نیستید و یا هیچ %s به این %s اختصاص نیافته است"
+
+#: classes/forms/vendor_contact.php:44
+msgctxt "FES Form title translation"
+msgid "Vendor Contact"
+msgstr "تماس با فروشنده"
+
+#: classes/forms/vendor_contact.php:58 classes/forms/vendor_contact.php:64
+msgid "Invalid vendor id!"
+msgstr "شماره فروشنده نامعتبر است!"
+
+#: classes/forms/vendor_contact.php:76
+msgid "Email sent!"
+msgstr "ایمیل ارسال شد!"
+
+#: classes/forms/vendor_contact.php:92
+#, php-format
+msgid "Message from %s user"
+msgstr "پیغام از طرف %s"
+
+#: classes/forms/vendor_contact.php:93
+#, php-format
+msgid "From %s (%s): <br />"
+msgstr "از %s (%s): <br />"
+
+#: classes/frontend/class-dashboard.php:197
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: classes/frontend/class-dashboard.php:208
+#, php-format
+msgctxt "FES uppercase singular setting for download"
+msgid "Add %s"
+msgstr "افزودن %s"
+
+#: classes/frontend/class-dashboard.php:222 templates/frontend-orders.php:2
+msgid "Orders"
+msgstr "سفارشات"
+
+#: classes/frontend/class-dashboard.php:228
+#: classes/frontend/class-forms.php:224
+msgid "Profile"
+msgstr "پروفایل"
+
+#: classes/frontend/class-dashboard.php:233
+msgid "Logout"
+msgstr "خروج"
+
+#: classes/frontend/class-dashboard.php:485
+msgid "Scheduled for Release"
+msgstr "زمان بندی انتشار"
+
+#: classes/frontend/class-dashboard.php:495
+msgid "Complete"
+msgstr "کامل"
+
+#: classes/frontend/class-dashboard.php:559
+#: templates/frontend-edit-order.php:14
+msgid "Order: #"
+msgstr "سفارش: #"
+
+#: classes/frontend/class-dashboard.php:642
+msgid "No Comments Found"
+msgstr "هیچ دیدگاهی موجود نیست"
+
+#: classes/frontend/class-dashboard.php:656
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: classes/frontend/class-dashboard.php:656
+msgid "&raquo;"
+msgstr "&laquo;"
+
+#: classes/frontend/class-dashboard.php:676
+msgid "Has Purchased"
+msgstr "خریداری کرده است"
+
+#: classes/frontend/class-dashboard.php:678
+msgid "Has Not Purchased"
+msgstr "خریداری نکرده است"
+
+#: classes/frontend/class-dashboard.php:688
+msgid "View Comment"
+msgstr "نمایش دیدگاه"
+
+#: classes/frontend/class-dashboard.php:695
+msgid "Respond:"
+msgstr "پاسخ:"
+
+#: classes/frontend/class-dashboard.php:704
+msgid "Post Response"
+msgstr "ارسال پاسخ"
+
+#: classes/frontend/class-dashboard.php:709
+msgid "Mark as Read"
+msgstr "علامت به عنوان خوانده شده"
+
+#: classes/frontend/class-forms.php:75
+#, php-format
+msgid "No %s ID set!"
+msgstr "آیدی %s مشخص نشده!"
+
+#: classes/frontend/class-forms.php:83
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Contact %s"
+msgstr "تماس با %s"
+
+#: classes/frontend/class-forms.php:103
+msgid "Login"
+msgstr "ورود"
+
+#: classes/frontend/class-forms.php:110
+msgid "Lost Password?"
+msgstr "رمز عبور را فراموش کرده اید؟"
+
+#: classes/frontend/class-forms.php:125
+msgid "Register"
+msgstr "عضویت"
+
+#: classes/frontend/class-forms.php:156
+msgid "Registration and applications are currently closed"
+msgstr "ثبت نام و درخواست ها هم اکنون مسدود شده اند"
+
+#: classes/frontend/class-forms.php:164
+msgid "An error occured. FES error: CFCF 1"
+msgstr "خطایی رخ داده. خطای رابط ظاهری: CFCF 1"
+
+#: classes/frontend/class-forms.php:170
+msgid "You are already a vendor, go to the Vendor Dashboard"
+msgstr "شما قبلا به فروشنده ارتقا یافته اید، به داشبورد فروشندگان مراجعه کنید"
+
+#: classes/frontend/class-forms.php:200
+msgid ": #"
+msgstr ": #"
+
+#: classes/frontend/class-forms.php:202
+msgid "Create New"
+msgstr "افزودن"
+
+#: classes/frontend/class-vendor-shop.php:157
+#, php-format
+msgid "The Shop of %s"
+msgstr "فروشگاه %s"
+
+#: classes/misc-functions.php:453
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since Easy Digital Downloads Frontend "
+"Submissions version %2$s! Use %3$s instead."
+msgstr ""
+"%1$s <strong>منسوخ</strong> شده است از زمانی که ارسال از رابط ظاهری ایزی "
+"دیجیتال دانلود نسخه %2$s منتشر شد! به جای آن از %3$s استفاده کنید."
+
+#: classes/misc-functions.php:457
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since Easy Digital Downloads Frontend "
+"Submissions version %2$s."
+msgstr ""
+"%1$s <strong>منسوخ</strong> شده است از زمانی که ارسال از رابط ظاهری ایزی "
+"دیجیتال دانلود نسخه %2$s منتشر شده است."
+
+#: classes/misc-functions.php:726
+msgctxt "tag delimiter"
+msgid ","
+msgstr ","
+
+#: classes/schema.php:7
+msgid "Name of Store"
+msgstr "نام فروشگاه"
+
+#: classes/schema.php:9
+msgid "What would you like your store to be called?"
+msgstr "نام دلخواه فروشگاه شما"
+
+#: classes/schema.php:19
+msgid "Email to use for Contact Form"
+msgstr "ایمیل مورد استفاده برای فرم تماس"
+
+#: classes/schema.php:21
+msgid ""
+"This email, if filled in, will be used for the vendor contact forms. If it "
+"is not filled in, the one from your user profile will be used."
+msgstr ""
+"ایمیل وارد شده در این قسمت، برای فرم تماس با فروشنده استفاده خواهد شد، اگر "
+"ایمیلی وارد نشده باشد از ایمیل موجود در پروفایل استفاده می شود."
+
+#: classes/schema.php:37
+msgid "Download Title"
+msgstr "عنوان"
+
+#: classes/schema.php:49
+msgid "Download Body"
+msgstr "محتوا"
+
+#: classes/schema.php:95
+msgid "User Email"
+msgstr "ایمیل کاربر"
+
+#: classes/schema.php:107 classes/schema.php:206
+msgid "Username"
+msgstr "نام کاربری"
+
+#: classes/schema.php:133
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#: classes/schema.php:175
+msgid "Message"
+msgstr "پیغام"
+
+#: classes/schema.php:191 classes/schema.php:233
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: edd-fes.php:141 edd-fes.php:153
+msgid "Cheatin&#8217; huh?"
+msgstr "میخوای تقلب کنی، هان؟"
+
+#: edd-fes.php:282
+msgid ""
+"<strong>Notice:</strong> Easy Digital Downloads Frontend Submissions "
+"requires Easy Digital Downloads 2.3 or higher in order to function properly."
+msgstr ""
+"<strong>توجه:</strong> ارسال از رابط ظاهری برای عملکرد صحیح نیازمند افزونه "
+"ایزی دیجیتال دانلود، نسخه 2.3 و یا بالاتر است."
+
+#: edd-fes.php:288
+msgid ""
+"<strong>Notice:</strong> Easy Digital Downloads Frontend Submissions "
+"requires WordPress 4.2 or higher in order to function properly."
+msgstr ""
+"<strong>توجه:</strong> ارسال از رابط ظاهری برای عملکرد صحیح نیازمند وردپرس، "
+"نسخه 4.2 و یا بالاتر است."
+
+#: templates/frontend-dashboard.php:19
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: templates/frontend-delete-product.php:5
+msgid "Access Denied: You may only delete your own products"
+msgstr "دسترسی ممنوع : شما می توانید فقط محصولات خود را حذف کنید ."
+
+#: templates/frontend-delete-product.php:7
+#, php-format
+msgctxt "FES uppercase singular setting for download"
+msgid "Delete %s"
+msgstr "حذف %s"
+
+#: templates/frontend-delete-product.php:7
+msgid "#: "
+msgstr "#:"
+
+#: templates/frontend-delete-product.php:8
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Are you sure you want to delete this %s? This action is irreversible."
+msgstr "برای حذف %s اطمینان دارید؟ این اقدام غیر قابل بازگشت است."
+
+#: templates/frontend-earnings.php:3
+msgid "Commissions Overview"
+msgstr "خلاصه کمیسیون ها"
+
+#: templates/frontend-earnings.php:9
+msgid "You haven't made any sales yet!"
+msgstr "شما تا کنون هیچ فروشی نداشته اید!"
+
+#: templates/frontend-edit-order.php:4 templates/frontend-edit-order.php:241
+msgid "Access Denied"
+msgstr "دسترسی ممنوع"
+
+#: templates/frontend-edit-order.php:18
+msgid "The specified receipt ID appears to be invalid"
+msgstr "به نظر میرسد آیدی دریافت شده معتبر نیست"
+
+#: templates/frontend-edit-order.php:36
+msgid "Payment"
+msgstr "پرداخت"
+
+#: templates/frontend-edit-order.php:44
+msgid "Payment Status"
+msgstr "وضعیت پرداخت"
+
+#: templates/frontend-edit-order.php:63
+msgid "Fees"
+msgstr "هزینه ها"
+
+#: templates/frontend-edit-order.php:80
+msgid "Discount(s)"
+msgstr "تخفیفات"
+
+#: templates/frontend-edit-order.php:87
+msgid "Tax"
+msgstr "مالیات"
+
+#: templates/frontend-edit-order.php:93
+msgid "Subtotal"
+msgstr "ریز کل"
+
+#: templates/frontend-edit-order.php:100
+msgid "Total Price"
+msgstr "جمع کل"
+
+#: templates/frontend-edit-order.php:119
+msgid "SKU"
+msgstr "SKU"
+
+#: templates/frontend-edit-order.php:122
+msgid "Quantity"
+msgstr "تعداد"
+
+#: templates/frontend-edit-order.php:147
+#, php-format
+msgid "Another %s's %s"
+msgstr "%s دیگر %s"
+
+#: templates/frontend-edit-order.php:193
+msgid "No downloadable files found for this bundled item."
+msgstr "هیچ فایل قابل دانلودی همراه این آیتم نیست."
+
+#: templates/frontend-edit-order.php:201
+msgid "No downloadable files found."
+msgstr "هیچ فایل قابل دانلودی یافت نشد."
+
+#: templates/frontend-orders.php:9
+msgid "Total"
+msgstr "جمع"
+
+#: templates/frontend-orders.php:10
+msgid "Customer"
+msgstr "مشتری"
+
+#: templates/frontend-orders.php:11
+msgid "View Order"
+msgstr "نمایش سفارش"
+
+#: templates/frontend-orders.php:32
+msgid "No orders found"
+msgstr "سفارشی یافت نشد"
+
+#: templates/frontend-pending.php:2
+msgid "Your application has been submitted and will be reviewed."
+msgstr "درخواست شما ارسال شد و به زودی مورد بررسی قرار می گیرد."
+
+#: templates/frontend-products.php:8
+msgid "Image"
+msgstr "تصویر"
+
+#: templates/frontend-products.php:12
+msgid "Purchases"
+msgstr "خرید ها"
+
+#: templates/frontend-products.php:34
+#, php-format
+msgctxt "FES lowercase plural setting for download"
+msgid "No %s found"
+msgstr "هیچ %s یافت نشد"
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Digital Downloads - Frontend Submissions"
+msgstr "ارسال از رابط ظاهری - EDD"
+
+#. Plugin URI of the plugin/theme
+msgid "https://easydigitaldownloads.com/extensions/frontend-submissions/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Mimick Etsy, Envato, or Amazon type sites with this plugin and Easy Digital "
+"Downloads combined!"
+msgstr ""
+"به سادگی انواتو یا حتی سایت هایی مثل آمازون را با ترکیبی از این افزونه و "
+"ایزی دیجیتال دانلود فراهم کنید!"
+
+#. Author of the plugin/theme
+msgid "Chris Christoff"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.chriscct7.com"
+msgstr ""

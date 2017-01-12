@@ -1,0 +1,4110 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Easy Digital Downloads - Frontend Submissions\n"
+"POT-Creation-Date: 2016-10-03 11:36-0500\n"
+"PO-Revision-Date: 2015-09-09 19:25-0400\n"
+"Last-Translator: Chris Christoff <support@easydigitaldownloads.com>\n"
+"Language-Team: Chris Christoff <support@easydigitaldownloads.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: edd-fes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: .roboci\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+"X-Poedit-SearchPathExcluded-3: bin\n"
+"X-Poedit-SearchPathExcluded-4: build\n"
+"X-Poedit-SearchPathExcluded-5: docs\n"
+"X-Poedit-SearchPathExcluded-6: phpdox\n"
+"X-Poedit-SearchPathExcluded-7: tests\n"
+"X-Poedit-SearchPathExcluded-8: tmp\n"
+"X-Poedit-SearchPathExcluded-9: vendor\n"
+"X-Poedit-SearchPathExcluded-10: wordpress\n"
+
+#: classes/abstracts/class-field.php:572 classes/fields/country.php:197
+#: classes/fields/date.php:167 classes/fields/display_name.php:172
+#: classes/fields/download_category.php:301
+#: classes/fields/download_category.php:343
+#: classes/fields/download_notes.php:127 classes/fields/download_tag.php:301
+#: classes/fields/download_tag.php:343 classes/fields/email.php:137
+#: classes/fields/featured_image.php:140 classes/fields/file_upload.php:324
+#: classes/fields/file_upload.php:327 classes/fields/first_name.php:132
+#: classes/fields/last_name.php:131 classes/fields/multiple_pricing.php:413
+#: classes/fields/multiple_pricing.php:416 classes/fields/name.php:106
+#: classes/fields/nickname.php:131 classes/fields/password.php:182
+#: classes/fields/post_content.php:190 classes/fields/post_excerpt.php:157
+#: classes/fields/post_format.php:186 classes/fields/post_title.php:121
+#: classes/fields/radio.php:224 classes/fields/recaptcha.php:229
+#: classes/fields/repeat.php:400 classes/fields/repeat.php:405
+#: classes/fields/repeat.php:410 classes/fields/repeat.php:416
+#: classes/fields/repeat.php:421 classes/fields/repeat.php:427
+#: classes/fields/select.php:190 classes/fields/taxonomy.php:421
+#: classes/fields/taxonomy.php:463 classes/fields/text.php:132
+#: classes/fields/textarea.php:179 classes/fields/url.php:136
+#: classes/fields/user_avatar.php:160 classes/fields/user_bio.php:162
+#: classes/fields/user_email.php:146 classes/fields/user_login.php:132
+#: classes/fields/user_url.php:136
+msgid "Please fill out this field."
+msgstr ""
+
+#: classes/abstracts/class-field.php:658 classes/fields/text.php:46
+msgctxt "FES Field title translation"
+msgid "Text"
+msgstr ""
+
+#: classes/abstracts/class-field.php:715
+#: classes/admin/formbuilder/class-formbuilder-templates.php:79
+msgid "Click and Drag to rearrange"
+msgstr ""
+
+#: classes/abstracts/class-field.php:719
+#: classes/admin/formbuilder/class-formbuilder-templates.php:83
+msgid "Remove"
+msgstr ""
+
+#: classes/abstracts/class-field.php:721
+#: classes/admin/formbuilder/class-formbuilder-templates.php:85
+msgid "Toggle"
+msgstr ""
+
+#: classes/abstracts/class-form.php:199
+msgid "The form has no custom fields!"
+msgstr ""
+
+#: classes/abstracts/class-form.php:280 classes/abstracts/class-form.php:317
+#: classes/forms/registration.php:241
+msgid "The form has no fields!"
+msgstr ""
+
+#: classes/abstracts/class-form.php:368 classes/abstracts/class-form.php:422
+#: classes/abstracts/class-form.php:425 classes/abstracts/class-form.php:470
+#: classes/abstracts/class-form.php:554 classes/abstracts/class-form.php:557
+#: classes/admin/vendors/graphing.php:408
+#: classes/admin/vendors/pdf-reports.php:36
+#: classes/admin/vendors/pdf-reports.php:40
+msgid "Error"
+msgstr ""
+
+#: classes/abstracts/class-form.php:399 classes/abstracts/class-form.php:527
+#: classes/forms/login.php:104 classes/forms/profile.php:91
+#: classes/forms/profile.php:102 classes/forms/registration.php:325
+#: classes/forms/submission.php:177 classes/forms/submission.php:180
+msgid "Success"
+msgstr ""
+
+#: classes/abstracts/class-form.php:420 classes/abstracts/class-form.php:552
+#: classes/class-setup.php:158 classes/class-setup.php:169
+#: classes/class-setup.php:295 classes/class-setup.php:306
+msgid "Please fix the errors to proceed"
+msgstr ""
+
+#: classes/abstracts/class-form.php:426 classes/abstracts/class-form.php:558
+msgid "There are no fields"
+msgstr ""
+
+#: classes/abstracts/class-form.php:912 classes/forms/submission.php:68
+msgctxt "FES Form title translation"
+msgid "Submission"
+msgstr ""
+
+#: classes/abstracts/class-form.php:919
+#, php-format
+msgctxt "%s = FES Form Name (translated)"
+msgid "%s Form"
+msgstr ""
+
+#: classes/abstracts/class-form.php:931
+msgid "Submit"
+msgstr ""
+
+#: classes/abstracts/class-form.php:976 classes/abstracts/class-form.php:984
+#: classes/abstracts/class-form.php:1011 classes/abstracts/class-form.php:1019
+#, php-format
+msgid "Access Denied: You are not an admin or a %s"
+msgstr ""
+
+#: classes/admin/class-install.php:551 classes/admin/class-install.php:911
+#: classes/admin/class-settings.php:127 classes/admin/class-tools.php:399
+#: classes/admin/class-tools.php:638 classes/admin/class-tools.php:856
+#: classes/admin/class-tools.php:936 classes/admin/class-tools.php:959
+#: classes/admin/class-tools.php:981 classes/admin/class-welcome.php:324
+msgid "Submission Form"
+msgstr ""
+
+#: classes/admin/class-install.php:562 classes/admin/class-install.php:953
+#: classes/admin/class-settings.php:135 classes/admin/class-tools.php:451
+#: classes/admin/class-tools.php:656 classes/admin/class-tools.php:866
+#: classes/admin/class-tools.php:937 classes/admin/class-tools.php:960
+#: classes/admin/class-tools.php:982
+msgid "Profile Form"
+msgstr ""
+
+#: classes/admin/class-install.php:826
+msgid "Vendor Dashboard"
+msgstr ""
+
+#: classes/admin/class-install.php:868 classes/class-helpers.php:467
+msgid "Vendor"
+msgstr ""
+
+#: classes/admin/class-install.php:995 classes/admin/class-settings.php:151
+#: classes/admin/class-tools.php:358 classes/admin/class-tools.php:620
+#: classes/admin/class-tools.php:845 classes/admin/class-tools.php:938
+#: classes/admin/class-tools.php:961 classes/admin/class-tools.php:983
+msgid "Registration Form"
+msgstr ""
+
+#: classes/admin/class-install.php:1037 classes/admin/class-settings.php:143
+#: classes/admin/class-tools.php:602 classes/admin/class-tools.php:833
+#: classes/admin/class-tools.php:985
+msgid "Login Form"
+msgstr ""
+
+#: classes/admin/class-install.php:1079 classes/admin/class-settings.php:159
+#: classes/admin/class-tools.php:984
+msgid "Vendor Contact Form"
+msgstr ""
+
+#: classes/admin/class-list-table.php:149
+#, php-format
+msgctxt "posts"
+msgid "Mine <span class=\"count\">(%s)</span>"
+msgid_plural "Mine <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/admin/class-list-table.php:160
+#, php-format
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/admin/class-list-table.php:182
+#, php-format
+msgctxt "posts"
+msgid "Sticky <span class=\"count\">(%s)</span>"
+msgid_plural "Sticky <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/admin/class-list-table.php:196
+#: classes/admin/class-list-table.php:603
+msgid "Restore"
+msgstr ""
+
+#: classes/admin/class-list-table.php:198
+#: classes/admin/class-list-table.php:598
+#: classes/admin/downloads/class-download-table.php:365
+#: classes/class-post-types.php:93 classes/frontend/class-dashboard.php:585
+#: classes/frontend/class-forms.php:391
+msgid "Edit"
+msgstr ""
+
+#: classes/admin/class-list-table.php:201
+#: classes/admin/class-list-table.php:607
+msgid "Delete Permanently"
+msgstr ""
+
+#: classes/admin/class-list-table.php:203
+msgid "Move to Trash"
+msgstr ""
+
+#: classes/admin/class-list-table.php:219
+msgid "View all categories"
+msgstr ""
+
+#: classes/admin/class-list-table.php:229
+#: classes/admin/vendors/graphing.php:712
+msgid "Filter"
+msgstr ""
+
+#: classes/admin/class-list-table.php:233
+msgid "Empty Trash"
+msgstr ""
+
+#. translators: manage posts column name
+#: classes/admin/class-list-table.php:268
+msgctxt "column name"
+msgid "Title"
+msgstr ""
+
+#: classes/admin/class-list-table.php:271
+#: classes/admin/class-list-table.php:835 templates/frontend-dashboard.php:18
+msgid "Author"
+msgstr ""
+
+#: classes/admin/class-list-table.php:294
+#: classes/admin/class-list-table.php:968
+msgid "Comments"
+msgstr ""
+
+#: classes/admin/class-list-table.php:296
+#: classes/admin/class-list-table.php:811
+#: classes/admin/downloads/class-download-table.php:301
+#: classes/admin/vendors/vendors.php:489 templates/frontend-edit-order.php:49
+#: templates/frontend-orders.php:13 templates/frontend-products.php:14
+msgid "Date"
+msgstr ""
+
+#: classes/admin/class-list-table.php:528
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: classes/admin/class-list-table.php:571
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/admin/class-list-table.php:585
+#, php-format
+msgid "%s is currently editing"
+msgstr ""
+
+#: classes/admin/class-list-table.php:598
+msgid "Edit this item"
+msgstr ""
+
+#: classes/admin/class-list-table.php:599
+msgid "Edit this item inline"
+msgstr ""
+
+#: classes/admin/class-list-table.php:599
+msgid "Quick&nbsp;Edit"
+msgstr ""
+
+#: classes/admin/class-list-table.php:603
+msgid "Restore this item from the Trash"
+msgstr ""
+
+#: classes/admin/class-list-table.php:605
+msgid "Move this item to the Trash"
+msgstr ""
+
+#: classes/admin/class-list-table.php:605
+#: classes/admin/downloads/class-download-table.php:497
+#: classes/frontend/class-dashboard.php:752
+#: classes/frontend/class-dashboard.php:839
+#: classes/frontend/class-dashboard.php:867
+msgid "Trash"
+msgstr ""
+
+#: classes/admin/class-list-table.php:607
+msgid "Delete this item permanently"
+msgstr ""
+
+#: classes/admin/class-list-table.php:612
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/admin/class-list-table.php:612
+msgid "Preview"
+msgstr ""
+
+#: classes/admin/class-list-table.php:614
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/admin/class-list-table.php:614
+#: classes/admin/downloads/class-download-table.php:360
+#: classes/admin/downloads/class-edit-download.php:258
+#: classes/admin/vendors/class-vendor-table.php:128
+#: classes/admin/vendors/class-vendor-table.php:144
+#: classes/admin/vendors/class-vendor-table.php:160
+#: classes/frontend/class-dashboard.php:581
+#: classes/frontend/class-dashboard.php:918
+msgid "View"
+msgstr ""
+
+#: classes/admin/class-list-table.php:627
+#: classes/frontend/class-dashboard.php:610
+msgid "Unpublished"
+msgstr ""
+
+#: classes/admin/class-list-table.php:630
+#: classes/frontend/class-dashboard.php:613
+#: classes/frontend/class-dashboard.php:956
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: classes/admin/class-list-table.php:637
+#: classes/frontend/class-dashboard.php:620
+#: classes/frontend/class-dashboard.php:963
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: classes/admin/class-list-table.php:639
+#: classes/frontend/class-dashboard.php:622
+#: classes/frontend/class-dashboard.php:965
+msgid "Y/m/d"
+msgstr ""
+
+#: classes/admin/class-list-table.php:649
+#: classes/admin/class-list-table.php:1014
+#: classes/frontend/class-dashboard.php:628
+msgid "Published"
+msgstr ""
+
+#: classes/admin/class-list-table.php:652
+msgid "Missed schedule"
+msgstr ""
+
+#: classes/admin/class-list-table.php:654
+#: classes/admin/class-list-table.php:1015
+#: classes/admin/downloads/class-download-table.php:495
+#: classes/frontend/class-dashboard.php:630
+#: classes/frontend/class-dashboard.php:750
+msgid "Scheduled"
+msgstr ""
+
+#: classes/admin/class-list-table.php:656
+#: classes/frontend/class-dashboard.php:632
+msgid "Last Modified"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: classes/admin/class-list-table.php:716
+msgid ", "
+msgstr ""
+
+#: classes/admin/class-list-table.php:786
+msgid "Bulk Edit"
+msgstr ""
+
+#: classes/admin/class-list-table.php:786
+msgid "Quick Edit"
+msgstr ""
+
+#: classes/admin/class-list-table.php:798 classes/admin/vendors/vendors.php:770
+#: classes/fields/html.php:141 classes/fields/section_break.php:145
+msgid "Title"
+msgstr ""
+
+#: classes/admin/class-list-table.php:803
+#: classes/fields/download_category.php:257 classes/fields/download_tag.php:257
+#: classes/fields/taxonomy.php:377
+msgid "Slug"
+msgstr ""
+
+#: classes/admin/class-list-table.php:831
+#: classes/admin/class-list-table.php:911
+#: classes/admin/class-list-table.php:936
+#: classes/admin/class-list-table.php:970
+#: classes/admin/class-list-table.php:979
+#: classes/admin/class-list-table.php:1011
+#: classes/admin/class-list-table.php:1032
+#: classes/admin/class-list-table.php:1060
+msgid "&mdash; No Change &mdash;"
+msgstr ""
+
+#: classes/admin/class-list-table.php:850 classes/schema.php:178
+#: classes/schema.php:305
+msgid "Password"
+msgstr ""
+
+#. translators: Between password field and private checkbox on post quick edit interface
+#: classes/admin/class-list-table.php:857
+msgid "&ndash;OR&ndash;"
+msgstr ""
+
+#: classes/admin/class-list-table.php:862
+#: classes/admin/class-list-table.php:1017
+#: classes/admin/downloads/class-download-table.php:493
+msgid "Private"
+msgstr ""
+
+#: classes/admin/class-list-table.php:899
+msgid "Parent"
+msgstr ""
+
+#: classes/admin/class-list-table.php:905
+msgid "Main Page (no parent)"
+msgstr ""
+
+#: classes/admin/class-list-table.php:923
+#: classes/fields/download_category.php:264 classes/fields/download_tag.php:264
+#: classes/fields/taxonomy.php:384 templates/frontend-orders.php:7
+msgid "Order"
+msgstr ""
+
+#: classes/admin/class-list-table.php:933
+msgid "Template"
+msgstr ""
+
+#: classes/admin/class-list-table.php:938
+msgid "Default Template"
+msgstr ""
+
+#: classes/admin/class-list-table.php:971
+#: classes/admin/class-list-table.php:980
+msgid "Allow"
+msgstr ""
+
+#: classes/admin/class-list-table.php:972
+#: classes/admin/class-list-table.php:981 classes/admin/class-tracking.php:309
+msgid "Do not allow"
+msgstr ""
+
+#: classes/admin/class-list-table.php:977
+msgid "Pings"
+msgstr ""
+
+#: classes/admin/class-list-table.php:993
+msgid "Allow Comments"
+msgstr ""
+
+#: classes/admin/class-list-table.php:998
+msgid "Allow Pings"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1008
+#: classes/admin/downloads/class-download-table.php:296
+#: classes/admin/vendors/class-vendor-table.php:273
+#: classes/admin/vendors/vendors.php:385 classes/admin/vendors/vendors.php:771
+#: templates/frontend-orders.php:8 templates/frontend-products.php:10
+msgid "Status"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1020
+#: classes/admin/downloads/class-download-table.php:491
+#: classes/frontend/class-dashboard.php:748
+#: classes/frontend/class-dashboard.php:835
+msgid "Pending Review"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1021
+#: classes/admin/downloads/class-download-table.php:489
+#: classes/frontend/class-dashboard.php:746
+#: classes/frontend/class-dashboard.php:833
+#: classes/frontend/class-dashboard.php:861
+msgid "Draft"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1030
+#: classes/admin/class-list-table.php:1033
+msgid "Sticky"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1034
+msgid "Not Sticky"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1042
+msgid "Make this post sticky"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1058
+msgctxt "post format"
+msgid "Format"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1089
+#: classes/admin/vendors/vendors.php:410
+msgid "Cancel"
+msgstr ""
+
+#: classes/admin/class-list-table.php:1093
+#: classes/admin/class-list-table.php:1096
+msgid "Update"
+msgstr ""
+
+#: classes/admin/class-menu.php:58
+msgid "EDD FES"
+msgstr ""
+
+#: classes/admin/class-menu.php:59
+msgid "About"
+msgstr ""
+
+#: classes/admin/class-menu.php:67
+msgid "Tools"
+msgstr ""
+
+#: classes/admin/class-menu.php:68
+msgid "Settings"
+msgstr ""
+
+#: classes/admin/class-settings.php:64
+msgid "Rename \"vendor\""
+msgstr ""
+
+#: classes/admin/class-settings.php:65
+msgid "This will change all mentions of \"vendor\" within FES"
+msgstr ""
+
+#: classes/admin/class-settings.php:71
+msgid "Rename \"product\""
+msgstr ""
+
+#: classes/admin/class-settings.php:72
+msgid "This will change all mentions of \"product\" within FES"
+msgstr ""
+
+#: classes/admin/class-settings.php:78
+msgid "Vendor Announcement"
+msgstr ""
+
+#: classes/admin/class-settings.php:79
+msgid ""
+"Use this to announce things to your vendors. Appears on the Vendor Dashboard "
+"Page once logged in."
+msgstr ""
+
+#: classes/admin/class-settings.php:80
+msgid ""
+"This is the vendor dashboard. Add welcome text or any other information that "
+"is applicable to your vendors."
+msgstr ""
+
+#: classes/admin/class-settings.php:85
+msgid "Use FES's CSS"
+msgstr ""
+
+#: classes/admin/class-settings.php:86
+msgid ""
+"Uncheck this to turn off FES's CSS. We only recommend that if your theme or "
+"custom CSS is providing styles for FES."
+msgstr ""
+
+#: classes/admin/class-settings.php:96 classes/admin/class-settings.php:105
+msgid "Select a page"
+msgstr ""
+
+#: classes/admin/class-settings.php:97
+msgid "Vendor Dashboard Page"
+msgstr ""
+
+#: classes/admin/class-settings.php:98
+msgid ""
+"This setting is used by FES to determine which page is the vendor dashboard. "
+"Only change if you are using a custom dashboard page. The page must contain "
+"the [fes_vendor_dashboard] shortcode."
+msgstr ""
+
+#: classes/admin/class-settings.php:106
+msgid "Vendor Page"
+msgstr ""
+
+#: classes/admin/class-settings.php:107
+msgid ""
+"This setting is used by FES to determine which page is the vendor store "
+"page. Only change if you are using a custom vendor store page. The page must "
+"contain the [downloads] shortcode."
+msgstr ""
+
+#: classes/admin/class-settings.php:112
+msgid "Enable Multiple Purchase Mode for all vendor products"
+msgstr ""
+
+#: classes/admin/class-settings.php:113
+msgid ""
+"Check this box to allow customers to purchase multiple variations of a "
+"vendor product simultaneously."
+msgstr ""
+
+#: classes/admin/class-settings.php:118
+msgid "Show custom fields on the download?"
+msgstr ""
+
+#: classes/admin/class-settings.php:119
+msgid ""
+"Checking this box allows you to select which fields to show on the product "
+"page using the radio buttons on the top of each field on the submission "
+"formbuilder."
+msgstr ""
+
+#: classes/admin/class-settings.php:126 classes/admin/class-settings.php:134
+#: classes/admin/class-settings.php:142 classes/admin/class-settings.php:150
+#: classes/admin/class-settings.php:158
+msgid "Select a form"
+msgstr ""
+
+#: classes/admin/class-settings.php:167
+msgid "Registration"
+msgstr ""
+
+#: classes/admin/class-settings.php:168
+msgid "Allow guests to apply to become a vendor"
+msgstr ""
+
+#: classes/admin/class-settings.php:173
+msgid "Applications"
+msgstr ""
+
+#: classes/admin/class-settings.php:174
+msgid "Allow existing WordPress users to apply to become a vendor"
+msgstr ""
+
+#: classes/admin/class-settings.php:179
+msgid "Allow Access to WP Backend?"
+msgstr ""
+
+#: classes/admin/class-settings.php:180
+msgid ""
+"Check this box to allow vendors to access the WordPress admin. Does not "
+"remove the admin bar."
+msgstr ""
+
+#: classes/admin/class-settings.php:185
+msgid "Show the Admin Bar?"
+msgstr ""
+
+#: classes/admin/class-settings.php:186
+msgid ""
+"Check this box to allow vendors to see the WordPress admin bar. Applies to "
+"vendor users that are not admins."
+msgstr ""
+
+#: classes/admin/class-settings.php:191
+msgid "Automatically Approve Vendors?"
+msgstr ""
+
+#: classes/admin/class-settings.php:192
+msgid ""
+"Check this box to automatically approve vendor applications. If not checked, "
+"vendors will not be able to submit products until their account is approved "
+"by a site admin."
+msgstr ""
+
+#: classes/admin/class-settings.php:197
+msgid "Automatically Approve Submissions?"
+msgstr ""
+
+#: classes/admin/class-settings.php:198
+msgid ""
+"Check this box to automatically approve vendor product submissions. If not "
+"checked, vendor products will be saved as pending until their account is "
+"approved by a site admin."
+msgstr ""
+
+#: classes/admin/class-settings.php:203
+msgid "Automatically Approve Vendor Edits?"
+msgstr ""
+
+#: classes/admin/class-settings.php:204
+msgid ""
+"Check this box to automatically approve edits vendors make to products. If "
+"not checked, vendor products will be changed to pending status (removed from "
+"store) until manually approved."
+msgstr ""
+
+#: classes/admin/class-settings.php:209
+msgid "Allow Vendors to Create Products?"
+msgstr ""
+
+#: classes/admin/class-settings.php:210
+msgid "Check this box to allow vendors to create products."
+msgstr ""
+
+#: classes/admin/class-settings.php:215
+msgid "Allow Vendors to Edit Products?"
+msgstr ""
+
+#: classes/admin/class-settings.php:216
+msgid ""
+"Check this box to allow vendors to edit their existing products. If vendors "
+"cannot edit products, after submitting a new product they will be redirected "
+"to the new product form instead of being redirected to edit the product they "
+"just submitted."
+msgstr ""
+
+#: classes/admin/class-settings.php:221
+msgid "Allow Vendors to Delete Products?"
+msgstr ""
+
+#: classes/admin/class-settings.php:222
+msgid "Check this box to allow vendors to delete their products."
+msgstr ""
+
+#: classes/admin/class-settings.php:227
+msgid "Allow Vendors to View Orders?"
+msgstr ""
+
+#: classes/admin/class-settings.php:228
+msgid ""
+"Check this box to allow vendors to view customer orders containing their "
+"products."
+msgstr ""
+
+#: classes/admin/class-settings.php:234
+msgid "Emails to Admin"
+msgstr ""
+
+#: classes/admin/class-settings.php:240
+msgid "Vendor Application"
+msgstr ""
+
+#: classes/admin/class-settings.php:241 classes/admin/class-settings.php:294
+msgid ""
+"Check this box to email site admins when a person applies to become a "
+"vendor. It is only sent if the \"Automatically Approve Vendors\" setting is "
+"off."
+msgstr ""
+
+#: classes/admin/class-settings.php:246
+msgid "Vendor Application Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:247
+msgid ""
+"The email body for the vendor application email. A list of email tags you "
+"can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:247 classes/admin/class-settings.php:260
+#: classes/admin/class-settings.php:278 classes/admin/class-settings.php:300
+#: classes/admin/class-settings.php:316 classes/admin/class-settings.php:330
+#: classes/admin/class-settings.php:345 classes/admin/class-settings.php:359
+#: classes/admin/class-settings.php:373 classes/admin/class-settings.php:387
+#: classes/admin/class-settings.php:401 classes/admin/class-settings.php:417
+#: classes/admin/class-settings.php:431 classes/admin/class-settings.php:445
+msgid " in our documentation"
+msgstr ""
+
+#: classes/admin/class-settings.php:253
+msgid "New Product"
+msgstr ""
+
+#: classes/admin/class-settings.php:254
+msgid ""
+"Check this box to email site admins when a vendor submits a new product. It "
+"is only sent if the \"Automatically Approve Submissions\" setting is off."
+msgstr ""
+
+#: classes/admin/class-settings.php:259
+msgid "New Product Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:260
+msgid ""
+"The email body for the new product submissions. A list of email tags you can "
+"use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:271
+msgid "Edited Product"
+msgstr ""
+
+#: classes/admin/class-settings.php:272
+msgid ""
+"Check this box to email site admins when a vendor edits an existing product. "
+"It is only sent if the \"Automatically Approve Vendor Edits\" setting is off."
+msgstr ""
+
+#: classes/admin/class-settings.php:277
+msgid "Edited Product Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:278
+msgid ""
+"The email body for edited product submissions. A list of email tags you can "
+"use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:287
+msgid "Emails to Vendors"
+msgstr ""
+
+#: classes/admin/class-settings.php:293 classes/forms/registration.php:457
+msgid "Application Received"
+msgstr ""
+
+#: classes/admin/class-settings.php:299
+msgid "Application Received Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:300
+msgid ""
+"The email body for vendor application submissions. A list of email tags you "
+"can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:309 classes/class-vendor.php:1021
+#: classes/forms/registration.php:431
+msgid "Application Approved"
+msgstr ""
+
+#: classes/admin/class-settings.php:310
+msgid ""
+"Check this box to email a vendor when his or her application is approved. It "
+"is only sent if the \"Automatically Approve Vendors\" setting is off."
+msgstr ""
+
+#: classes/admin/class-settings.php:315
+msgid "Application Approved Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:316
+msgid ""
+"The email body for the application approved email. A list of email tags you "
+"can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:323 classes/class-vendor.php:969
+msgid "Application Declined"
+msgstr ""
+
+#: classes/admin/class-settings.php:324
+msgid ""
+"Check this box to email a vendor when his or her application is declined. It "
+"is only sent if the \"Automatically Approve Vendors\" setting is off."
+msgstr ""
+
+#: classes/admin/class-settings.php:329
+msgid "Application Declined Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:330
+msgid ""
+"The email body for the application declined email. A list of email tags you "
+"can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:337
+msgid "Application Auto-Approved"
+msgstr ""
+
+#: classes/admin/class-settings.php:338
+msgid ""
+"Check this box to email a vendor when his or her application is "
+"automatically approved when the \"Automatically Approve Vendors\" setting is "
+"on."
+msgstr ""
+
+#: classes/admin/class-settings.php:339
+msgid "Vendor Auto-Approved"
+msgstr ""
+
+#: classes/admin/class-settings.php:344
+msgid "Application Auto-Approved Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:345
+msgid ""
+"The email body for the application auto-approved email. A list of email tags "
+"you can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:352
+msgid "Vendor Revoked"
+msgstr ""
+
+#: classes/admin/class-settings.php:353
+msgid ""
+"Check this box to email a vendor when his or her vendor status is revoked."
+msgstr ""
+
+#: classes/admin/class-settings.php:358
+msgid "Vendor Revoked Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:359
+msgid ""
+"The email body for the vendor revoked email. A list of email tags you can "
+"use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:366
+msgid "Vendor Suspended"
+msgstr ""
+
+#: classes/admin/class-settings.php:367
+msgid ""
+"Check this box to email a vendor when his or her vendor status is suspended."
+msgstr ""
+
+#: classes/admin/class-settings.php:372
+msgid "Vendor Suspended Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:373
+msgid ""
+"The email body for the vendor suspended email. A list of email tags you can "
+"use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:380
+msgid "Vendor Unsuspended"
+msgstr ""
+
+#: classes/admin/class-settings.php:381
+msgid ""
+"Check this box to email a vendor when his or her vendor status is "
+"unsuspended."
+msgstr ""
+
+#: classes/admin/class-settings.php:386
+msgid "Vendor Unsuspended Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:387
+msgid ""
+"The email body for the vendor unsuspended email. A list of email tags you "
+"can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:394
+msgid "New Submission"
+msgstr ""
+
+#: classes/admin/class-settings.php:395
+msgid ""
+"Check this box to email a vendor when he or she submits a new product and "
+"the \"Automatically Approve Submissions\" setting is off."
+msgstr ""
+
+#: classes/admin/class-settings.php:400
+msgid "New Submission Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:401
+msgid ""
+"The email body for the new submission email. A list of email tags you can "
+"use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:410
+msgid "Submission Approved"
+msgstr ""
+
+#: classes/admin/class-settings.php:411
+msgid ""
+"Check this box to email a vendor when his or her product submission is "
+"approved and the \"Automatically Approve Submissions\" setting is off."
+msgstr ""
+
+#: classes/admin/class-settings.php:416
+msgid "Submission Approved Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:417
+msgid ""
+"The email body for the submission approved email. A list of email tags you "
+"can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:424 classes/class-emails.php:404
+msgid "Submission Declined"
+msgstr ""
+
+#: classes/admin/class-settings.php:425
+msgid ""
+"Check this box to email a vendor when his or her product submission is "
+"declined and the \"Automatically Approve Submissions\" setting is off."
+msgstr ""
+
+#: classes/admin/class-settings.php:430
+msgid "Submission Declined Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:431
+msgid ""
+"The email body for the submission declined email. A list of email tags you "
+"can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:438 classes/class-emails.php:436
+msgid "Submission Revoked"
+msgstr ""
+
+#: classes/admin/class-settings.php:439
+msgid "Check this box to email a vendor when his or her product is revoked."
+msgstr ""
+
+#: classes/admin/class-settings.php:444
+msgid "Submission Revoked Email Contents"
+msgstr ""
+
+#: classes/admin/class-settings.php:445
+msgid ""
+"The email body for the submission revoked email. A list of email tags you "
+"can use is "
+msgstr ""
+
+#: classes/admin/class-settings.php:454
+msgid "reCAPTCHA Site key"
+msgstr ""
+
+#: classes/admin/class-settings.php:455 classes/admin/class-settings.php:461
+msgid "Create your reCAPTCHA keys "
+msgstr ""
+
+#: classes/admin/class-settings.php:455 classes/admin/class-settings.php:461
+msgid "here"
+msgstr ""
+
+#: classes/admin/class-settings.php:460
+msgid "reCAPTCHA Secret key"
+msgstr ""
+
+#: classes/admin/class-settings.php:466
+msgid "reCAPTCHA on the login form"
+msgstr ""
+
+#: classes/admin/class-settings.php:467
+msgid ""
+"Check this box to show a reCAPTCHA field on the login form on the vendor "
+"dashboard."
+msgstr ""
+
+#: classes/admin/class-settings.php:472
+msgid "reCAPTCHA on the vendor contact form"
+msgstr ""
+
+#: classes/admin/class-settings.php:473
+msgid "Check this box to show a reCAPTCHA field on the vendor contact form."
+msgstr ""
+
+#: classes/admin/class-settings.php:492
+msgid "FES"
+msgstr ""
+
+#: classes/admin/class-settings.php:509
+msgid "Main Settings"
+msgstr ""
+
+#: classes/admin/class-settings.php:510
+msgid "Forms/Pages"
+msgstr ""
+
+#: classes/admin/class-settings.php:511 classes/admin/class-welcome.php:311
+msgid "Permissions"
+msgstr ""
+
+#: classes/admin/class-settings.php:512 classes/admin/vendors/vendors.php:946
+msgid "Emails"
+msgstr ""
+
+#: classes/admin/class-settings.php:513
+msgid "Integrations"
+msgstr ""
+
+#: classes/admin/class-tools.php:105
+msgid "Form Tools"
+msgstr ""
+
+#: classes/admin/class-tools.php:148
+msgid "Successfully imported the "
+msgstr ""
+
+#: classes/admin/class-tools.php:148 classes/admin/class-tools.php:150
+msgid " form!"
+msgstr ""
+
+#: classes/admin/class-tools.php:150
+msgid "Successfully reset the "
+msgstr ""
+
+#: classes/admin/class-tools.php:154
+msgid "Successfully removed "
+msgstr ""
+
+#: classes/admin/class-tools.php:154
+msgid " extra form(s)!"
+msgstr ""
+
+#: classes/admin/class-tools.php:157 classes/admin/class-tools.php:161
+msgid "No extra forms to remove!"
+msgstr ""
+
+#: classes/admin/class-tools.php:165
+msgid "Reset meta for all forms!"
+msgstr ""
+
+#: classes/admin/class-tools.php:169
+msgid "Resetting meta failed!"
+msgstr ""
+
+#: classes/admin/class-tools.php:173
+msgid "Reset all forms!"
+msgstr ""
+
+#: classes/admin/class-tools.php:177
+msgid "Resetting forms failed!"
+msgstr ""
+
+#: classes/admin/class-tools.php:181
+msgid "Imported old settings!"
+msgstr ""
+
+#: classes/admin/class-tools.php:185
+msgid "Importing old settings failed!"
+msgstr ""
+
+#: classes/admin/class-tools.php:191
+msgid "Import Form"
+msgstr ""
+
+#: classes/admin/class-tools.php:193
+msgid "Import form settings from a .json file."
+msgstr ""
+
+#: classes/admin/class-tools.php:201
+msgid "Export Form"
+msgstr ""
+
+#: classes/admin/class-tools.php:203
+msgid "Export form settings as a .json file"
+msgstr ""
+
+#: classes/admin/class-tools.php:211
+msgid "Reset Form"
+msgstr ""
+
+#: classes/admin/class-tools.php:213
+msgid "Restores form settings back to new install defaults"
+msgstr ""
+
+#: classes/admin/class-tools.php:221
+msgid "Reset All Forms"
+msgstr ""
+
+#: classes/admin/class-tools.php:223
+msgid "This action resets all FES Forms"
+msgstr ""
+
+#: classes/admin/class-tools.php:228
+msgid "Reset Forms"
+msgstr ""
+
+#: classes/admin/class-tools.php:237
+msgid "Reset Meta for All Forms"
+msgstr ""
+
+#: classes/admin/class-tools.php:239
+msgid "This action resets the meta added in FES 2.3 for all FES Forms"
+msgstr ""
+
+#: classes/admin/class-tools.php:244
+msgid "Reset Meta For All Forms"
+msgstr ""
+
+#: classes/admin/class-tools.php:253
+msgid "Delete Extraneous Forms"
+msgstr ""
+
+#: classes/admin/class-tools.php:255
+msgid ""
+"This action deletes all FES Forms which are not assigned to a form in the "
+"FES Settings Panel"
+msgstr ""
+
+#: classes/admin/class-tools.php:260
+msgid "Delete Unassigned Forms"
+msgstr ""
+
+#: classes/admin/class-tools.php:269
+msgid "Import  Pre-FES 2.4 Settings"
+msgstr ""
+
+#: classes/admin/class-tools.php:271
+msgid "Import form settings from a pre-FES 2.4 .json file."
+msgstr ""
+
+#: classes/admin/class-tools.php:279
+msgid "Export  Pre-FES 2.4 Settings"
+msgstr ""
+
+#: classes/admin/class-tools.php:281
+msgid "Export form settings pre-FES 2.4 as a .json file."
+msgstr ""
+
+#: classes/admin/class-tools.php:334 classes/admin/class-tools.php:375
+#: classes/admin/class-tools.php:416 classes/admin/class-tools.php:500
+msgid "Please upload a valid .json file"
+msgstr ""
+
+#: classes/admin/class-tools.php:340 classes/admin/class-tools.php:381
+#: classes/admin/class-tools.php:422 classes/admin/class-tools.php:506
+msgid "Please upload a file to import"
+msgstr ""
+
+#: classes/admin/class-tools.php:674 classes/admin/class-tools.php:876
+msgid "Contact Form"
+msgstr ""
+
+#: classes/admin/class-tools.php:950
+msgid "Import"
+msgstr ""
+
+#: classes/admin/class-tools.php:972 classes/admin/class-tools.php:1031
+msgid "Export"
+msgstr ""
+
+#: classes/admin/class-tools.php:996 classes/admin/class-tools.php:1014
+msgid "Reset"
+msgstr ""
+
+#: classes/admin/class-tracking.php:305
+msgid ""
+"Allow EDD FES to tell Chris, the developer of FES, how you're using FES so "
+"he can work on making it better for everyone. No sensitive data is tracked."
+msgstr ""
+
+#: classes/admin/class-tracking.php:308
+msgid "Absolutely, I'll help the cause"
+msgstr ""
+
+#: classes/admin/class-tracking.php:312
+#, php-format
+msgctxt "tracking link is the %s"
+msgid ""
+"You can read a full list of the data collected (and why I need it) %s here %s"
+msgstr ""
+
+#: classes/admin/class-update.php:34
+msgid "FES Upgrades"
+msgstr ""
+
+#: classes/admin/class-update.php:56
+msgid "Frontend Submissions - Upgrades"
+msgstr ""
+
+#: classes/admin/class-update.php:58
+msgid ""
+"The upgrade process is running, please be patient. This could take several "
+"minutes to complete."
+msgstr ""
+
+#: classes/admin/class-update.php:59
+#, php-format
+msgid "Step %d of approximately %d running"
+msgstr ""
+
+#: classes/admin/class-update.php:86
+#, php-format
+msgid ""
+"Vendor permissions need to be updated, click <a href=\"%s\">here</a> to "
+"start the upgrade."
+msgstr ""
+
+#: classes/admin/class-update.php:93
+#, php-format
+msgid ""
+"The vendor table needs to be updated, click <a href=\"%s\">here</a> to start "
+"the upgrade."
+msgstr ""
+
+#: classes/admin/class-welcome.php:108
+msgid "What's New"
+msgstr ""
+
+#: classes/admin/class-welcome.php:111
+msgid "Getting Started"
+msgstr ""
+
+#: classes/admin/class-welcome.php:114
+msgid "Support & Documentation"
+msgstr ""
+
+#: classes/admin/class-welcome.php:117
+msgid "Changelog"
+msgstr ""
+
+#: classes/admin/class-welcome.php:172
+#, php-format
+msgid "Welcome to FES %s"
+msgstr ""
+
+#: classes/admin/class-welcome.php:173
+#, php-format
+msgctxt "FES version number"
+msgid ""
+"Thank you for updating to the latest version! Easy Digital Downloads "
+"Frontend Submissions %s is ready to make your online store faster, safer and "
+"better!"
+msgstr ""
+
+#: classes/admin/class-welcome.php:201
+#, php-format
+msgctxt "FES version number"
+msgid "FES %s release highlights:"
+msgstr ""
+
+#: classes/admin/class-welcome.php:205
+msgid "All New Settings Interface"
+msgstr ""
+
+#: classes/admin/class-welcome.php:211
+msgid "Familiar Layout"
+msgstr ""
+
+#: classes/admin/class-welcome.php:212
+msgid ""
+"FES 2.4 introduces a familiar settings interface. Previously, all FES "
+"settings were built into a framework that had to be integrated into "
+"WordPress. Now, all FES settings use core WordPress functionality making it "
+"more intuitive for those already familiar with WordPress."
+msgstr ""
+
+#: classes/admin/class-welcome.php:213
+msgid ""
+"Also, all settings have been reviewed to improve clarity and function, "
+"making it easier for you to understand exactly what tools you have for "
+"managing your marketplace."
+msgstr ""
+
+#: classes/admin/class-welcome.php:214 classes/admin/vendors/pdf-reports.php:51
+#: classes/admin/vendors/pdf-reports.php:52
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: classes/admin/class-welcome.php:215
+msgid ""
+"Regardless of its extensive functionality, FES is still an Easy Digital "
+"Downloads extension. It's only right that FES settings are coupled with EDD "
+"settings. The new Settings sub-menu link now leads to a dedicated FES "
+"settings tab on the EDD settings page."
+msgstr ""
+
+#: classes/admin/class-welcome.php:261
+msgid "PHP7 Compatibility"
+msgstr ""
+
+#: classes/admin/class-welcome.php:262
+msgid ""
+"Maintaining software is not just about bug fixes and new features. Keeping "
+"up-to-date with associated technologies is a vital part of the process. FES "
+"2.4 adds support for PHP7 allowing you to run your marketplace on updated "
+"server configurations."
+msgstr ""
+
+#: classes/admin/class-welcome.php:268
+msgid "Code Improvements"
+msgstr ""
+
+#: classes/admin/class-welcome.php:269
+#, php-format
+msgid ""
+"With so many moving parts, it's not uncommon to run into issues here and "
+"there. Each update is an effort to handle those issues before you even take "
+"notice. Over 75% of the changes in FES 2.4 are bug fixes and code "
+"improvements."
+msgstr ""
+
+#: classes/admin/class-welcome.php:297
+msgid ""
+"Use the tips below to get started using Frontend Submissions. You will be up "
+"and running in no time!"
+msgstr ""
+
+#: classes/admin/class-welcome.php:301
+msgid "Configure Your Marketplace Settings"
+msgstr ""
+
+#: classes/admin/class-welcome.php:307
+#, php-format
+msgctxt "FES settings page link"
+msgid "<a href=\"%s\">EDD FES &rarr; Settings</a>"
+msgstr ""
+
+#: classes/admin/class-welcome.php:308
+msgid ""
+"FES makes it easy for vendors to submit products to your store without your "
+"assistance. However, you still need to control how the vendor interacts with "
+"your system."
+msgstr ""
+
+#: classes/admin/class-welcome.php:309
+msgid "Settings & Emails"
+msgstr ""
+
+#: classes/admin/class-welcome.php:310
+msgid ""
+"Set your marketplace up to function exactly how you'd like. Easily change "
+"the terms \"vendor\" and \"product\" to something that meets your needs or "
+"even customize the emails sent to you or your vendors every time a specific "
+"action is completed on your store."
+msgstr ""
+
+#: classes/admin/class-welcome.php:312
+msgid ""
+"You can control permissions like whether or not vendors have access to your "
+"WordPress dashboard, if they will be able to edit their own products after "
+"submission, or if vendor registration is even allowed."
+msgstr ""
+
+#: classes/admin/class-welcome.php:318
+msgid "Build Your Forms With Precision"
+msgstr ""
+
+#: classes/admin/class-welcome.php:325
+msgid ""
+"Your FES Submission Form is what vendors will use to submit products to your "
+"site. Much like <em>you</em> would when creating a new download from your "
+"WordPress dashboard, vendors will use the Submission Form to create products "
+"from the front-end of your site."
+msgstr ""
+
+#: classes/admin/class-welcome.php:326
+msgid ""
+"Using the powerful FES form builder interface, choose the exact form fields "
+"you'd like your vendors to have access to when submitting products. You can "
+"provide everything from a list of available categories to repeatable file "
+"upload fields."
+msgstr ""
+
+#: classes/admin/class-welcome.php:327
+msgid "Registration & Profile Form"
+msgstr ""
+
+#: classes/admin/class-welcome.php:328
+msgid ""
+"In order to become a vendor, a user must register using the FES registration "
+"form. You can customize the fields on the form to require certain "
+"information from your applicants. If approved, vendors can edit their own "
+"profiles based on the fields you've built into the Profile Form."
+msgstr ""
+
+#: classes/admin/class-welcome.php:334
+msgid "Manage Your Marketplace Vendors"
+msgstr ""
+
+#: classes/admin/class-welcome.php:340
+#, php-format
+msgid "<a href=\"%s\">EDD FES &rarr; Vendors</a>"
+msgstr ""
+
+#: classes/admin/class-welcome.php:341
+msgid ""
+"Easily see information about all of your marketplace vendors in one "
+"convenient location. Quickly see information about a vendor like number of "
+"products sold or even total sales value."
+msgstr ""
+
+#: classes/admin/class-welcome.php:342
+msgid ""
+"You can also use quick links to view, revoke, or suspend vendor accounts "
+"with ease."
+msgstr ""
+
+#: classes/admin/class-welcome.php:343
+msgid "Vendor Management"
+msgstr ""
+
+#: classes/admin/class-welcome.php:344
+msgid ""
+"Without a doubt, vendors are the heartbeat of a marketplace system. That "
+"means vendor management and extremely important."
+msgstr ""
+
+#: classes/admin/class-welcome.php:345
+msgid ""
+"Use FES's simple but powerful individual vendor screen to view or edit "
+"important information or even leave notes and view reports about a vendor's "
+"performance."
+msgstr ""
+
+#: classes/admin/class-welcome.php:352
+msgid "Activate your license key."
+msgstr ""
+
+#: classes/admin/class-welcome.php:353
+#, php-format
+msgid ""
+"When you purchased FES, you were given a license key for activation in your "
+"WordPress dashboard. License keys are your connection to automatic updates "
+"and support. To activate your license key, visit the <a href=\"%s\">EDD "
+"settings</a>."
+msgstr ""
+
+#: classes/admin/class-welcome.php:356
+msgid "Need more detailed instructions?"
+msgstr ""
+
+#: classes/admin/class-welcome.php:357
+#, php-format
+msgid ""
+"Don't worry, we've only scratched the surface. FES is highly customizable in "
+"both functionality and presentation. For more details on how to use FES or "
+"get help from support, visit the <a href=\"%s\">Support & Documentation</a> "
+"page."
+msgstr ""
+
+#: classes/admin/class-welcome.php:388
+msgid ""
+"We're here to help. Use FES's thorough documentation and amazing support as "
+"needed."
+msgstr ""
+
+#: classes/admin/class-welcome.php:393
+msgid "Highly Detailed Documentation"
+msgstr ""
+
+#: classes/admin/class-welcome.php:394
+#, php-format
+msgid ""
+"With the number of features, integrations, and possibilities present within "
+"the FES ecosystem, it's expected that you will want to learn more about its "
+"capabilities. To do so, please visit the <a href=\"%s\">FES documentation</"
+"a>."
+msgstr ""
+
+#: classes/admin/class-welcome.php:397
+msgid "Frontend Submissions Support"
+msgstr ""
+
+#: classes/admin/class-welcome.php:398
+#, php-format
+msgid ""
+"FES is an extension for the Easy Digital Downloads plugin. Therefore, you "
+"can request support by submitting a ticket to the <a href=\"%s\">Easy "
+"Digital Downloads support form</a>. You will need to have your license key "
+"handy."
+msgstr ""
+
+#: classes/admin/class-welcome.php:401
+msgid "Need Custom Work?"
+msgstr ""
+
+#: classes/admin/class-welcome.php:402
+#, php-format
+msgid ""
+"While FES is capable of powering a complete marketplace system, you may need "
+"to tailor its functionality to your business with custom development. Easy "
+"Digital Downloads maintains a list of <a href=\"%s\">recommended "
+"consultants</a> that may be able to assist you."
+msgstr ""
+
+#: classes/admin/class-welcome.php:405
+msgid "Official FES Roadmap"
+msgstr ""
+
+#: classes/admin/class-welcome.php:406
+#, php-format
+msgid ""
+"FES is a very actively developed plugin. FES's official roadmap on <a href="
+"\"%s\">Trello</a> provides a glimpse at what we're working on for future "
+"versions."
+msgstr ""
+
+#: classes/admin/class-welcome.php:456
+msgid "No valid changelog was found."
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:86
+#: classes/admin/downloads/class-download-table.php:87
+msgid "Approve Downloads"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:155
+#: classes/admin/downloads/class-download-table.php:227
+msgid "Submission Accepted"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:272
+#, php-format
+msgctxt "Titles of downloads approved"
+msgid "%s approved"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:274
+#, php-format
+msgctxt "Title of download apporved"
+msgid "%s approved"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:298
+#: classes/admin/vendors/pdf-reports.php:75
+#: templates/frontend-edit-order.php:124 templates/frontend-products.php:11
+msgid "Price"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:299
+#: classes/admin/vendors/graphing.php:249
+#: classes/admin/vendors/graphing.php:254
+#: classes/admin/vendors/pdf-reports.php:292
+#: classes/admin/vendors/vendors.php:524 classes/admin/vendors/vendors.php:772
+msgid "Sales"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:300
+#: classes/admin/vendors/graphing.php:248
+#: classes/admin/vendors/graphing.php:253
+#: classes/admin/vendors/pdf-reports.php:79
+#: classes/admin/vendors/pdf-reports.php:234
+#: classes/frontend/class-dashboard.php:348
+msgid "Earnings"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:371
+#: classes/frontend/class-dashboard.php:589
+#: templates/frontend-delete-product.php:12
+msgid "Delete"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:377
+#: classes/admin/vendors/vendors.php:227 classes/admin/vendors/vendors.php:253
+msgid "Revoke"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:385
+#: classes/admin/vendors/class-vendor-table.php:149
+#: classes/admin/vendors/vendors.php:240 classes/admin/vendors/vendors.php:241
+msgid "Approve"
+msgstr ""
+
+#: classes/admin/downloads/class-download-table.php:487
+#: classes/frontend/class-dashboard.php:744
+#: classes/frontend/class-dashboard.php:831
+msgid "Live"
+msgstr ""
+
+#: classes/admin/downloads/class-edit-download.php:199 edd-fes.php:343
+msgid "Frontend Submissions"
+msgstr ""
+
+#: classes/admin/downloads/class-edit-download.php:240
+msgid "Submission form not set in FES settings"
+msgstr ""
+
+#: classes/admin/downloads/class-edit-download.php:258
+msgid "edit page"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:148
+#: classes/admin/formbuilder/class-formbuilder-templates.php:248
+#: classes/fields/taxonomy.php:318
+msgid "Required"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:150
+#: classes/admin/formbuilder/class-formbuilder-templates.php:250
+#: classes/class-setup.php:275 classes/class-setup.php:277
+#: classes/fields/multiple_pricing.php:267
+#: classes/fields/multiple_pricing.php:275
+#: classes/fields/multiple_pricing.php:283
+#: classes/fields/multiple_pricing.php:291 classes/fields/taxonomy.php:320
+msgid "Yes"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:151
+#: classes/admin/formbuilder/class-formbuilder-templates.php:251
+#: classes/class-setup.php:278 classes/fields/multiple_pricing.php:268
+#: classes/fields/multiple_pricing.php:276
+#: classes/fields/multiple_pricing.php:284
+#: classes/fields/multiple_pricing.php:292 classes/fields/taxonomy.php:321
+msgid "No"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:159
+#: classes/admin/formbuilder/class-formbuilder-templates.php:259
+#: classes/fields/taxonomy.php:326 classes/fields/toc.php:144
+msgid "Field Label"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:160
+#: classes/admin/formbuilder/class-formbuilder-templates.php:260
+#: classes/fields/taxonomy.php:327
+msgid "Enter a title of this field"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:165
+#: classes/admin/formbuilder/class-formbuilder-templates.php:266
+#: classes/fields/hidden.php:124
+msgid "Meta Key"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:166
+#: classes/admin/formbuilder/class-formbuilder-templates.php:267
+#: classes/fields/hidden.php:125
+msgid "Name of the meta key this field will save to"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:173
+#: classes/admin/formbuilder/class-formbuilder-templates.php:274
+#: classes/fields/taxonomy.php:353
+msgid "Help text"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:174
+#: classes/admin/formbuilder/class-formbuilder-templates.php:275
+#: classes/fields/taxonomy.php:354
+msgid "Give the user some information about this field"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:178
+#: classes/admin/formbuilder/class-formbuilder-templates.php:279
+#: classes/fields/section_break.php:155 classes/fields/taxonomy.php:358
+#: classes/fields/toc.php:159
+msgid "CSS Class Name"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:179
+#: classes/admin/formbuilder/class-formbuilder-templates.php:280
+#: classes/fields/section_break.php:156 classes/fields/taxonomy.php:359
+#: classes/fields/toc.php:160
+msgid "Add a CSS class name for this field"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:311
+#: classes/admin/formbuilder/class-formbuilder-templates.php:363
+#: classes/fields/repeat.php:306
+msgid "Placeholder text"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:312
+msgid "Text for HTML5 placeholder attribute"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:317
+#: classes/admin/formbuilder/class-formbuilder-templates.php:368
+#: classes/fields/repeat.php:311
+msgid "Default value"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:318
+msgid "The default value this field will have"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:322
+#: classes/fields/repeat.php:316
+msgid "Size"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:323
+msgid "Size of this input field"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:353
+msgid "Rows"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:358
+#: classes/fields/repeat.php:321
+msgid "Columns"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:373
+msgid "Textarea"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:376
+msgid "Normal"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:377
+msgid "Rich textarea"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:378
+msgid "Teeny Rich textarea"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:545
+msgid "Allow this field to be shown publicly"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder-templates.php:549
+msgid ""
+"Append Public Fields: Selected fields on the Submission form will be output "
+"below the download's description."
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:32
+#: classes/admin/formbuilder/class-formbuilder.php:33
+#: classes/admin/formbuilder/class-formbuilder.php:34
+#: classes/admin/formbuilder/class-formbuilder.php:35
+#: classes/admin/formbuilder/class-formbuilder.php:37
+#: classes/admin/formbuilder/class-formbuilder.php:38
+#: classes/admin/formbuilder/class-formbuilder.php:39
+#: classes/admin/formbuilder/class-formbuilder.php:40
+#: classes/admin/formbuilder/class-formbuilder.php:41
+msgid "Form updated."
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:36
+#, php-format
+msgid "Form restored to revision from %s"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:77
+msgid "Form Editor"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:78
+#: classes/admin/formbuilder/class-formbuilder.php:107
+#: classes/admin/formbuilder/class-formbuilder.php:110
+#: classes/admin/formbuilder/class-formbuilder.php:386
+#: classes/admin/formbuilder/class-formbuilder.php:387
+msgid "Save"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:87
+#, php-format
+msgid "Add %s Form Fields"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:89
+msgid "Add Custom Fields"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:90
+msgid "Add Extension Created Fields"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:106
+msgid "Form Settings"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:109
+msgid "Form Notifications"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:187
+#, php-format
+msgid "FES %s Form Fields"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:205
+#, php-format
+msgid "Your %s form has no fields"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:226
+msgid "Toggle All Fields Open/Close"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:448
+#: classes/admin/formbuilder/class-formbuilder.php:514
+#: classes/admin/formbuilder/class-formbuilder.php:581
+msgid "Click to add to the editor"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:457
+msgid "There are no form specific fields for this form"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:523
+msgid "There are no custom fields for this form"
+msgstr ""
+
+#: classes/admin/formbuilder/class-formbuilder.php:591
+#: classes/admin/formbuilder/class-formbuilder.php:593
+#: classes/admin/formbuilder/class-formbuilder.php:595
+msgid "There are no extension fields for this form"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:85
+#: classes/admin/vendors/class-export-customers.php:97
+#, php-format
+msgctxt "FES singular uppercase setting for download"
+msgid "%s ID"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:86
+#: classes/admin/vendors/class-export-customers.php:98
+#, php-format
+msgctxt "FES singular uppercase setting for download"
+msgid "%s Title"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:87
+#: classes/admin/vendors/class-export-customers.php:99
+#, php-format
+msgctxt "FES singular uppercase setting for download"
+msgid "%s Option ID"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:88
+#: classes/admin/vendors/class-export-customers.php:100
+#, php-format
+msgctxt "FES singular uppercase setting for download"
+msgid "%s Option Title"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:89 classes/schema.php:130
+msgid "First Name"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:90 classes/schema.php:142
+msgid "Last Name"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:91
+#: classes/admin/vendors/class-export-customers.php:107 classes/schema.php:236
+#: templates/frontend-edit-order.php:57
+msgid "Email"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:92
+msgid "Date Purchased"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:104
+#: classes/fields/download_category.php:255 classes/fields/download_tag.php:255
+#: classes/fields/taxonomy.php:375 classes/schema.php:224
+#: templates/frontend-edit-order.php:53 templates/frontend-edit-order.php:117
+#: templates/frontend-products.php:9
+msgid "Name"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:110
+msgid "Total Purchases"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:111
+msgid "Total Purchased"
+msgstr ""
+
+#: classes/admin/vendors/class-export-customers.php:169
+#: classes/admin/vendors/class-export-customers.php:170
+#: classes/admin/vendors/class-export-customers.php:226
+#: classes/admin/vendors/class-export-customers.php:227
+msgid "N/A"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:133
+#: classes/admin/vendors/class-vendor-table.php:165
+#: classes/admin/vendors/vendors.php:228 classes/admin/vendors/vendors.php:254
+#, php-format
+msgid "Revoke (and delete all %s of)"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:138
+#: classes/admin/vendors/vendors.php:233 classes/admin/vendors/vendors.php:234
+msgid "Suspend"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:154
+#: classes/admin/vendors/vendors.php:246 classes/admin/vendors/vendors.php:247
+msgid "Decline"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:170
+#: classes/admin/vendors/vendors.php:259 classes/admin/vendors/vendors.php:260
+msgid "Unsuspend"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:203
+#: classes/admin/vendors/class-vendor-table.php:299
+#: classes/admin/vendors/vendors.php:389 classes/admin/vendors/vendors.php:1150
+#: classes/admin/vendors/vendors.php:1193
+#: classes/frontend/class-dashboard.php:864
+msgid "Pending"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:205
+#: classes/admin/vendors/class-vendor-table.php:300
+#: classes/admin/vendors/vendors.php:391 classes/admin/vendors/vendors.php:1154
+#: classes/admin/vendors/vendors.php:1195
+msgid "Approved"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:207
+#: classes/admin/vendors/class-vendor-table.php:301
+#: classes/admin/vendors/vendors.php:393 classes/admin/vendors/vendors.php:1146
+#: classes/admin/vendors/vendors.php:1197 classes/class-vendor.php:1085
+msgid "Suspended"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:209
+#: classes/admin/vendors/vendors.php:395
+msgid "Unknown Column"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:272
+msgid "Name (username)"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:274
+#, php-format
+msgctxt "FES plural uppercase setting for download"
+msgid "Number of %s"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:275
+msgid "Sales Count"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:276
+msgid "Sales Value"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:277
+#, php-format
+msgctxt "FES plural uppercase setting for download"
+msgid "%s Since"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:298
+#: classes/frontend/class-dashboard.php:668
+msgid "All"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:320
+#, php-format
+msgid "Approve %s"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:321
+#, php-format
+msgid "Decline %s"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:322
+#, php-format
+msgid "Revoke %s"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:323
+#, php-format
+msgid "Suspend %s"
+msgstr ""
+
+#: classes/admin/vendors/class-vendor-table.php:324
+#, php-format
+msgid "Unsuspend %s"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:90
+#, php-format
+msgid "This user has no %s!"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:255
+#: classes/admin/vendors/pdf-reports.php:263
+msgid "Commissions"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:265
+msgid "Earnings Over Time"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:280
+msgid "Total earnings for period shown: "
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:281
+msgid "Total sales for period shown: "
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:283
+msgid "Total commissions for period shown: "
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:287
+msgid "Estimated monthly earnings: "
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:288
+msgid "Estimated monthly sales: "
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:290
+msgid "Estimated monthly commissions: "
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:408
+msgid "You do not have permission to access this report"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:636
+msgid "Today"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:637
+msgid "Yesterday"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:638
+msgid "This Week"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:639
+msgid "Last Week"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:640
+msgid "This Month"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:641
+msgid "Last Month"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:642
+msgid "This Quarter"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:643
+msgid "Last Quarter"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:644
+msgid "This Year"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:645
+msgid "Last Year"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:646
+msgid "Custom"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:676
+msgid "From"
+msgstr ""
+
+#: classes/admin/vendors/graphing.php:692
+msgid "To"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:36
+msgid "You do not have permission to generate PDF sales reports"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:40
+msgid "Nonce verification failed"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:45
+msgid "to"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:50
+msgid "Sales and earnings reports for "
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:61
+msgid "Sales and Earnings Report for the current year for "
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:66
+msgid "Date Range: "
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:70
+msgid "Table View"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:74
+msgid "Product Name"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:76
+msgid "Categories"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:77
+msgid "Tags"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:78
+msgid "Number of Sales"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:149
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:156
+msgid "Graph View"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:295
+#, php-format
+msgid "Sales, Earnings, and Commissions by Month For All %s"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:303
+msgid "Jan"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:304
+msgid "Feb"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:305
+msgid "Mar"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:306
+msgid "Apr"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:307
+msgid "May"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:308
+msgid "June"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:309
+msgid "July"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:310
+msgid "Aug"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:311
+msgid "Sept"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:312
+msgid "Oct"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:313
+msgid "Nov"
+msgstr ""
+
+#: classes/admin/vendors/pdf-reports.php:314
+msgid "Dec"
+msgstr ""
+
+#: classes/admin/vendors/vendor-actions.php:35
+#, php-format
+msgid "You do not have permission to edit this %s"
+msgstr ""
+
+#: classes/admin/vendors/vendor-actions.php:47
+#: classes/admin/vendors/vendor-actions.php:240
+msgid "Cheatin' eh?!"
+msgstr ""
+
+#: classes/admin/vendors/vendor-actions.php:65
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: classes/admin/vendors/vendor-actions.php:72
+#, php-format
+msgctxt "Vendor ID number"
+msgid "The User ID %d is already associated with a different %s."
+msgstr ""
+
+#: classes/admin/vendors/vendor-actions.php:78
+#, php-format
+msgctxt "1: Vendor ID number, 2: FES setting for vendor lowercase singular"
+msgid "The User ID %d does not exist. Please assign an existing %s."
+msgstr ""
+
+#: classes/admin/vendors/vendor-actions.php:228
+#, php-format
+msgctxt "FES singular lowercase setting for vendor"
+msgid "You do not have permission to edit this %s"
+msgstr ""
+
+#: classes/admin/vendors/vendor-actions.php:244
+msgid "A note is required"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:70
+#, php-format
+msgid "%s Overview"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:71
+#, php-format
+msgid "%s Notes"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:72
+#, php-format
+msgid "%s Registration"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:73
+#, php-format
+msgid "%s Profile"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:74
+#, php-format
+msgctxt "FES vendor uppercase singular, FES product uppercase singular"
+msgid "%1s %2s"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:75
+#, php-format
+msgid "%s Commissions"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:76
+#, php-format
+msgid "%s Reports"
+msgstr ""
+
+#: classes/admin/vendors/vendor-functions.php:77
+#, php-format
+msgid "%s Exports"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:107
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "FES %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:112
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "Search %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:138 classes/admin/vendors/vendors.php:144
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Invalid %s ID Provided."
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:151
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s Details"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:220
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "Edit %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:298
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s Address"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:309
+msgid "Address 1"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:310
+msgid "Address 2"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:311
+msgid "City"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:337
+msgid "State / Province"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:339
+msgid "Postal"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:346
+msgid "Vendor Name"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:348
+msgid "Vendor Email"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:351
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s Since"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:376
+msgid "User ID"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:380
+msgid "none"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:387
+msgid "Unknown Status"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:400
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "View %s store"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:409
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "Update %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:434
+msgid "View All Purchases"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:437
+#, php-format
+msgid "%d Sale To Date"
+msgid_plural "%d Sales To Date"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/admin/vendors/vendors.php:444
+msgid " in Sales To Date"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:481
+msgid "Recently Earned Unpaid Commissions"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:486
+msgid "Item"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:487
+msgid "Amount"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:488
+msgid "Rate"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:509
+msgid "No unpaid commissions"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:517 classes/misc-functions.php:697
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:532
+#, php-format
+msgctxt "download title"
+msgid "View %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:541
+#, php-format
+msgctxt "FES uppercase plural setting for download"
+msgid "No Live %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:616
+msgid "Notes"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:654
+msgid "No Vendor Notes"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:684
+msgid "Registration Data"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:720
+msgid "Profile Data"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:769
+msgid "ID"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:799
+msgid "Total Sales"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:807
+#, php-format
+msgid "%s has no %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:869
+msgid "Reports"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:898 classes/admin/vendors/vendors.php:915
+msgid "Exports"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:900
+msgid "Nothing to export!"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:922
+msgid "Export PDF of Sales and Earnings"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:923
+#, php-format
+msgctxt "FES uppercase plural setting for download"
+msgid ""
+"Download a PDF of Sales and Earnings reports for all %s for the current year."
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:924
+msgid "Generate PDF"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:930
+msgid "Export Customers in CSV"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:931
+#, php-format
+msgctxt "FES lowercase singular setting for download"
+msgid ""
+"Download a CSV of all customer emails. Optionally export only customers that "
+"have purchased a particular %s. Note, if you have a large number of "
+"customers, exporting the purchase stats may fail."
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:935
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "All %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:947
+msgid "Emails and Names"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:951
+msgid "Generate CSV"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1043
+#: classes/admin/vendors/vendors.php:1259
+#: classes/admin/vendors/vendors.php:1270
+#: classes/admin/vendors/vendors.php:1281 classes/class-setup.php:168
+#: classes/class-setup.php:305 classes/class-vendor.php:876
+#: classes/class-vendor.php:892 classes/class-vendor.php:914
+#: classes/class-vendor.php:939 classes/class-vendor.php:990
+#: classes/class-vendor.php:1044 classes/class-vendor.php:1107
+#: classes/class-vendor.php:1174 classes/class-vendor.php:1240
+msgid "Error!"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1044
+#: classes/admin/vendors/vendors.php:1260
+msgid "You don't have the permissions to do that!"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1094
+#: classes/admin/vendors/vendors.php:1202
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "View %s Profile"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1114
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s Status"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1115
+msgid "Posts"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1156
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Not a %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1180
+msgid "Easy Digital Downloads Frontend Submissions"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1183
+msgid "Status:"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1189
+msgid "Not a vendor"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1199
+msgid "Unknown"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1212
+msgid "Actions:"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1216
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Make %s"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1217
+msgid "Create"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1271
+msgid "Invalid user id!"
+msgstr ""
+
+#: classes/admin/vendors/vendors.php:1282
+msgid "Invalid action!"
+msgstr ""
+
+#: classes/class-helpers.php:359 templates/frontend-edit-order.php:113
+msgid "Products"
+msgstr ""
+
+#: classes/class-helpers.php:374
+msgid "products"
+msgstr ""
+
+#: classes/class-helpers.php:389
+msgid "Product"
+msgstr ""
+
+#: classes/class-helpers.php:404
+msgid "product"
+msgstr ""
+
+#: classes/class-helpers.php:437
+msgid "Vendors"
+msgstr ""
+
+#: classes/class-helpers.php:452
+msgid "vendors"
+msgstr ""
+
+#: classes/class-helpers.php:482
+msgid "vendor"
+msgstr ""
+
+#: classes/class-post-types.php:61 classes/class-post-types.php:88
+msgid "EDD FES Forms"
+msgstr ""
+
+#: classes/class-post-types.php:89
+msgid "FES Form"
+msgstr ""
+
+#: classes/class-post-types.php:90
+msgid "FES Forms"
+msgstr ""
+
+#: classes/class-post-types.php:91
+msgid "Add FES Form"
+msgstr ""
+
+#: classes/class-post-types.php:92
+msgid "Add New Form"
+msgstr ""
+
+#: classes/class-post-types.php:95
+msgid "New FES Form"
+msgstr ""
+
+#: classes/class-post-types.php:96 classes/class-post-types.php:97
+msgid "View FES Form"
+msgstr ""
+
+#: classes/class-post-types.php:98
+msgid "Search FES Forms"
+msgstr ""
+
+#: classes/class-post-types.php:99
+msgid "No FES Forms Found"
+msgstr ""
+
+#: classes/class-post-types.php:100
+msgid "No FES Forms Found in Trash"
+msgstr ""
+
+#: classes/class-post-types.php:101
+msgid "Parent FES Form"
+msgstr ""
+
+#: classes/class-setup.php:73
+#, php-format
+msgid ""
+"Warning, the vendor dashboard page isn't set in the FES dashboard. This "
+"could lead to serious issues. %1$sSet it to the correct page as soon as "
+"possible%2$s."
+msgstr ""
+
+#: classes/class-setup.php:104
+msgid ""
+"Warning: You have no valid editor extensions installed. Please install GD or "
+"Imagick"
+msgstr ""
+
+#: classes/class-setup.php:160 classes/class-setup.php:297
+msgid "Choose an avatar"
+msgstr ""
+
+#: classes/class-setup.php:161 classes/class-setup.php:298
+msgid "Select as avatar"
+msgstr ""
+
+#: classes/class-setup.php:162 classes/class-setup.php:299
+msgid "Choose a file"
+msgstr ""
+
+#: classes/class-setup.php:163 classes/class-setup.php:300
+#: classes/fields/file_upload.php:112 classes/fields/file_upload.php:204
+#: classes/fields/multiple_pricing.php:207
+msgid "Insert file URL"
+msgstr ""
+
+#: classes/class-setup.php:164 classes/class-setup.php:301
+msgid "Choose a featured image"
+msgstr ""
+
+#: classes/class-setup.php:165 classes/class-setup.php:302
+msgid "Select as featured image"
+msgstr ""
+
+#: classes/class-setup.php:166 classes/class-setup.php:303
+msgid "You may not add more than "
+msgstr ""
+
+#: classes/class-setup.php:167 classes/class-setup.php:304
+msgid " files!"
+msgstr ""
+
+#: classes/class-setup.php:170 classes/class-setup.php:307
+msgid "PHP Fatal Error:"
+msgstr ""
+
+#: classes/class-setup.php:171 classes/class-setup.php:308
+#: classes/class-vendor.php:977 classes/class-vendor.php:1030
+#: classes/class-vendor.php:1093 classes/class-vendor.php:1160
+#: classes/class-vendor.php:1228 classes/forms/registration.php:294
+#: classes/forms/registration.php:310
+msgid "Success!"
+msgstr ""
+
+#: classes/class-setup.php:172 classes/class-setup.php:309
+msgid "It works!"
+msgstr ""
+
+#: classes/class-setup.php:173 classes/class-setup.php:270
+#: classes/class-setup.php:310
+msgid "Loading"
+msgstr ""
+
+#: classes/class-setup.php:271
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/class-setup.php:272
+msgid "You're about to "
+msgstr ""
+
+#: classes/class-setup.php:273
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "You're about to make this person a %s"
+msgstr ""
+
+#: classes/class-setup.php:274
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "The user is now a %s"
+msgstr ""
+
+#: classes/class-setup.php:276
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid " this %s "
+msgstr ""
+
+#: classes/class-vendor.php:254
+#, php-format
+msgid "Can't get property %s"
+msgstr ""
+
+#: classes/class-vendor.php:803
+msgid "by"
+msgstr ""
+
+#: classes/class-vendor.php:877
+msgid "No status passed in"
+msgstr ""
+
+#: classes/class-vendor.php:893
+msgid "New status can't be the same as the old status!"
+msgstr ""
+
+#: classes/class-vendor.php:915
+msgid "You don't have permission to do that!"
+msgstr ""
+
+#: classes/class-vendor.php:940 classes/class-vendor.php:991
+#: classes/class-vendor.php:1045 classes/class-vendor.php:1108
+#: classes/class-vendor.php:1175
+msgid "Invalid status change"
+msgstr ""
+
+#: classes/class-vendor.php:978
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s application declined successfully"
+msgstr ""
+
+#: classes/class-vendor.php:1031
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s approved successfully"
+msgstr ""
+
+#: classes/class-vendor.php:1094
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s suspended successfully"
+msgstr ""
+
+#: classes/class-vendor.php:1153
+msgid "Unsuspended"
+msgstr ""
+
+#: classes/class-vendor.php:1161
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s unsuspended successfully"
+msgstr ""
+
+#: classes/class-vendor.php:1218
+msgid "Application Revoked"
+msgstr ""
+
+#: classes/class-vendor.php:1229
+#, php-format
+msgctxt "FES uppercase singular setting for vendor"
+msgid "%s revoked successfully"
+msgstr ""
+
+#: classes/class-vendor.php:1241
+msgid "Invalid status!"
+msgstr ""
+
+#: classes/class-vendors.php:267
+#, php-format
+msgid " Your store url is: %s"
+msgstr ""
+
+#: classes/fields/action_hook.php:40
+msgctxt "FES Field title translation"
+msgid "Action Hook"
+msgstr ""
+
+#: classes/fields/action_hook.php:101
+msgid "Hook Name"
+msgstr ""
+
+#: classes/fields/action_hook.php:103
+msgid "Name of the hook"
+msgstr ""
+
+#: classes/fields/action_hook.php:106
+msgid ""
+"This is for developers to add dynamic elements as they want. It provides the "
+"chance to add whatever input type you want to add in this form."
+msgstr ""
+
+#: classes/fields/action_hook.php:107
+msgid ""
+"You can bind your own functions to render the form to this action hook. "
+"You'll be given 3 parameters to play with: $form_id, $post_id, "
+"$form_settings."
+msgstr ""
+
+#: classes/fields/checkbox.php:48
+msgctxt "FES Field title translation"
+msgid "Checkbox"
+msgstr ""
+
+#: classes/fields/checkbox.php:213 classes/fields/multiselect.php:236
+#: classes/fields/radio.php:203 classes/fields/select.php:169
+msgid "Options"
+msgstr ""
+
+#: classes/fields/checkbox.php:235 classes/fields/download_category.php:316
+#: classes/fields/download_category.php:329 classes/fields/download_tag.php:316
+#: classes/fields/download_tag.php:329 classes/fields/multiselect.php:260
+#: classes/fields/taxonomy.php:436 classes/fields/taxonomy.php:449
+msgid "Please select at least 1 option"
+msgstr ""
+
+#: classes/fields/checkbox.php:237 classes/fields/download_category.php:331
+#: classes/fields/download_tag.php:331 classes/fields/taxonomy.php:451
+msgid "Please check the checkbox"
+msgstr ""
+
+#: classes/fields/country.php:49
+msgctxt "FES Field title translation"
+msgid "Country"
+msgstr ""
+
+#: classes/fields/country.php:158
+msgid "Vendor Country"
+msgstr ""
+
+#: classes/fields/country.php:160 classes/fields/multiselect.php:220
+#: classes/fields/select.php:154
+msgid ""
+"First element of the select dropdown. Leave this empty if you don't want to "
+"show this field"
+msgstr ""
+
+#: classes/fields/country.php:171 classes/fields/multiselect.php:231
+#: classes/fields/select.php:164
+msgid "Select Text"
+msgstr ""
+
+#: classes/fields/country.php:176
+msgid "Countries"
+msgstr ""
+
+#: classes/fields/date.php:44
+msgctxt "FES Field title translation"
+msgid "Date"
+msgstr ""
+
+#: classes/fields/date.php:126
+msgid "The date format"
+msgstr ""
+
+#: classes/fields/date.php:136
+msgid "Date Format"
+msgstr ""
+
+#: classes/fields/date.php:141
+msgid "Time"
+msgstr ""
+
+#: classes/fields/date.php:147
+msgid "Enable time input"
+msgstr ""
+
+#: classes/fields/display_name.php:45
+msgctxt "FES Field title translation"
+msgid "Display Name"
+msgstr ""
+
+#: classes/fields/download_category.php:52
+msgctxt "FES Field title translation"
+msgid "Categories"
+msgstr ""
+
+#: classes/fields/download_category.php:116
+#: classes/fields/download_category.php:140 classes/fields/download_tag.php:116
+#: classes/fields/download_tag.php:140 classes/fields/taxonomy.php:127
+#: classes/fields/taxonomy.php:151
+msgid "-- Select --"
+msgstr ""
+
+#: classes/fields/download_category.php:243 classes/fields/download_tag.php:243
+#: classes/fields/taxonomy.php:363
+msgid "Type"
+msgstr ""
+
+#: classes/fields/download_category.php:245 classes/fields/download_tag.php:245
+#: classes/fields/taxonomy.php:365
+msgid "Dropdown"
+msgstr ""
+
+#: classes/fields/download_category.php:246 classes/fields/download_tag.php:246
+#: classes/fields/taxonomy.php:366
+msgid "Multi Select"
+msgstr ""
+
+#: classes/fields/download_category.php:247 classes/fields/download_tag.php:247
+#: classes/fields/taxonomy.php:367
+msgid "Checkbox"
+msgstr ""
+
+#: classes/fields/download_category.php:248 classes/fields/download_tag.php:248
+#: classes/fields/taxonomy.php:368
+msgid "Text Input"
+msgstr ""
+
+#: classes/fields/download_category.php:253 classes/fields/download_tag.php:253
+#: classes/fields/taxonomy.php:373
+msgid "Order By"
+msgstr ""
+
+#: classes/fields/download_category.php:256 classes/fields/download_tag.php:256
+#: classes/fields/taxonomy.php:376
+msgid "Term ID"
+msgstr ""
+
+#: classes/fields/download_category.php:258 classes/fields/download_tag.php:258
+#: classes/fields/taxonomy.php:378
+msgid "Count"
+msgstr ""
+
+#: classes/fields/download_category.php:259 classes/fields/download_tag.php:259
+#: classes/fields/taxonomy.php:379
+msgid "Term Group"
+msgstr ""
+
+#: classes/fields/download_category.php:266 classes/fields/download_tag.php:266
+#: classes/fields/taxonomy.php:386
+msgid "ASC"
+msgstr ""
+
+#: classes/fields/download_category.php:267 classes/fields/download_tag.php:267
+#: classes/fields/taxonomy.php:387
+msgid "DESC"
+msgstr ""
+
+#: classes/fields/download_category.php:272 classes/fields/download_tag.php:272
+#: classes/fields/taxonomy.php:392
+msgid "Selection Type"
+msgstr ""
+
+#: classes/fields/download_category.php:274 classes/fields/download_tag.php:274
+#: classes/fields/taxonomy.php:394
+msgid "Exclude"
+msgstr ""
+
+#: classes/fields/download_category.php:275 classes/fields/download_tag.php:275
+#: classes/fields/taxonomy.php:395
+msgid "Include"
+msgstr ""
+
+#: classes/fields/download_category.php:276 classes/fields/download_tag.php:276
+#: classes/fields/taxonomy.php:396
+msgid "Child of"
+msgstr ""
+
+#: classes/fields/download_category.php:281 classes/fields/download_tag.php:281
+#: classes/fields/taxonomy.php:401
+msgid "Selection terms"
+msgstr ""
+
+#: classes/fields/download_category.php:282 classes/fields/download_tag.php:282
+#: classes/fields/taxonomy.php:402
+msgid ""
+"Enter the term IDs as comma separated (without space) to exclude/include in "
+"the form."
+msgstr ""
+
+#: classes/fields/download_notes.php:47
+msgctxt "FES Field title translation"
+msgid "Notes"
+msgstr ""
+
+#: classes/fields/download_tag.php:52
+msgctxt "FES Field title translation"
+msgid "Tags"
+msgstr ""
+
+#: classes/fields/email.php:47
+msgctxt "FES Field title translation"
+msgid "Email"
+msgstr ""
+
+#: classes/fields/email.php:132 classes/fields/user_email.php:141
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: classes/fields/featured_image.php:47
+msgctxt "FES Field title translation"
+msgid "Featured Image"
+msgstr ""
+
+#: classes/fields/featured_image.php:98
+msgid "Upload Featured Image"
+msgstr ""
+
+#: classes/fields/file_upload.php:49
+msgctxt "FES Field title translation"
+msgid "File Upload"
+msgstr ""
+
+#: classes/fields/file_upload.php:91 classes/fields/file_upload.php:183
+#: classes/fields/multiple_pricing.php:156
+msgid "File URL"
+msgstr ""
+
+#: classes/fields/file_upload.php:94 classes/fields/file_upload.php:117
+#: classes/fields/file_upload.php:186
+msgid "Download File"
+msgstr ""
+
+#: classes/fields/file_upload.php:109 classes/fields/file_upload.php:201
+#: classes/fields/multiple_pricing.php:204
+msgid "http://"
+msgstr ""
+
+#: classes/fields/file_upload.php:112 classes/fields/file_upload.php:113
+#: classes/fields/file_upload.php:204 classes/fields/file_upload.php:205
+#: classes/fields/multiple_pricing.php:207
+msgid "Choose file"
+msgstr ""
+
+#: classes/fields/file_upload.php:123 classes/fields/file_upload.php:210
+#: classes/fields/multiple_pricing.php:215
+msgid "&times;"
+msgstr ""
+
+#: classes/fields/file_upload.php:134 classes/fields/file_upload.php:221
+#: classes/fields/multiple_pricing.php:226
+msgid "Add File"
+msgstr ""
+
+#: classes/fields/file_upload.php:290
+msgid "Number of files which can be uploaded"
+msgstr ""
+
+#: classes/fields/file_upload.php:301
+msgid "Max. files"
+msgstr ""
+
+#: classes/fields/file_upload.php:319 classes/fields/multiple_pricing.php:400
+#: classes/fields/multiple_pricing.php:407 classes/fields/url.php:131
+#: classes/fields/user_url.php:131
+msgid "Please enter a valid URL"
+msgstr ""
+
+#: classes/fields/first_name.php:45
+msgctxt "FES Field title translation"
+msgid "First Name"
+msgstr ""
+
+#: classes/fields/hidden.php:43
+msgctxt "FES Field title translation"
+msgid "Hidden"
+msgstr ""
+
+#: classes/fields/hidden.php:130
+msgid "Meta Value"
+msgstr ""
+
+#: classes/fields/hidden.php:131
+msgid "Enter the meta value"
+msgstr ""
+
+#: classes/fields/honeypot.php:44
+msgctxt "FES Field title translation"
+msgid "Honeypot"
+msgstr ""
+
+#: classes/fields/honeypot.php:126
+msgid "There are no settings required for this field"
+msgstr ""
+
+#: classes/fields/honeypot.php:137
+msgid "Nice try Mr. Spammer, don't touch our honey"
+msgstr ""
+
+#: classes/fields/html.php:43
+msgctxt "FES Field title translation"
+msgid "HTML"
+msgstr ""
+
+#: classes/fields/html.php:146
+msgid "HTML Codes"
+msgstr ""
+
+#: classes/fields/last_name.php:45
+msgctxt "FES Field title translation"
+msgid "Last Name"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:53
+msgctxt "FES Field title translation"
+msgid "Prices and Files"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:150
+msgid "Name of Price Option"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:153
+#, php-format
+msgid "Amount (%s)"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:208
+msgid "Upload"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:265
+msgid "Single Price/Upload"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:273
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "Allow %s to Set Names of Options"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:281
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "Allow %s to Set Prices of Options"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:289
+#, php-format
+msgctxt "FES uppercase plural setting for vendor"
+msgid "Allow %s to Upload Files"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:297
+msgid "Force Options"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:304
+msgid "Force Names/Prices"
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:327
+#: classes/fields/multiple_pricing.php:336
+msgid "Name: "
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:328
+#: classes/fields/multiple_pricing.php:337
+msgid "Price: "
+msgstr ""
+
+#: classes/fields/multiple_pricing.php:367
+#: classes/fields/multiple_pricing.php:376
+msgid "Please fill out all rows completely."
+msgstr ""
+
+#: classes/fields/multiselect.php:50
+msgctxt "FES Field title translation"
+msgid "Multiselect"
+msgstr ""
+
+#: classes/fields/name.php:44
+msgctxt "FES Field title translation"
+msgid "Name"
+msgstr ""
+
+#: classes/fields/nickname.php:43
+msgctxt "FES Field title translation"
+msgid "Nickname"
+msgstr ""
+
+#: classes/fields/password.php:47
+msgctxt "FES Field title translation"
+msgid "Password"
+msgstr ""
+
+#: classes/fields/password.php:95
+msgid "Confirm Password"
+msgstr ""
+
+#: classes/fields/password.php:130
+msgid "Minimum password length"
+msgstr ""
+
+#: classes/fields/password.php:135
+msgid "Password Re-type"
+msgstr ""
+
+#: classes/fields/password.php:141
+msgid "Require Password repeat"
+msgstr ""
+
+#: classes/fields/password.php:147
+msgid "Re-type password label"
+msgstr ""
+
+#: classes/fields/password.php:165
+msgid "Please fill in the repeat password field"
+msgstr ""
+
+#: classes/fields/password.php:169
+msgid "First password doesn't match the second one"
+msgstr ""
+
+#: classes/fields/password.php:174
+#, php-format
+msgid "Passwords must be at least %d characters long"
+msgstr ""
+
+#: classes/fields/post_content.php:50
+msgctxt "FES Field title translation"
+msgid "Description"
+msgstr ""
+
+#: classes/fields/post_content.php:167 classes/fields/post_excerpt.php:133
+msgid "Enable Image Insertion"
+msgstr ""
+
+#: classes/fields/post_content.php:172 classes/fields/post_excerpt.php:139
+msgid "Enable image upload in post area"
+msgstr ""
+
+#: classes/fields/post_excerpt.php:50
+msgctxt "FES Field title translation"
+msgid "Excerpt"
+msgstr ""
+
+#: classes/fields/post_format.php:43
+msgctxt "FES Field title translation"
+msgid "Post Format"
+msgstr ""
+
+#: classes/fields/post_title.php:46
+msgctxt "FES Field title translation"
+msgid "Title"
+msgstr ""
+
+#: classes/fields/radio.php:48
+msgctxt "FES Field title translation"
+msgid "Radio"
+msgstr ""
+
+#: classes/fields/recaptcha.php:43
+msgctxt "FES Field title translation"
+msgid "reCAPTCHA"
+msgstr ""
+
+#: classes/fields/recaptcha.php:183
+msgid "Important:"
+msgstr ""
+
+#: classes/fields/recaptcha.php:188
+msgid ""
+"In order for reCAPTCHA to work you must insert your site key and private key "
+"in the FES settings panel. <a href='https://www.google.com/recaptcha/"
+"admin#list' target='_blank'>Create a key</a> first if you don't have any "
+"keys."
+msgstr ""
+
+#: classes/fields/recaptcha.php:220
+msgid "reCAPTCHA validation failed."
+msgstr ""
+
+#: classes/fields/recaptcha.php:224
+msgid "reCAPTCHA validation failed"
+msgstr ""
+
+#: classes/fields/repeat.php:49
+msgctxt "FES Field title translation"
+msgid "Repeat"
+msgstr ""
+
+#: classes/fields/repeat.php:87 classes/fields/repeat.php:196
+#: templates/frontend-products.php:13
+msgid "Actions"
+msgstr ""
+
+#: classes/fields/repeat.php:104 classes/fields/repeat.php:118
+#: classes/fields/repeat.php:213 classes/fields/repeat.php:227
+msgid "Add another"
+msgstr ""
+
+#: classes/fields/repeat.php:105 classes/fields/repeat.php:119
+#: classes/fields/repeat.php:214 classes/fields/repeat.php:228
+msgid "Remove this choice"
+msgstr ""
+
+#: classes/fields/repeat.php:149 classes/fields/repeat.php:258
+msgid "add another choice"
+msgstr ""
+
+#: classes/fields/repeat.php:150 classes/fields/repeat.php:259
+msgid "remove this choice"
+msgstr ""
+
+#: classes/fields/repeat.php:298
+msgid "Multiple Column"
+msgstr ""
+
+#: classes/fields/section_break.php:43
+msgctxt "FES Field title translation"
+msgid "Section Break"
+msgstr ""
+
+#: classes/fields/section_break.php:150
+msgid "Description"
+msgstr ""
+
+#: classes/fields/select.php:49
+msgctxt "FES Field title translation"
+msgid "Select"
+msgstr ""
+
+#: classes/fields/taxonomy.php:51
+msgctxt "FES Field title translation"
+msgid "Taxonomy"
+msgstr ""
+
+#: classes/fields/taxonomy.php:306 classes/fields/taxonomy.php:311
+msgid "You have no custom taxonomies"
+msgstr ""
+
+#: classes/fields/taxonomy.php:331
+msgid "Which Taxonomy?"
+msgstr ""
+
+#: classes/fields/textarea.php:50
+msgctxt "FES Field title translation"
+msgid "Textarea"
+msgstr ""
+
+#: classes/fields/toc.php:43
+msgctxt "FES Field title translation"
+msgid "Terms & Cond."
+msgstr ""
+
+#: classes/fields/toc.php:149
+msgid "Terms & Conditions"
+msgstr ""
+
+#: classes/fields/toc.php:150
+msgid "Insert terms and condtions here."
+msgstr ""
+
+#: classes/fields/toc.php:154
+msgid "Checkbox Label"
+msgstr ""
+
+#: classes/fields/toc.php:179
+msgid "Please check this box"
+msgstr ""
+
+#: classes/fields/url.php:46
+msgctxt "FES Field title translation"
+msgid "URL"
+msgstr ""
+
+#: classes/fields/user_avatar.php:42
+msgctxt "FES Field title translation"
+msgid "User Avatar"
+msgstr ""
+
+#: classes/fields/user_avatar.php:80 classes/fields/user_avatar.php:119
+msgid "Upload Avatar"
+msgstr ""
+
+#: classes/fields/user_bio.php:49
+msgctxt "FES Field title translation"
+msgid "User Bio"
+msgstr ""
+
+#: classes/fields/user_email.php:46
+msgctxt "FES Field title translation"
+msgid "User Email"
+msgstr ""
+
+#: classes/fields/user_login.php:43
+msgctxt "FES Field title translation"
+msgid "Username"
+msgstr ""
+
+#: classes/fields/user_url.php:46
+msgctxt "FES Field title translation"
+msgid "User URL"
+msgstr ""
+
+#: classes/forms/login.php:47
+msgctxt "FES Form title translation"
+msgid "Login"
+msgstr ""
+
+#: classes/forms/login.php:65 classes/forms/registration.php:102
+msgid "Please fill out the username field!"
+msgstr ""
+
+#: classes/forms/login.php:71
+msgid "Please fill out the password field!"
+msgstr ""
+
+#: classes/forms/login.php:80
+msgid "Password is wrong!"
+msgstr ""
+
+#: classes/forms/login.php:83
+msgid "Invalid username!"
+msgstr ""
+
+#: classes/forms/login.php:105
+msgid "You've been logged in!"
+msgstr ""
+
+#: classes/forms/login.php:125 classes/forms/login.php:136
+msgid "You're already logged in!"
+msgstr ""
+
+#: classes/forms/profile.php:65
+msgctxt "FES Form title translation"
+msgid "Profile"
+msgstr ""
+
+#: classes/forms/profile.php:92 classes/forms/profile.php:103
+msgid "Profile Successfully Updated!"
+msgstr ""
+
+#: classes/forms/profile.php:140 classes/forms/profile.php:177
+msgid "Access Denied: You are not an admin"
+msgstr ""
+
+#: classes/forms/profile.php:149 classes/forms/profile.php:186
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid ""
+"Access Denied: You are not an admin or the %s associated with this profile."
+msgstr ""
+
+#: classes/forms/registration.php:67
+msgctxt "FES Form title translation"
+msgid "Registration"
+msgstr ""
+
+#: classes/forms/registration.php:109
+msgid "Please fill out the email field!"
+msgstr ""
+
+#: classes/forms/registration.php:118
+#, php-format
+msgctxt "login link is the %s"
+msgid ""
+"This username is already in use! Pick a different username or click %shere%s "
+"to login."
+msgstr ""
+
+#: classes/forms/registration.php:123
+#, php-format
+msgctxt "login link is the %s"
+msgid ""
+"This email address is already in use! Pick a different username or click "
+"%shere%s to login."
+msgstr ""
+
+#: classes/forms/registration.php:130
+msgid ""
+"Sorry! Applications to become a vendor are currently disabled at this time!"
+msgstr ""
+
+#: classes/forms/registration.php:134
+msgid "Sorry! Registration is currently disabled at this time!"
+msgstr ""
+
+#: classes/forms/registration.php:170 classes/frontend/class-forms.php:337
+#: classes/frontend/class-forms.php:344
+msgid "Your application is pending"
+msgstr ""
+
+#: classes/forms/registration.php:175
+msgid "You are currently suspended"
+msgstr ""
+
+#: classes/forms/registration.php:180
+msgid "Vendor applications are currently closed"
+msgstr ""
+
+#: classes/forms/registration.php:185
+msgid ""
+"Vendor registration is currently closed. If you have an existing account, "
+"you may login and apply to become a vendor."
+msgstr ""
+
+#: classes/forms/registration.php:190
+msgid "Vendor registration is currently closed."
+msgstr ""
+
+#: classes/forms/registration.php:295
+msgid "Your Application has been Approved!"
+msgstr ""
+
+#: classes/forms/registration.php:311
+msgid "Application has been submitted!"
+msgstr ""
+
+#: classes/forms/registration.php:326
+msgid "Application Successfully Updated!"
+msgstr ""
+
+#: classes/forms/registration.php:446
+msgid "New Vendor Application Received"
+msgstr ""
+
+#: classes/forms/registration.php:486 classes/forms/registration.php:559
+msgid "Access Denied: You are not an admin!"
+msgstr ""
+
+#: classes/forms/registration.php:496
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Sorry! Applications to become a %s are currently disabled at this time!"
+msgstr ""
+
+#: classes/forms/registration.php:504
+msgctxt "FES lowercase singular setting for vendor"
+msgid "You're already approved!"
+msgstr ""
+
+#: classes/forms/registration.php:512
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Sorry! You're currently suspended!"
+msgstr ""
+
+#: classes/forms/registration.php:520
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Your application is still being processed!"
+msgstr ""
+
+#: classes/forms/registration.php:531 classes/forms/registration.php:602
+#, php-format
+msgid "Sorry! Registration to become a %s is currently disabled at this time!"
+msgstr ""
+
+#: classes/forms/registration.php:569
+#, php-format
+msgid "Sorry! Applications to become a %s are currently disabled at this time!"
+msgstr ""
+
+#: classes/forms/registration.php:577
+msgid "You're already approved!"
+msgstr ""
+
+#: classes/forms/registration.php:585
+msgid "Sorry! You're currently suspended!"
+msgstr ""
+
+#: classes/forms/registration.php:593
+msgid "Your application is still being processed!"
+msgstr ""
+
+#: classes/forms/submission.php:178
+#, php-format
+msgctxt "FES lowercase singular setting for download"
+msgid "New %s submitted successfully!"
+msgstr ""
+
+#: classes/forms/submission.php:181
+#, php-format
+msgctxt "FES uppercase singular setting for download"
+msgid "%s edited successfully!"
+msgstr ""
+
+#: classes/forms/submission.php:245 classes/forms/submission.php:299
+msgid "New Submission Received"
+msgstr ""
+
+#: classes/forms/submission.php:257 classes/forms/submission.php:311
+msgid "Submission Received"
+msgstr ""
+
+#: classes/forms/submission.php:275 classes/forms/submission.php:329
+msgid "New Submission Edit Received"
+msgstr ""
+
+#: classes/forms/submission.php:366
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Access Denied: You are not an admin or the %s assigned to this %s"
+msgstr ""
+
+#: classes/forms/submission.php:374 classes/forms/submission.php:382
+#: classes/forms/submission.php:440 classes/forms/submission.php:448
+#, php-format
+msgctxt "fes setting for lowercase singular vendor"
+msgid "Access Denied: You are not an admin or a %s"
+msgstr ""
+
+#: classes/forms/submission.php:391 classes/forms/submission.php:457
+#, php-format
+msgctxt "FES lowercase singular setting for download"
+msgid "Access Denied: You cannot edit this %s"
+msgstr ""
+
+#: classes/forms/submission.php:399 classes/forms/submission.php:465
+#, php-format
+msgctxt "FES lowercase plural setting for download"
+msgid "Access Denied: You cannot create %s"
+msgstr ""
+
+#: classes/forms/submission.php:432
+#, php-format
+msgid "Access Denied: You are not an admin or the %s assigned to this %s"
+msgstr ""
+
+#: classes/forms/vendor_contact.php:47
+msgctxt "FES Form title translation"
+msgid "Vendor Contact"
+msgstr ""
+
+#: classes/forms/vendor_contact.php:64 classes/forms/vendor_contact.php:70
+msgid "Invalid vendor id!"
+msgstr ""
+
+#: classes/forms/vendor_contact.php:82
+msgid "Email sent!"
+msgstr ""
+
+#: classes/forms/vendor_contact.php:99
+#, php-format
+msgid "Message from %s user"
+msgstr ""
+
+#: classes/forms/vendor_contact.php:100
+#, php-format
+msgid "From %s (%s): <br />"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:330
+msgid "Dashboard"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:341
+#, php-format
+msgctxt "FES uppercase singular setting for download"
+msgid "Add %s"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:355 templates/frontend-orders.php:2
+msgid "Orders"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:361
+#: classes/frontend/class-forms.php:431
+msgid "Profile"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:366
+msgid "Logout"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:837
+msgid "Scheduled for Release"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:858
+msgid "Complete"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:983
+#: templates/frontend-edit-order.php:14
+msgid "Order: #"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1123
+msgid "No Comments Found"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1137
+msgid "&laquo;"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1137
+msgid "&raquo;"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1171
+msgid "Has Purchased"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1173
+msgid "Has Not Purchased"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1183
+msgid "View Comment"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1190
+msgid "Respond:"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1199
+msgid "Post Response"
+msgstr ""
+
+#: classes/frontend/class-dashboard.php:1204
+msgid "Mark as Read"
+msgstr ""
+
+#: classes/frontend/class-forms.php:157
+#, php-format
+msgid "No %s ID set!"
+msgstr ""
+
+#: classes/frontend/class-forms.php:164
+#, php-format
+msgid "No %s found!"
+msgstr ""
+
+#: classes/frontend/class-forms.php:171
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Contact %s"
+msgstr ""
+
+#: classes/frontend/class-forms.php:222
+msgid "Login"
+msgstr ""
+
+#: classes/frontend/class-forms.php:243
+msgid "Lost Password?"
+msgstr ""
+
+#: classes/frontend/class-forms.php:272
+msgid "Register"
+msgstr ""
+
+#: classes/frontend/class-forms.php:332
+msgid "Registration and applications are currently closed"
+msgstr ""
+
+#: classes/frontend/class-forms.php:340
+msgid "An error occured. FES error: CFCF 1"
+msgstr ""
+
+#: classes/frontend/class-forms.php:346
+#, php-format
+msgid "You are already a %s, go to the %s Dashboard"
+msgstr ""
+
+#: classes/frontend/class-forms.php:391
+msgid ": #"
+msgstr ""
+
+#: classes/frontend/class-forms.php:393
+msgid "Create New"
+msgstr ""
+
+#: classes/frontend/class-vendor-shop.php:245
+#: classes/frontend/class-vendor-shop.php:280
+#, php-format
+msgid "The Shop of %s"
+msgstr ""
+
+#: classes/misc-functions.php:646
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since Easy Digital Downloads Frontend "
+"Submissions version %2$s! Use %3$s instead."
+msgstr ""
+
+#: classes/misc-functions.php:650
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since Easy Digital Downloads Frontend "
+"Submissions version %2$s."
+msgstr ""
+
+#: classes/misc-functions.php:1093
+msgctxt "tag delimiter"
+msgid ","
+msgstr ""
+
+#: classes/schema.php:38
+msgid "Name of Store"
+msgstr ""
+
+#: classes/schema.php:40
+msgid "What would you like your store to be called?"
+msgstr ""
+
+#: classes/schema.php:50
+msgid "Email to use for Contact Form"
+msgstr ""
+
+#: classes/schema.php:52
+msgid ""
+"This email, if filled in, will be used for the vendor contact forms. If it "
+"is not filled in, the one from your user profile will be used."
+msgstr ""
+
+#: classes/schema.php:82
+msgid "Download Title"
+msgstr ""
+
+#: classes/schema.php:94
+msgid "Download Body"
+msgstr ""
+
+#: classes/schema.php:154
+msgid "User Email"
+msgstr ""
+
+#: classes/schema.php:166 classes/schema.php:293
+msgid "Username"
+msgstr ""
+
+#: classes/schema.php:192
+msgid "Display Name"
+msgstr ""
+
+#: classes/schema.php:248
+msgid "Message"
+msgstr ""
+
+#: classes/schema.php:264 classes/schema.php:320
+msgid "reCAPTCHA"
+msgstr ""
+
+#: edd-fes.php:315 edd-fes.php:329
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: edd-fes.php:567
+msgid ""
+"<strong>Notice:</strong> Easy Digital Downloads Frontend Submissions "
+"requires Easy Digital Downloads 2.5 or higher in order to function properly."
+msgstr ""
+
+#: edd-fes.php:585
+msgid ""
+"<strong>Notice:</strong> Easy Digital Downloads Frontend Submissions "
+"requires WordPress 4.2 or higher in order to function properly."
+msgstr ""
+
+#: templates/frontend-dashboard.php:19
+msgid "Comment"
+msgstr ""
+
+#: templates/frontend-delete-product.php:5
+msgid "Access Denied: You may only delete your own products"
+msgstr ""
+
+#: templates/frontend-delete-product.php:7
+#, php-format
+msgctxt "FES uppercase singular setting for download"
+msgid "Delete %s"
+msgstr ""
+
+#: templates/frontend-delete-product.php:7
+msgid "#: "
+msgstr ""
+
+#: templates/frontend-delete-product.php:8
+#, php-format
+msgctxt "FES lowercase singular setting for vendor"
+msgid "Are you sure you want to delete this %s? This action is irreversible."
+msgstr ""
+
+#: templates/frontend-earnings.php:3
+msgid "Commissions Overview"
+msgstr ""
+
+#: templates/frontend-earnings.php:9
+msgid "You haven't made any sales yet!"
+msgstr ""
+
+#: templates/frontend-edit-order.php:4 templates/frontend-edit-order.php:241
+msgid "Access Denied"
+msgstr ""
+
+#: templates/frontend-edit-order.php:18
+msgid "The specified receipt ID appears to be invalid"
+msgstr ""
+
+#: templates/frontend-edit-order.php:36
+msgid "Payment"
+msgstr ""
+
+#: templates/frontend-edit-order.php:44
+msgid "Payment Status"
+msgstr ""
+
+#: templates/frontend-edit-order.php:63
+msgid "Fees"
+msgstr ""
+
+#: templates/frontend-edit-order.php:80
+msgid "Discount(s)"
+msgstr ""
+
+#: templates/frontend-edit-order.php:87
+msgid "Tax"
+msgstr ""
+
+#: templates/frontend-edit-order.php:93
+msgid "Subtotal"
+msgstr ""
+
+#: templates/frontend-edit-order.php:100
+msgid "Total Price"
+msgstr ""
+
+#: templates/frontend-edit-order.php:119
+msgid "SKU"
+msgstr ""
+
+#: templates/frontend-edit-order.php:122
+msgid "Quantity"
+msgstr ""
+
+#: templates/frontend-edit-order.php:147
+#, php-format
+msgid "Another %s's %s"
+msgstr ""
+
+#: templates/frontend-edit-order.php:193
+msgid "No downloadable files found for this bundled item."
+msgstr ""
+
+#: templates/frontend-edit-order.php:201
+msgid "No downloadable files found."
+msgstr ""
+
+#: templates/frontend-orders.php:9
+msgid "Total"
+msgstr ""
+
+#: templates/frontend-orders.php:10
+msgid "Customer"
+msgstr ""
+
+#: templates/frontend-orders.php:11
+msgid "View Order"
+msgstr ""
+
+#: templates/frontend-orders.php:32
+msgid "No orders found"
+msgstr ""
+
+#: templates/frontend-pending.php:2
+msgid "Your application has been submitted and will be reviewed."
+msgstr ""
+
+#: templates/frontend-products.php:8
+msgid "Image"
+msgstr ""
+
+#: templates/frontend-products.php:12
+msgid "Purchases"
+msgstr ""
+
+#: templates/frontend-products.php:34
+#, php-format
+msgctxt "FES lowercase plural setting for download"
+msgid "No %s found"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Digital Downloads - Frontend Submissions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://easydigitaldownloads.com/extensions/frontend-submissions/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Mimick Etsy, Envato, or Amazon type sites with this plugin and Easy Digital "
+"Downloads combined!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Chris Christoff"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.chriscct7.com"
+msgstr ""
